@@ -16,7 +16,7 @@ s7.addthis.com/js/300/addthis_widget.js
 pushlat.com/ntfc.php?p=2326458
 cdn.taboola.com/libtrc/somostodoskudasai-animeflv/loader.js
 connect.facebook.net/es_LA/sdk.js
-animeflv.net/ver/img/bg.jpg 404
+animeflv.net/ver/img/bg.jpg
 st.bebi.com/bebi_v3.js net
 animeflv.net/manifest.json
 s3.animeflv.com/js/adsbygoogle.js 
