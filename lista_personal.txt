@@ -19,7 +19,7 @@ connect.facebook.net/es_LA/sdk.js
 animeflv.net/ver/img/bg.jpg
 st.bebi.com/bebi_v3.js net
 animeflv.net/manifest.json
-s3.animeflv.com/js/adsbygoogle.js
+#s3.animeflv.com/js/adsbygoogle.js
 static.radio.es/images/v2/
 static.radio.es/images/store-badges/
 speedtest.net/javascript/ads.js
