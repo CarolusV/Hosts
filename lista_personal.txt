@@ -9,25 +9,10 @@ cotchaug.com
 cdn.taboola.com
 ib.adnxs.com
 st.bebi.com
-
-apis.google.com/js/platform.js
-sac.ayads.co/sublime/26637
-googletagmanager.com/gtag/js?id=UA-123340510-1
-s7.addthis.com/js/300/addthis_widget.js
-pushlat.com/ntfc.php?p=2326458
-connect.facebook.net/es_LA/sdk.js
-st.bebi.com/bebi_v3.js net
-
-#cdn.taboola.com/libtrc/somostodoskudasai-animeflv/loader.js
-#animeflv.net/manifest.json
-#animeflv.net/js/adsbygoogle.js
-#s3.animeflv.com/js/adsbygoogle.js 
-#animeflv.net/ver/img/bg.jpg
+s7.addthis.com
 
 #Radio
-static.radio.es/images/v2/
-static.radio.es/images/store-badges/
+static.radio.es
 
 #SpeedTest
-speedtest.net/javascript/ads.js
 zdstatic.speedtest.net
