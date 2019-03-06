@@ -11,8 +11,5 @@ ib.adnxs.com
 st.bebi.com
 s7.addthis.com
 
-#Radio
-static.radio.es
-
 #SpeedTest
 zdstatic.speedtest.net
