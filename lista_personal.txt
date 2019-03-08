@@ -1,4 +1,4 @@
-#AnimeFLV
+#Ads
 sac.ayads.co
 optchk.ayads.co
 antenna.ayads.co
@@ -9,12 +9,21 @@ cotchaug.com
 cdn.taboola.com
 ib.adnxs.com
 st.bebi.com
-s7.addthis.com
 
-#Radio
-static.radio.es/images/fonts
-static.radio.es/images/images
-static.radio.es/images/avatars
+#Asus Router
+dns.msftncsi.com
 
-#SpeedTest
-zdstatic.speedtest.net
+#Samsung TV
+acr0.samsungcloudsolution.com
+config.samsungads.com
+configprd.samsungcloudsolution.net
+log-ingestion-eu.samsungacr.com
+musicid.samsungcloud.tv
+notice.samsungcloudsolution.com
+noticecdn.samsungcloudsolution.com
+oempprd.samsungcloudsolution.com
+osb-apps.samsungqbe.com
+osb-auth-eusvc.samsungqbe.com
+osb-eusvc.samsungqbe.com
+osb.samsungqbe.com
+selfsigned.ueiwsp.com
