@@ -1,12 +1,8 @@
-# 
+# Wildcard blocking
+# The domains below need to beed added to your program as wildcard domains
 # ( without the # )
 # 6.googlevideo.com
 # 7.googlevideo.com
-# Domains under test before being added to main list below
-# Main Advertisment
-# New List
-# The domains below need to beed added to your program as wildcard domains
-# Wildcard blocking
 # d.googlevideo.com
 # e.googlevideo.com
 # k.googlevideo.com
@@ -15,6 +11,7 @@
 # s.googlevideo.com
 # y.googlevideo.com
 # z.googlevideo.com
+
 
 ad-g.doubleclick.net
 ad.doubleclick.net
