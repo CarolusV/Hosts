@@ -27,3 +27,10 @@ osb-auth-eusvc.samsungqbe.com
 osb-eusvc.samsungqbe.com
 osb.samsungqbe.com
 selfsigned.ueiwsp.com
+
+#PornHub
+cp.abbp1.com
+m1.nsimg.net
+m2.nsimg.net
+cdn1d-static-shared.phncdn.com
+cdn1-smallimg.phncdn.com
