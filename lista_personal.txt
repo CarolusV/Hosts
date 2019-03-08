@@ -28,6 +28,8 @@ osb-eusvc.samsungqbe.com
 osb.samsungqbe.com
 selfsigned.ueiwsp.com
 kpu.samsungelectronics.com
+lcprd1.samsungcloudsolution.net
+ypu.samsungelectronics.com
 
 #Radio.es
 script.ioam.de
@@ -39,3 +41,5 @@ m2.nsimg.net
 media.trafficjunky.net
 cdn.doublepimpssl.com
 otnolabttmup.com
+
+
