@@ -27,6 +27,7 @@ osb-auth-eusvc.samsungqbe.com
 osb-eusvc.samsungqbe.com
 osb.samsungqbe.com
 selfsigned.ueiwsp.com
+kpu.samsungelectronics.com
 
 #Radio.es
 script.ioam.de
@@ -35,8 +36,6 @@ script.ioam.de
 cp.abbp1.com
 m1.nsimg.net
 m2.nsimg.net
-cdn1-smallimg.phncdn.com
 media.trafficjunky.net
 cdn.doublepimpssl.com
 otnolabttmup.com
-
