@@ -1,3 +1,4 @@
+
 #AnimeFLV
 sac.ayads.co
 optchk.ayads.co
@@ -35,6 +36,7 @@ kpu.samsungelectronics.com
 lcprd1.samsungcloudsolution.net
 ypu.samsungelectronics.com
 api-events.lovestv.es
+hbbtv.lovestv.es
 
 #Windows
 checkappexec.microsoft.com
@@ -43,7 +45,7 @@ client.wns.windows.com
 #download.windowsupdate.com
 
 #Dominios desconocidos
-www.konodrac.com
+konodrac.com
 argsxdaukrftz
 ulahjvnepd
 yudxhbujhpsqmxf
@@ -73,3 +75,4 @@ m2.nsimg.net
 media.trafficjunky.net
 cdn.doublepimpssl.com
 otnolabttmup.com
+
