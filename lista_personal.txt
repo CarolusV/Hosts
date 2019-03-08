@@ -1,3 +1,5 @@
+
+
 #AnimeFLV
 sac.ayads.co
 optchk.ayads.co
@@ -9,6 +11,10 @@ cotchaug.com
 cdn.taboola.com
 ib.adnxs.com
 st.bebi.com
+
+#DNS Google
+8.8.8.4
+8.8.8.8
 
 #Asus Router
 dns.msftncsi.com
@@ -30,6 +36,35 @@ selfsigned.ueiwsp.com
 kpu.samsungelectronics.com
 lcprd1.samsungcloudsolution.net
 ypu.samsungelectronics.com
+api-events.lovestv.es
+
+#Windows
+checkappexec.microsoft.com
+settings-win.data.microsoft.com
+client.wns.windows.com
+#download.windowsupdate.com
+
+#Dominios desconocidos
+www.konodrac.com
+argsxdaukrftz
+ulahjvnepd
+yudxhbujhpsqmxf
+
+
+#Ads Youtube
+r1---sn-5hnedn7e.googlevideo.com
+r1---sn-h5q7dned.googlevideo.com
+r1---sn-h5q7knee.googlevideo.com
+r2---sn-h5q7dnlk.googlevideo.com
+r2---sn-h5q7knes.googlevideo.com
+r2---sn-h5q7rn7k.googlevideo.com
+r2---sn-n4v7sn7z.googlevideo.com
+r3---sn-h5q7dne6.googlevideo.com
+r3---sn-h5q7knes.googlevideo.com
+r4---sn-h5q7kned.googlevideo.com
+r4---sn-h5q7knel.googlevideo.com
+r4---sn-h5q7rn7s.googlevideo.com
+r5---sn-h5q7kne6.googlevideo.com
 
 #Radio.es
 script.ioam.de
@@ -41,5 +76,4 @@ m2.nsimg.net
 media.trafficjunky.net
 cdn.doublepimpssl.com
 otnolabttmup.com
-
 
