@@ -35,7 +35,6 @@ script.ioam.de
 cp.abbp1.com
 m1.nsimg.net
 m2.nsimg.net
-cdn1d-static-shared.phncdn.com
 cdn1-smallimg.phncdn.com
 media.trafficjunky.net
 cdn.doublepimpssl.com
