@@ -12,7 +12,6 @@
 # y.googlevideo.com
 # z.googlevideo.com
 
-
 ad-g.doubleclick.net
 ad.doubleclick.net
 ad.mo.doubleclick.net
