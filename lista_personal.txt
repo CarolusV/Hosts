@@ -36,18 +36,33 @@ lcprd1.samsungcloudsolution.net
 ypu.samsungelectronics.com
 api-events.lovestv.es
 hbbtv.lovestv.es
+cdn.samsungcloudsolution.com
+dpu.samsungelectronics.com
+gld.push.samsungosp.com
+gpm.samsungqbe.com
+log-config.samsungacr.com
+time.samsungcloudsolution.com
 
 #Windows
+cdn.content.prod.cms.msn.com
+cdn.onenote.net
 checkappexec.microsoft.com
 settings-win.data.microsoft.com
 client.wns.windows.com
 #download.windowsupdate.com
+go.microsoft.com
+secureclock2.playready.microsoft.com
+tile-service.weather.microsoft.com
 
 #Dominios desconocidos
+esixktydq
+zxtgwivemxx
+vnzjnqxevm
 konodrac.com
 argsxdaukrftz
 ulahjvnepd
 yudxhbujhpsqmxf
+abroad.apilocate.amap.com
 
 #Radio.es
 script.ioam.de
@@ -59,3 +74,4 @@ m2.nsimg.net
 media.trafficjunky.net
 cdn.doublepimpssl.com
 otnolabttmup.com
+
