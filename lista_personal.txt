@@ -49,44 +49,6 @@ argsxdaukrftz
 ulahjvnepd
 yudxhbujhpsqmxf
 
-#Ads Youtube
-r1---sn-5hnedn7e.googlevideo.com
-r1---sn-h5q7dned.googlevideo.com
-r1---sn-h5q7dnel.googlevideo.com
-r1---sn-h5q7dnes.googlevideo.com
-r1---sn-h5q7knee.googlevideo.com
-r2---sn-4g5edns7.googlevideo.com
-r2---sn-h5q7dned.googlevideo.com
-r2---sn-h5q7dnlk.googlevideo.com
-r2---sn-h5q7kne6.googlevideo.com
-r2---sn-h5q7knes.googlevideo.com
-r2---sn-h5q7rn7k.googlevideo.com
-r2---sn-n4v7sn7z.googlevideo.com
-r3---sn-h5q7dne6.googlevideo.com
-r3---sn-h5q7dnel.googlevideo.com
-r3---sn-h5q7dnld.googlevideo.com
-r3---sn-h5q7kned.googlevideo.com
-r3---sn-h5q7knes.googlevideo.com
-r4---sn-25glene6.googlevideo.com
-r4---sn-4g5e6nsy.googlevideo.com
-r4---sn-h5q7dned.googlevideo.com
-r4---sn-h5q7dnel.googlevideo.com
-r4---sn-h5q7kned.googlevideo.com
-r4---sn-h5q7knel.googlevideo.com
-r4---sn-h5q7knes.googlevideo.com
-r4---sn-h5q7rn7l.googlevideo.com
-r4---sn-h5q7rn7s.googlevideo.com
-r4---sn-q4flrnes.googlevideo.com
-r5---sn-25ge7nse.googlevideo.com
-r5---sn-4g5e6nlk.googlevideo.com
-r5---sn-4g5ednss.googlevideo.com
-r5---sn-h5q7dne6.googlevideo.com
-r5---sn-h5q7kne6.googlevideo.com
-r5---sn-h5q7knel.googlevideo.com
-r5---sn-h5q7knez.googlevideo.com
-r6---sn-h5q7dned.googlevideo.com
-r6---sn-h5q7dnld.googlevideo.com
-
 #Radio.es
 script.ioam.de
 
@@ -97,5 +59,3 @@ m2.nsimg.net
 media.trafficjunky.net
 cdn.doublepimpssl.com
 otnolabttmup.com
-
-
