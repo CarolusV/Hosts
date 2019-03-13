@@ -17,6 +17,15 @@ st.bebi.com
 #Asus Router
 dns.msftncsi.com
 
+#Xiaomi
+data.mistat.intl.xiaomi.com
+sdkconfig.ad.intl.xiaomi.com
+api.ad.intl.xiaomi.com
+find.api.micloud.xiaomi.net
+resolver.msg.global.xiaomi.net
+fr.app.chat.global.xiaomi.net
+#weatherapi.market.xiaomi.com
+
 #Samsung TV
 acr0.samsungcloudsolution.com
 config.samsungads.com
@@ -53,6 +62,19 @@ client.wns.windows.com
 go.microsoft.com
 secureclock2.playready.microsoft.com
 tile-service.weather.microsoft.com
+optanon.blob.core.windows.net
+
+#SourceForge
+optimizely.com
+cdn.optimizely.com
+quantserve.com
+secure.quantserve.com
+log.aimtell.com
+cdn.aimtell.com
+aimtell.com
+js-agent.newrelic.com
+siftscience.com
+cdn.siftscience.com
 
 #Dominios desconocidos
 esixktydq
@@ -63,6 +85,7 @@ argsxdaukrftz
 ulahjvnepd
 yudxhbujhpsqmxf
 abroad.apilocate.amap.com
+assets.ctfassets.net
 
 #Radio.es
 script.ioam.de
