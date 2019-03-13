@@ -51,6 +51,9 @@ gld.push.samsungosp.com
 gpm.samsungqbe.com
 log-config.samsungacr.com
 time.samsungcloudsolution.com
+samsungotn.net
+otnprd10.samsungcloudsolution.net
+otn.samsungcloudcdn.com
 
 #Windows
 cdn.content.prod.cms.msn.com
