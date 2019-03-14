@@ -92,6 +92,7 @@ static.hotjar.com
 hotjar.com
 static.quantcast.mgr.consensu.org
 collector.wallapop.com
+cdn.jsdelivr.net
 
 #Dominios desconocidos
 esixktydq
