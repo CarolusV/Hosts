@@ -79,6 +79,20 @@ js-agent.newrelic.com
 siftscience.com
 cdn.siftscience.com
 
+#Wallapop
+criteo.net
+static.criteo.net
+cdn.taplytics.com
+taplytics.com
+amazon-adsystem.com
+c.amazon-adsystem.com
+appboycdn.com
+js.appboycdn.com
+static.hotjar.com
+hotjar.com
+static.quantcast.mgr.consensu.org
+collector.wallapop.com
+
 #Dominios desconocidos
 esixktydq
 zxtgwivemxx
