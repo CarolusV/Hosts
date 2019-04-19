@@ -17,6 +17,7 @@ st.bebi.com
 #Asus Router
 dns.msftncsi.com
 msftncsi.com
+www.msftncsi.com
 
 #Xiaomi
 data.mistat.intl.xiaomi.com
@@ -26,6 +27,11 @@ find.api.micloud.xiaomi.net
 resolver.msg.global.xiaomi.net
 fr.app.chat.global.xiaomi.net
 #weatherapi.market.xiaomi.com
+resolver.msg.xiaomi.net
+t3.market.xiaomi.com
+o2o.api.xiaomi.com
+connect.rom.miui.com
+api.zhuti.intl.xiaomi.com
 
 #Samsung TV
 acr0.samsungcloudsolution.com
@@ -66,8 +72,7 @@ go.microsoft.com
 secureclock2.playready.microsoft.com
 tile-service.weather.microsoft.com
 optanon.blob.core.windows.net
-www.msftncsi.com
-dns.msftncsi.com
+
 
 #SourceForge
 optimizely.com
@@ -96,18 +101,26 @@ hotjar.com
 static.quantcast.mgr.consensu.org
 quantcast.mgr.consensu.org
 collector.wallapop.com
-cdn.jsdelivr.net
+#cdn.jsdelivr.net
 cdn.userzoom.com
 cdn4.userzoom.com
 userzoom.com
 
-#Dominios desconocidos
+#Dominios desconocidos (palabras)
+dgwuhxwv
+qxkogojyypuho
+ekohvvqsxyzjqj
+fdcoqsytpmelv
+kgzhyizmzq
+curhifxabvabg
 esixktydq
 zxtgwivemxx
 vnzjnqxevm
 argsxdaukrftz
 ulahjvnepd
 yudxhbujhpsqmxf
+
+#Dominios desconocidos
 konodrac.com
 selfsigned.ueiwsp.com
 abroad.apilocate.amap.com
@@ -115,11 +128,23 @@ assets.ctfassets.net
 api-events.lovestv.es
 hbbtv.lovestv.es
 c.aaxads.com
+carscannon.com
+apph.wpsmail.net
+carscannon.com
+cdn.88-f.net
+config.88-f.net
+d2l2wc59w4vrl3.cloudfront.net
+m.optout.ziffdavis.com
+resolver.gslb.mi-idc.com
+xtrapath1.izatcloud.net
 
 #Streamango
 ads.exdynsrv.com
 exdynsrv.com
 uod2quk646.com
+
+#Logitech
+d2l2wc59w4vrl3.cloudfront.net
 
 #Radio.es
 script.ioam.de
