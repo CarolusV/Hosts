@@ -32,6 +32,7 @@ t3.market.xiaomi.com
 o2o.api.xiaomi.com
 connect.rom.miui.com
 api.zhuti.intl.xiaomi.com
+app.chat.xiaomi.net
 
 #Samsung TV
 acr0.samsungcloudsolution.com
@@ -72,6 +73,7 @@ go.microsoft.com
 secureclock2.playready.microsoft.com
 tile-service.weather.microsoft.com
 optanon.blob.core.windows.net
+ow2.res.office365.com
 
 
 #SourceForge
@@ -122,6 +124,7 @@ yudxhbujhpsqmxf
 
 #Dominios desconocidos
 konodrac.com
+example.org
 selfsigned.ueiwsp.com
 abroad.apilocate.amap.com
 assets.ctfassets.net
@@ -146,6 +149,9 @@ uod2quk646.com
 #Logitech
 d2l2wc59w4vrl3.cloudfront.net
 
+#WR320 August
+s000.linkplay.com
+
 #Radio.es
 script.ioam.de
 
@@ -156,4 +162,6 @@ m2.nsimg.net
 media.trafficjunky.net
 cdn.doublepimpssl.com
 otnolabttmup.com
+hw-cdn2.contentabc.com
+vz-cdn2.contentabc.com
 
