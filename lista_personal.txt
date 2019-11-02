@@ -9,6 +9,11 @@ cotchaug.com
 cdn.taboola.com
 ib.adnxs.com
 st.bebi.com
+mv.outbrain.com
+secure.quantserve.com
+server.cpmstar.com
+images.outbrainimg.com
+mc.yandex.ru
 
 #DNS Google
 8.8.8.4
@@ -74,7 +79,6 @@ secureclock2.playready.microsoft.com
 tile-service.weather.microsoft.com
 optanon.blob.core.windows.net
 ow2.res.office365.com
-
 
 #SourceForge
 optimizely.com
@@ -151,9 +155,17 @@ d2l2wc59w4vrl3.cloudfront.net
 
 #WR320 August
 s000.linkplay.com
+alexa.com
 
 #Radio.es
 script.ioam.de
+
+#Avira_FreeAntivirus_POPUPS
+ipm.avira.com
+notifier.avira.com
+
+#Nvidia
+services.gfe.nvidia.com
 
 #PornHub
 cp.abbp1.com
@@ -164,4 +176,3 @@ cdn.doublepimpssl.com
 otnolabttmup.com
 hw-cdn2.contentabc.com
 vz-cdn2.contentabc.com
-
