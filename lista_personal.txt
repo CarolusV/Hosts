@@ -162,12 +162,34 @@ alexa.com
 #Radio.es
 script.ioam.de
 
-#Avira_FreeAntivirus_POPUPS
+#FUCK_Avira_FreeAntivirus_POPUPS
 ipm.avira.com
 notifier.avira.com
 
 #Nvidia
 services.gfe.nvidia.com
+
+# Fuck_Opera
+extension-updates.opera.com
+discover.operacdn.com
+recover.operacdn.com
+sd-images.operacdn.com
+merchandise.opera-api.com
+redir.opera.com
+speeddials.opera.com
+sitecheck.opera.com
+autoupdate.geo.opera.com
+desktop-netinstaller-sub.osp.opera.software
+download3.operacdn.com
+dl.opera.com
+net.geo.opera.com
+www-static.operacdn.com
+www.opera.com
+download1.operacdn.com
+desktop-dna.osp.opera.software
+features.opera-api.com
+exchange.opera.com
+net.geo.opera.com
 
 #PornHub
 cp.abbp1.com
