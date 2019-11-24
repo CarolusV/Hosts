@@ -146,6 +146,7 @@ d2l2wc59w4vrl3.cloudfront.net
 m.optout.ziffdavis.com
 resolver.gslb.mi-idc.com
 xtrapath1.izatcloud.net
+crrepo.com
 
 #Streamango
 ads.exdynsrv.com
