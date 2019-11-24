@@ -147,6 +147,7 @@ m.optout.ziffdavis.com
 resolver.gslb.mi-idc.com
 xtrapath1.izatcloud.net
 crrepo.com
+badskies.com
 
 #Streamango
 ads.exdynsrv.com
