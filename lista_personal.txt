@@ -112,6 +112,24 @@ cdn.userzoom.com
 cdn4.userzoom.com
 userzoom.com
 
+#Conexiones raras (posibles virus)
+0.le4net00.net
+0.weathdata.nu
+ae-12-3104.bar1.madrid1.lev3l0.net
+array612.prod.do.dsp.mp.microsoft.com
+as202248.net
+compute.deutschlandaws.com
+cp601.prod.do.dsp.mp.microsoft.com
+disc601.prod.do.dsp.mp.microsoft.com
+dns.msftncsi.com
+geo.prod.do.dsp.mp.microsoft.com
+geover.prod.do.dsp.mp.microsoft.com
+google-ic-211564-bac-b7.c.bacb7c.to
+google-ic-314668-mad-b1.c.in3tia.to
+kv601.prod.do.dsp.mp.microsoft.com
+server-13-224-114-187.mad50.r.telcel.io
+vlan27.as09.uk.es.x46o7.io
+
 #Dominios desconocidos (palabras)
 dgwuhxwv
 qxkogojyypuho
