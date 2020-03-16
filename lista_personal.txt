@@ -19,10 +19,14 @@ mc.yandex.ru
 8.8.8.4
 8.8.8.8
 
+#Adobe Reader
+help.adobe.io
+
 #Asus Router
 dns.msftncsi.com
 msftncsi.com
 www.msftncsi.com
+www.msftconnecttest.com
 
 #Xiaomi
 data.mistat.intl.xiaomi.com
@@ -79,6 +83,11 @@ secureclock2.playready.microsoft.com
 tile-service.weather.microsoft.com
 optanon.blob.core.windows.net
 ow2.res.office365.com
+dmd.metaservices.microsoft.com
+evoke-windowsservices-tas.msedge.net
+a.config.skype.com
+config.edge.skype.com
+
 
 #SourceForge
 optimizely.com
@@ -166,6 +175,10 @@ resolver.gslb.mi-idc.com
 xtrapath1.izatcloud.net
 crrepo.com
 badskies.com
+l3.evidon.com
+deploy.static.blazingtechnologies.io
+124.red-79-152-243.dynamicip.fina-tdl.io
+193-22-92-35.intesre.com
 
 #Streamango
 ads.exdynsrv.com
@@ -210,6 +223,9 @@ desktop-dna.osp.opera.software
 features.opera-api.com
 exchange.opera.com
 net.geo.opera.com
+
+#FUCK BING
+www.bing.com
 
 #PornHub
 cp.abbp1.com
