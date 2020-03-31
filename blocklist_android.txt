@@ -37,12 +37,12 @@ animeflv.net##div.Wrapper:nth-child(5) > div.Body:nth-child(2) > div.Container >
 ||animeflv.net/js/detector.js?v=1.0.1$domain=animeflv.net
 ||animeflv.net/assets/animeflv/img/tdiscord.png$domain=animeflv.net
 ||animeflv.net/assets/animeflv/img/ttwitch.png$domain=animeflv.net
-||animeflv.net/assets/animeflv/img/bg.jpg$domain=animeflv.net
+@@||animeflv.net/assets/animeflv/img/bg.jpg$domain=animeflv.net
 ||animeflv.net/img/browser.png$domain=animeflv.net
 ||animeflv.net/img/icon.adblock.png$domain=animeflv.net
 ||animeflv.net/img/icon.adblock_plus.png$domain=animeflv.net
 ||animeflv.net/img/icon.ublock_origin.png$domain=animeflv.net
-||animeflv.net/assets/animeflv/img/bgb.jpg$domain=animeflv.net
+@@||animeflv.net/assets/animeflv/img/bgb.jpg$domain=animeflv.net
 ||animeflv.net/js/ads.js$domain=animeflv.net
 @@||animeflv.net/uploads/animes/*$domain=animeflv.net
 !animeidhentai
