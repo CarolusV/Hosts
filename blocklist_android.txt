@@ -1,0 +1,65 @@
+!radio
+||static.radio.es/images/v2/*$domain=radio.es
+||static.radio.es/images/images/*$domain=radio.es
+||static.radio.es/images/avatars/*$domain=radio.es
+||static.radio.es/images/store-badges/*$domain=radio.es
+||static.radio.es/images/fonts/*$domain=radio.es
+radio.es###content-wrapper > div.content-flex-container:nth-child(2) > div.content-flex-main.flex-top-border:last-child > section.section-block.accordion-block.sidebar-section:nth-child(7)
+radio.es##footer:nth-child(7) > div.container > ul.footer-items.list-unstyled.row
+radio.es###content-wrapper > div.content-flex-container:nth-child(2) > div.content-flex-sidebar.ng-scope:nth-child(2)
+!elitetorrent
+elitetorrent.tv###principal > div.mensaje:nth-child(7)
+elitetorrent.tv###principal > div.seccion:nth-child(8)
+elitetorrent.tv###back-footer
+elitetorrent.tv###comentboxer
+elitetorrent.nl###principal > div:first-child
+elitetorrent.nl###principal > div.mensaje:nth-child(13)
+elitetorrent.nl###back-footer
+elitetorrent.tv###container-8530976271f78686f7ef7e686c6d8a52 > div.container-8530976271f78686f7ef7e686c6d8a52__stand:last-child
+!hanime
+@@||hanime.tv^$domain=hanime.tv
+!animeflv
+animeflv.net###XpndCn > div.CpCnC:last-child > section.WdgtCn:last-child
+animeflv.net###XpndCn > div.CpCnB:nth-child(2) > section.WdgtCn:nth-child(4)
+animeflv.net###XpndCn > div.CpCnB:nth-child(2) > div.WdgtCn:nth-child(5)
+animeflv.net###XpndCn > div.CpCnB:nth-child(2) > div.WdgtCn:last-child
+animeflv.net##div.Wrapper:nth-child(5) > footer.Footer:nth-child(3)
+animeflv.net##div.Wrapper:nth-child(5) > header.Header:first-child > div.Mid:first-child > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > ul.Menu:nth-child(4) > li:nth-child(3) > a
+animeflv.net##div.Wrapper:nth-child(5) > header.Header:first-child > div.Mid:first-child > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > ul.Menu:nth-child(4) > li:nth-child(4) > a
+animeflv.net##div.Wrapper:nth-child(5) > header.Header:first-child > div.Mid:first-child > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > ul.Menu:nth-child(4) > li:last-child > a
+animeflv.net##div.Wrapper:nth-child(5) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20:last-child > aside.Sidebar.BFixed:first-child > div.Wdgt.Emision:first-child > div.Top.fa-gift:first-child
+animeflv.net##div.Wrapper:nth-child(5) > div.Body:nth-child(2) > div.Container > div.AnflvTl:first-child
+animeflv.net##div.Wrapper:nth-child(5) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20:last-child > main.Main:last-child > div.Title.Page:nth-child(2) > div.Order:last-child > a.Active
+animeflv.net##div.Wrapper:nth-child(5) > footer.Footer:last-child
+animeflv.net##div.Wrapper:nth-child(5) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20:last-child > main.Main:last-child > div.Title.Page.fa-star:nth-child(5) > div.Order:last-child > a.Active
+animeflv.net##div.Wrapper:nth-child(5) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20:last-child > main.Main:last-child > div.Title.Page:nth-child(2) > h2:first-child
+animeflv.net##div.Wrapper:nth-child(5) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20:last-child > main.Main:last-child > div.Title.Page.fa-star:nth-child(5)
+||animeflv.net/js/detector.js?v=1.0.1$domain=animeflv.net
+||animeflv.net/assets/animeflv/img/tdiscord.png$domain=animeflv.net
+||animeflv.net/assets/animeflv/img/ttwitch.png$domain=animeflv.net
+||animeflv.net/assets/animeflv/img/bg.jpg$domain=animeflv.net
+||animeflv.net/img/browser.png$domain=animeflv.net
+||animeflv.net/img/icon.adblock.png$domain=animeflv.net
+||animeflv.net/img/icon.adblock_plus.png$domain=animeflv.net
+||animeflv.net/img/icon.ublock_origin.png$domain=animeflv.net
+||animeflv.net/assets/animeflv/img/bgb.jpg$domain=animeflv.net
+||animeflv.net/js/ads.js$domain=animeflv.net
+@@||animeflv.net/uploads/animes/*$domain=animeflv.net
+!animeidhentai
+animeidhentai.com###class_widget_category-8 > div.flex-center.mb-15.js-pop:first-child > iframe.js-pop.lazyloaded:first-child
+animeidhentai.com###class_widget_category-6 > div.flex-center.mb-15.js-pop:first-child > iframe.js-pop.lazyloaded:first-child
+animeidhentai.com###class_widget_category-7 > div.flex-center.mb-15.js-pop:first-child > iframe.js-pop.lazyloaded:first-child
+animeidhentai.com###class_widget_category-10 > div.flex-center.mb-15.js-pop:first-child > iframe.js-pop.lazyloaded:first-child
+animeidhentai.com###custom_html-2 > div.textwidget.custom-html-widget.js-pop > iframe.js-pop.lazyloaded:first-child
+animeidhentai.com###custom_html-3 > div.textwidget.custom-html-widget.js-pop > iframe.js-pop.lazyloaded:first-child
+!thingiverse
+thingiverse.com###react-app > div.App__app--2iKXm > div.app-content-container > div.ThingPage__pageBody--kVpPd > div.ThingPage__navControl--DDrRj:nth-child(5) > div.ThingPage__tabContent--1usLg:last-child > div > div.ThingPage__thingDetails--31KAR:first-child > div.ThingPage__thingSidebar--27HJ_:first-child > div.AdCard__card--2Kzyq.ThingPage__ad--2eta_:first-child > div.AdCard__header--1U20Q:first-child
+thingiverse.com###bsa-zone_1579729820542-8_123456
+thingiverse.com###react-app > div.App__app--2iKXm > div.app-content-container > div.ThingPage__pageBody--kVpPd > div.ThingPage__navControl--DDrRj:nth-child(5) > div.ThingPage__tabContent--1usLg:last-child > div > div.ThingPage__thingDetails--31KAR:first-child > div.ThingPage__thingSidebar--27HJ_:first-child > div.AdCard__card--2Kzyq.ThingPage__ad--2eta_:first-child > div.AdCard__action--pFVYz:last-child
+thingiverse.com###react-app > div.App__app--2iKXm > div.app-content-container > div.ThingPage__pageBody--kVpPd > div.ThingPage__navControl--DDrRj:nth-child(5) > div.ThingPage__tabContent--1usLg:last-child > div > div.ThingPage__thingDetails--31KAR:first-child > div.ThingPage__thingSidebar--27HJ_:first-child > div.AdCard__card--2Kzyq.ThingPage__ad--2eta_:first-child
+thingiverse.com###react-app > div.App__app--2iKXm > div.app-content-container > div.ThingPage__pageBody--kVpPd > div.ThingPage__navControl--DDrRj:nth-child(5) > div.ThingPage__tabContent--1usLg:last-child > div > div.ThingPage__thingDetails--31KAR:first-child > div.ThingPage__thingSidebar--27HJ_:first-child > a.ReportWidget__reportContainer--ghU-J:nth-child(3)
+thingiverse.com###react-app > div.App__app--2iKXm > div.app-content-container > div.ThingPage__pageBody--kVpPd > div.ThingPage__navControl--DDrRj:nth-child(5) > div.ThingPage__tabContent--1usLg:last-child > div > div.ThingPage__thingDetails--31KAR:first-child > div.ThingPage__thingSidebar--27HJ_:first-child > div.WidgetContainer__widget--2Zkwj:last-child
+thingiverse.com###react-app > div.App__app--2iKXm > div.app-content-container > div.ThingPage__pageBody--kVpPd > div.ThingPage__topPage--2MVIE:nth-child(4) > div.ThingPage__sidebar--6ZDYI:last-child > div.SidebarMenu__sidebarMenu--3uBjd:first-child > div.SidebarMenu__sideMenuBottom--2f0yG:last-child
+thingiverse.com###react-app > div.App__app--2iKXm > div.app-content-container > div.ThingPage__pageBody--kVpPd > div.ThingPage__topPage--2MVIE:nth-child(4) > div.ThingPage__sidebar--6ZDYI:last-child > div.ThingPage__legalLinks--k_WTI.LegalLinks__legalLinks--2yQOs:last-child
+thingiverse.com###react-app > div.App__app--2iKXm > div.app-content-container > div.HomePage__body--1NAfv > div.SearchResult__searchResultItems--2XMQB.undefined:nth-child(5) > div.AdCard__card--2Kzyq.ThingCardsListSkeleton__adBanner--2612A:nth-child(4) > div.AdCard__action--pFVYz:last-child
+
