@@ -15,6 +15,21 @@ server.cpmstar.com
 images.outbrainimg.com
 mc.yandex.ru
 
+
+#Autocad
+help.aem.autotask.net
+spark.autodesk.com
+autodesk-exchange-apps-v-1-5-staging.s3.amazonaws.com
+apps.exchange.autodesk.com
+akn.analytics.autodesk.com
+accounts.autodesk.com
+beehive.autodesk.com
+help.autodesk.com
+mpa.autodesk.com
+access.clic.autodesk.com
+docs.autodesk.com
+ase.autodesk.com
+
 #DNS Google
 8.8.8.4
 8.8.8.8
@@ -42,6 +57,20 @@ o2o.api.xiaomi.com
 connect.rom.miui.com
 api.zhuti.intl.xiaomi.com
 app.chat.xiaomi.net
+#
+account-de.huami.com
+api-mifit-de.huami.com
+api-user-de.huami.com
+api.facemojikeyboard.com
+api.micloud.xiaomi.net
+app-analytics-de.huami.com
+connectivitycheck.gstatic.com
+global.market.xiaomi.com
+hotideiasnetwork.ml
+litemsg.facemojikeyboard.com
+litestatis.facemojikeyboard.com
+s-ring.msedge.net
+wallpaper.pandora.xiaomi.com
 
 #Samsung TV
 acr0.samsungcloudsolution.com
