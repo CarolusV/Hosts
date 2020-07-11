@@ -98,3 +98,6 @@ animeidhentai.com###custom_html-3 > div.textwidget.custom-html-widget.js-pop > i
 !thingiverse
 !reclutamiento.defensa.gob.es
 ||reclutamiento.defensa.gob.es/assets/img/overimage_g.png$domain=reclutamiento.defensa.gob.es
+!sex.com
+sex.com###container > div.footer_description:last-child
+sex.com###footer
