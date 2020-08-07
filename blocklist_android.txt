@@ -71,6 +71,8 @@ modagamers.com###mCSB_2_container
 ||animeflv.net/js/detector.js?v=1.0.1$domain=animeflv.net,important
 ||animeflv.net/js/ads.js$domain=animeflv.net,important
 ||animeflv.net/assets/animeflv/js/alertify.js$domain=animeflv.net,important
+animeflv.net##div.Wrapper:nth-child(2) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20 > aside.Sidebar.BFixed:first-child > a:first-child > img
+animeflv.net##div.Wrapper:nth-child(2) > header.Header:first-child > div.Mid:first-child > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > ul.Menu:nth-child(4) > li:first-child > a
 animeflv.net###XpndCn > div.CpCnB:nth-child(2) > section.WdgtCn:nth-child(4)
 animeflv.net###XpndCn > div.CpCnC:last-child > a:nth-child(5) > img
 animeflv.net###XpndCn > div.CpCnC:last-child > section.WdgtCn:nth-child(7)
