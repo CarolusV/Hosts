@@ -1,6 +1,8 @@
 deals.sourceforge.net##div.cookie-prompt:nth-child(23)
 all3dp.com###settings-to-tweak > div.ad-container.ad-container--horizontal.ad-container--loaded > div.ad-container__label:first-child
 all3dp.com###settings-to-tweak > div.ad-container.ad-container--horizontal.ad-container--loaded > div.ad-container__provider:last-child
+!google.es
+@@||accounts.google.com^$important,document,~extension
 !radio
 ||static.radio.es/images/v2/*$domain=radio.es
 ||static.radio.es/images/images/*$domain=radio.es
@@ -71,25 +73,15 @@ modagamers.com###mCSB_2_container
 ||animeflv.net/js/detector.js?v=1.0.1$domain=animeflv.net,important
 ||animeflv.net/js/ads.js$domain=animeflv.net,important
 ||animeflv.net/assets/animeflv/js/alertify.js$domain=animeflv.net,important
+animeflv.net##div.Wrapper:nth-child(2) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20 > aside.Sidebar.BFixed:first-child > a:nth-child(4) > img
 animeflv.net##div.Wrapper:nth-child(2) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20 > aside.Sidebar.BFixed:first-child > a:first-child > img
-animeflv.net##div.Wrapper:nth-child(2) > header.Header:first-child > div.Mid:first-child > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > ul.Menu:nth-child(4) > li:first-child > a
-animeflv.net###XpndCn > div.CpCnB:nth-child(2) > section.WdgtCn:nth-child(4)
-animeflv.net###XpndCn > div.CpCnC:last-child > a:nth-child(5) > img
-animeflv.net###XpndCn > div.CpCnC:last-child > section.WdgtCn:nth-child(7)
-animeflv.net###XpndCn > div.CpCnC:last-child > a:last-child > img
-animeflv.net##div.Wrapper:nth-child(2) > div.Body:nth-child(2) > div > div.Container:last-child > div.BX.Row.BFluid.Sp20 > main.Main:last-child > section.WdgtCn:last-child
-animeflv.net###XpndCn > div.CpCnC:last-child > a:first-child > img
-animeflv.net###XpndCn > div.CpCnC:last-child > section.WdgtCn:nth-child(3)
-animeflv.net##div.Wrapper:nth-child(2) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > ul.Menu:nth-child(4) > li:nth-child(3) > a
-animeflv.net##div.Wrapper:nth-child(2) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > ul.Menu:nth-child(4) > li:nth-child(4) > a
-animeflv.net##div.Wrapper:nth-child(2) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > ul.Menu:nth-child(4) > li:last-child > a
 animeflv.net##div.Wrapper:nth-child(2) > footer.Footer:last-child
-animeflv.net##div.Wrapper:nth-child(2) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20 > main.Main:last-child > div.Title.Page:nth-child(2) > div.Order:last-child > a.Active
-animeflv.net##div.Wrapper:nth-child(2) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > div.Login:nth-child(3) > div.DpdwCnt.TtCn:last-child > form.form-horizontal:last-child > a.Button.fb_login:nth-child(4)
-animeflv.net###XpndCn > div.CpCnC:last-child > section.WdgtCn:nth-child(4)
+animeflv.net###XpndCn > div.CpCnC:last-child > a:first-child > img
 animeflv.net###XpndCn > div.CpCnC:last-child > section.WdgtCn:last-child
 animeflv.net###XpndCn > div.CpCnB:nth-child(2) > div.WdgtCn:last-child
 animeflv.net##div.Wrapper:nth-child(2) > footer.Footer:nth-child(3)
+animeflv.net##div.Wrapper:nth-child(2) > div.Body:nth-child(2) > div > div.Container:last-child > div.BX.Row.BFluid.Sp20 > main.Main:last-child > section.WdgtCn:last-child
+animeflv.net##div.Wrapper:nth-child(2) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > div.Login:nth-child(3) > div.DpdwCnt.TtCn:last-child > form.form-horizontal:last-child > a.Button.fb_login:nth-child(4)
 !animeidhentai
 animeidhentai.com###class_widget_category-8 > div.flex-center.mb-15.js-pop:first-child > iframe.js-pop.lazyloaded:first-child
 animeidhentai.com###class_widget_category-6 > div.flex-center.mb-15.js-pop:first-child > iframe.js-pop.lazyloaded:first-child
