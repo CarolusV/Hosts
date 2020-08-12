@@ -73,6 +73,10 @@ modagamers.com###mCSB_2_container
 ||animeflv.net/js/detector.js?v=1.0.1$domain=animeflv.net,important
 ||animeflv.net/js/ads.js$domain=animeflv.net,important
 ||animeflv.net/assets/animeflv/js/alertify.js$domain=animeflv.net,important
+animeflv.net##div.Wrapper:nth-child(3) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20 > aside.Sidebar.BFixed:first-child > a:first-child > img
+animeflv.net##div.Wrapper:nth-child(3) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20 > aside.Sidebar.BFixed:first-child > a:nth-child(4) > img
+animeflv.net##div.Wrapper:nth-child(3) > footer.Footer:last-child
+animeflv.net##div.Wrapper:nth-child(3) > footer.Footer:nth-child(3)
 animeflv.net##div.Wrapper:nth-child(2) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20 > aside.Sidebar.BFixed:first-child > a:nth-child(4) > img
 animeflv.net##div.Wrapper:nth-child(2) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20 > aside.Sidebar.BFixed:first-child > a:first-child > img
 animeflv.net##div.Wrapper:nth-child(2) > footer.Footer:last-child
