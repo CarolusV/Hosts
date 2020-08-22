@@ -262,6 +262,11 @@ net.geo.opera.com
 #FUCK BING
 www.bing.com
 
+#nhentai
+d1e28xq8vu3baf.cloudfront.net
+ountringch.club
+practimplete.club
+
 #PornHub
 cp.abbp1.com
 m1.nsimg.net
