@@ -73,6 +73,8 @@ modagamers.com###mCSB_2_container
 ||animeflv.net/js/detector.js?v=1.0.1$domain=animeflv.net,important
 ||animeflv.net/js/ads.js$domain=animeflv.net,important
 ||animeflv.net/assets/animeflv/js/alertify.js$domain=animeflv.net,important
+animeflv.net##div.Wrapper:nth-child(3) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > div.Login:nth-child(3) > div.DpdwCnt.TtCn:last-child > form.form-horizontal:last-child > a.Button.fb_login:nth-child(4)
+animeflv.net##div.Wrapper:nth-child(3) > div.Body:nth-child(2) > div > div.Container:last-child > div.BX.Row.BFluid.Sp20 > main.Main:last-child > section.WdgtCn:last-child
 animeflv.net##div.Wrapper:nth-child(3) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20 > aside.Sidebar.BFixed:first-child > a:first-child > img
 animeflv.net##div.Wrapper:nth-child(3) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20 > aside.Sidebar.BFixed:first-child > a:nth-child(4) > img
 animeflv.net##div.Wrapper:nth-child(3) > footer.Footer:last-child
@@ -99,3 +101,6 @@ animeidhentai.com###custom_html-3 > div.textwidget.custom-html-widget.js-pop > i
 !sex.com
 sex.com###container > div.footer_description:last-child
 sex.com###footer
+!nhentai
+nhentai.com##div:first-child > main.py-4:nth-child(2) > div.row.mx-auto.justify-content-center.mb-4:first-child > div.container > div.box.clearfix.d-flex.flex-column.w-100.pb-0.mb-3
+nhentai.com##div:first-child > main.py-4:nth-child(2) > div.row.mx-auto.justify-content-center.mt-4:nth-child(3) > div.container > div.box.clearfix.d-flex.flex-column.w-100.pb-0.mb-3
