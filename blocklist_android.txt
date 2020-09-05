@@ -32,6 +32,12 @@ elitetorrent.nl###principal > div:first-child
 elitetorrent.nl###principal > div.mensaje:nth-child(13)
 elitetorrent.nl###back-footer
 elitetorrent.tv###container-8530976271f78686f7ef7e686c6d8a52 > div.container-8530976271f78686f7ef7e686c6d8a52__stand:last-child
+!sex.com
+sex.com###container > div.footer_description:last-child
+sex.com###footer
+!nhentai.com
+nhentai.com##div:first-child > main.py-4:nth-child(2) > div.row.mx-auto.justify-content-center.mb-4:first-child > div.container > div.box.clearfix.d-flex.flex-column.w-100.pb-0.mb-3
+nhentai.com##div:first-child > main.py-4:nth-child(2) > div.row.mx-auto.justify-content-center.mt-4:nth-child(3) > div.container > div.box.clearfix.d-flex.flex-column.w-100.pb-0.mb-3
 !hanime
 @@||hanime.tv^$domain=hanime.tv
 !youtube
@@ -68,13 +74,23 @@ modagamers.com###mCSB_2_container
 ||animeflv.net/assets/animeflv/img/tdiscord.png$domain=animeflv.net,important
 ||animeflv.net/assets/animeflv/img/tyoutube.png$domain=animeflv.net,important
 ||animeflv.net/assets/animeflv/img/ttwitch.png$domain=animeflv.net,important
-||animeflv.net/ver/img/bg.jpg$domain=animeflv.net,important
-||animeflv.net/assets/animeflv/img/bg.jpg$domain=animeflv.net,important
+||animeflv.net/assets/animeflv/img/bg.jpg
+||animeflv.net/img/bg.jpg$important
+||animeflv.net/assets/animeflv/img/triviataku.jpg
+||animeflv.net/ver/img/bg.jpg
+||animeflv.net/assets/animeflv/img/bgb.jpg
 ||animeflv.net/js/detector.js?v=1.0.1$domain=animeflv.net,important
 ||animeflv.net/js/ads.js$domain=animeflv.net,important
 ||animeflv.net/assets/animeflv/js/alertify.js$domain=animeflv.net,important
 animeflv.net##div.Wrapper:nth-child(3) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > div.Login:nth-child(3) > div.DpdwCnt.TtCn:last-child > form.form-horizontal:last-child > a.Button.fb_login:nth-child(4)
 animeflv.net##div.Wrapper:nth-child(3) > div.Body:nth-child(2) > div > div.Container:last-child > div.BX.Row.BFluid.Sp20 > main.Main:last-child > section.WdgtCn:last-child
+animeflv.net###XpndCn > div.CpCnC:last-child > a:nth-child(5) > img
+animeflv.net##div.Wrapper:nth-child(4) > footer.Footer:nth-child(3)
+animeflv.net##div.Wrapper:nth-child(4) > div.Body:nth-child(2) > div > div.Container:last-child > div.BX.Row.BFluid.Sp20 > main.Main:last-child > section.WdgtCn:last-child
+animeflv.net##div.Wrapper:nth-child(4) > footer.Footer:last-child
+animeflv.net##div.Wrapper:nth-child(4) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > div.Login:nth-child(3) > div.DpdwCnt.TtCn:last-child > form.form-horizontal:last-child > a.Button.fb_login:nth-child(4)
+animeflv.net##div.Wrapper:nth-child(4) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20 > aside.Sidebar.BFixed:first-child > a:nth-child(4) > img
+animeflv.net##div.Wrapper:nth-child(4) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20 > aside.Sidebar.BFixed:first-child > a:first-child > img
 animeflv.net##div.Wrapper:nth-child(3) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20 > aside.Sidebar.BFixed:first-child > a:first-child > img
 animeflv.net##div.Wrapper:nth-child(3) > div.Body:nth-child(2) > div.Container > div.BX.Row.BFluid.Sp20 > aside.Sidebar.BFixed:first-child > a:nth-child(4) > img
 animeflv.net##div.Wrapper:nth-child(3) > footer.Footer:last-child
@@ -98,9 +114,3 @@ animeidhentai.com###custom_html-3 > div.textwidget.custom-html-widget.js-pop > i
 !thingiverse
 !reclutamiento.defensa.gob.es
 ||reclutamiento.defensa.gob.es/assets/img/overimage_g.png$domain=reclutamiento.defensa.gob.es
-!sex.com
-sex.com###container > div.footer_description:last-child
-sex.com###footer
-!nhentai
-nhentai.com##div:first-child > main.py-4:nth-child(2) > div.row.mx-auto.justify-content-center.mb-4:first-child > div.container > div.box.clearfix.d-flex.flex-column.w-100.pb-0.mb-3
-nhentai.com##div:first-child > main.py-4:nth-child(2) > div.row.mx-auto.justify-content-center.mt-4:nth-child(3) > div.container > div.box.clearfix.d-flex.flex-column.w-100.pb-0.mb-3
