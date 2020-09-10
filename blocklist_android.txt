@@ -1,6 +1,5 @@
+!deals.sourceforge.net
 deals.sourceforge.net##div.cookie-prompt:nth-child(23)
-all3dp.com###settings-to-tweak > div.ad-container.ad-container--horizontal.ad-container--loaded > div.ad-container__label:first-child
-all3dp.com###settings-to-tweak > div.ad-container.ad-container--horizontal.ad-container--loaded > div.ad-container__provider:last-child
 !google.es
 @@||accounts.google.com^$important,document,~extension
 !radio
@@ -13,6 +12,10 @@ radio.es###content-wrapper > div.content-flex-container:nth-child(2) > div.conte
 radio.es##footer:nth-child(7) > div.container > ul.footer-items.list-unstyled.row
 radio.es###content-wrapper > div.content-flex-container:nth-child(2) > div.content-flex-sidebar.ng-scope:nth-child(2)
 !elitetorrent
+elitetorrent.se##div:nth-child(13) > div.outers:first-child > div.middles > center > div.inners > span.closen_bars:first-child
+elitetorrent.se##div:nth-child(13) > div.outers:first-child > div.middles > center > div.inners > div.pinchelonas:last-child
+elitetorrent.se###principal > div:first-child
+elitetorrent.se###back-footer
 elitetorrent.nl###pincholo
 elitetorrent.nl###container-dbf33b8cc0723eca5bd219772af5a32b > div.container-dbf33b8cc0723eca5bd219772af5a32b__stand:last-child > div.container-dbf33b8cc0723eca5bd219772af5a32b__bn-container:nth-child(2) > div.container-dbf33b8cc0723eca5bd219772af5a32b__bn > a.container-dbf33b8cc0723eca5bd219772af5a32b__link:nth-child(4)
 elitetorrent.nl###container-dbf33b8cc0723eca5bd219772af5a32b > div.container-dbf33b8cc0723eca5bd219772af5a32b__stand:last-child > div.container-dbf33b8cc0723eca5bd219772af5a32b__bn-container:nth-child(3) > div.container-dbf33b8cc0723eca5bd219772af5a32b__bn > a.container-dbf33b8cc0723eca5bd219772af5a32b__link:nth-child(4)
@@ -63,6 +66,8 @@ mundodonghua.com##section.content-wrap:nth-child(6) > div.container.youplay-new-
 mundodonghua.com##section.content-wrap:nth-child(6) > div.container.youplay-new-donghua.new-donghua-grid.sm-row > div.col-md-3:last-child > div.row.mt-10.mb-10.bg-white.pt-5.pr-15.pb-15.pl-15:last-child
 mundodonghua.com##section.content-wrap:nth-child(6) > div.container.youplay-new-donghua.new-donghua-grid.sm-row > div.col-md-9.mt-10:first-child > div.sm-row.mt-10.bg-white.pt-5.pr-15.pb-15.pl-15:nth-child(4)
 mundodonghua.com##section.content-wrap:nth-child(6) > div.container.youplay-new-donghua.new-donghua-grid.sm-row > div.col-md-9.mt-10:first-child > div.sm-row.bg-white.pt-10.pr-10.pb-10.pl-10:last-child
+mundodonghua.com##section.content-wrap:nth-child(6) > div.container.sm-row.mt-10.mb-10:last-child > div.col-md-3.info-player:last-child > div.row.side-block.mb-10.bg-white.pt-5.pr-15.pb-15.pl-15:nth-child(3)
+mundodonghua.com##section.content-wrap:nth-child(6) > div.container.sm-row.mt-10.mb-10:last-child > div.col-md-3.info-player:last-child > div.row.side-block.mb-10.bg-white.pt-5.pr-5.pb-5.pl-5:last-child
 !modagamers.com
 modagamers.com###media_image-6
 modagamers.com###mCSB_2_container
