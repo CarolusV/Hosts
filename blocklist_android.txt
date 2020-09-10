@@ -1,4 +1,4 @@
-!deals.sourceforge.net!deals.sourceforge.net
+!deals.sourceforge.net
 deals.sourceforge.net##div.cookie-prompt:nth-child(23)
 !google.es
 @@||accounts.google.com^$important,document,~extension
