@@ -44,8 +44,8 @@ nhentai.com##div:first-child > main.py-4:nth-child(2) > div.row.mx-auto.justify-
 !hanime
 @@||hanime.tv^$domain=hanime.tv
 !youtube
-youtube.com##ytd-app:nth-child(8) > ytd-popup-container.style-scope.ytd-app:nth-child(13) > paper-dialog.style-scope.ytd-popup-container:last-child > yt-confirm-dialog-renderer.style-scope.ytd-popup-container
-youtube.com##ytd-app:nth-child(3) > ytd-popup-container.style-scope.ytd-app:nth-child(13) > paper-dialog.style-scope.ytd-popup-container:last-child > yt-confirm-dialog-renderer.style-scope.ytd-popup-container
+!youtube.com##ytd-app:nth-child(8) > ytd-popup-container.style-scope.ytd-app:nth-child(13) > paper-dialog.style-scope.ytd-popup-container:last-child > yt-confirm-dialog-renderer.style-scope.ytd-popup-container
+!youtube.com##ytd-app:nth-child(3) > ytd-popup-container.style-scope.ytd-app:nth-child(13) > paper-dialog.style-scope.ytd-popup-container:last-child > yt-confirm-dialog-renderer.style-scope.ytd-popup-container
 !mundodonghua.com
 !||mundodonghua.com/js/funciones.js?v=1.3.5$domain=mundodonghua.com,important
 !||mundodonghua.com/js/nemonico.js?v=1.3.0$domain=mundodonghua.com,important
