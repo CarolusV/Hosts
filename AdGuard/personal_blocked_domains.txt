@@ -155,6 +155,13 @@ cdn4.userzoom.com
 userzoom.com
 
 #Conexiones raras (posibles virus)
+sarah.ttnrd.com
+eutrx.com
+euro-times.org
+hbbtvloves.mediaset.es
+ceresplusdev.mediaset.es
+marker.konograma.com
+malwaretips.com
 0.le4net00.net
 0.weathdata.nu
 ae-12-3104.bar1.madrid1.lev3l0.net
