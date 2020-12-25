@@ -1,6 +1,8 @@
+!youtube
 !deals.sourceforge.net
 deals.sourceforge.net##div.cookie-prompt:nth-child(23)
 !google.es
+@@||cast.google.com^$important,document
 @@||accounts.google.com^$important,document,~extension
 !radio
 ||static.radio.es/images/v2/*$domain=radio.es
@@ -43,12 +45,9 @@ nhentai.com##div:first-child > main.py-4:nth-child(2) > div.row.mx-auto.justify-
 nhentai.com##div:first-child > main.py-4:nth-child(2) > div.row.mx-auto.justify-content-center.mt-4:nth-child(3) > div.container > div.box.clearfix.d-flex.flex-column.w-100.pb-0.mb-3
 !hanime
 @@||hanime.tv^$domain=hanime.tv
-!youtube
-!youtube.com##ytd-app:nth-child(8) > ytd-popup-container.style-scope.ytd-app:nth-child(13) > paper-dialog.style-scope.ytd-popup-container:last-child > yt-confirm-dialog-renderer.style-scope.ytd-popup-container
-!youtube.com##ytd-app:nth-child(3) > ytd-popup-container.style-scope.ytd-app:nth-child(13) > paper-dialog.style-scope.ytd-popup-container:last-child > yt-confirm-dialog-renderer.style-scope.ytd-popup-container
 !mundodonghua.com
-!||mundodonghua.com/js/funciones.js?v=1.3.5$domain=mundodonghua.com,important
-!||mundodonghua.com/js/nemonico.js?v=1.3.0$domain=mundodonghua.com,important
+||mundodonghua.com/js/funciones.js?v=1.9$domain=mundodonghua.com,important
+||mundodonghua.com/js/nemonico.js?v=1.3.0$domain=mundodonghua.com,important
 ||mundodonghua.com/images/Susu-Anti-AddBlock.jpg$domain=mundodonghua.com,important
 mundodonghua.com##footer.youplay-footer-parallax:nth-child(9) > div.copyright:first-child
 mundodonghua.com##section.content-wrap:nth-child(6) > div.container.sm-row.mt-10.mb-10:last-child > div.col-md-3.info-player:last-child > div.row.mt-10.mb-10.bg-white.pt-5.pr-15.pb-15.pl-15:first-child
@@ -74,8 +73,10 @@ modagamers.com###mCSB_2_container
 ||modagamers.com/wp-content/uploads/cache/fvm/1587827197/out/footer-42da4096340ba59773a7c06af3b5efaebbdb6e2e.min.js$domain=modagamers.com,important
 ||modagamers.com/wp-content/uploads/cache/fvm/1587827197/out/header-e22ab2cce3a72ff0f320ee75773f8b2e64f44f13.min.js$domain=modagamers.com,important
 !animeflv
+@@content.jwplatform.com/libraries/0P4vdmeO.js
 @@||s1.animeflv.net/embed.php
 @@||animeflv.net/embed.php
+||animeflv.net/assets/animeflv/img/triviataku.jpg$domain=animeflv.net,important
 ||animeflv.net/assets/animeflv/img/tdiscord.png$domain=animeflv.net,important
 ||animeflv.net/assets/animeflv/img/tyoutube.png$domain=animeflv.net,important
 ||animeflv.net/assets/animeflv/img/ttwitch.png$domain=animeflv.net,important
@@ -90,6 +91,7 @@ modagamers.com###mCSB_2_container
 ||animeflv.net/arc-sw.js$important
 ||gateway.arc.io^$domain=www3.animeflv.net,third-party
 ||storage.arc.io^$domain=www3.animeflv.net,third-party
+www3.animeflv.net###XpndCn > div.CpCnB:nth-child(2) > div.ShrCnB.fa-share-alt:nth-child(3)
 animeflv.net##div.Wrapper:nth-child(3) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > div.Login:nth-child(3) > div.DpdwCnt.TtCn:last-child > form.form-horizontal:last-child > a.Button.fb_login:nth-child(4)
 animeflv.net##div.Wrapper:nth-child(3) > div.Body:nth-child(2) > div > div.Container:last-child > div.BX.Row.BFluid.Sp20 > main.Main:last-child > section.WdgtCn:last-child
 animeflv.net###XpndCn > div.CpCnC:last-child > a:nth-child(5) > img
