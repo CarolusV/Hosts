@@ -1,9 +1,13 @@
-!youtube
+!PERMITIDOS
+@@||cuevana3.live^$important,document
+@@||venta.renfe.com^$important,document
+@@||api.whatsapp.com^$important,document
+@@||login.repsol.com^$important,document
 !deals.sourceforge.net
 deals.sourceforge.net##div.cookie-prompt:nth-child(23)
 !google.es
 @@||cast.google.com^$important,document
-@@||accounts.google.com^$important,document,~extension
+@@||accounts.google.com^$important,document
 !radio
 ||static.radio.es/images/v2/*$domain=radio.es
 ||static.radio.es/images/images/*$domain=radio.es
@@ -91,7 +95,7 @@ modagamers.com###mCSB_2_container
 ||animeflv.net/arc-sw.js$important
 ||gateway.arc.io^$domain=www3.animeflv.net,third-party
 ||storage.arc.io^$domain=www3.animeflv.net,third-party
-www3.animeflv.net###XpndCn > div.CpCnB:nth-child(2) > div.ShrCnB.fa-share-alt:nth-child(3)
+animeflv.net###XpndCn > div.CpCnB:nth-child(2) > div.ShrCnB.fa-share-alt:nth-child(3)
 animeflv.net##div.Wrapper:nth-child(3) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > div.Login:nth-child(3) > div.DpdwCnt.TtCn:last-child > form.form-horizontal:last-child > a.Button.fb_login:nth-child(4)
 animeflv.net##div.Wrapper:nth-child(3) > div.Body:nth-child(2) > div > div.Container:last-child > div.BX.Row.BFluid.Sp20 > main.Main:last-child > section.WdgtCn:last-child
 animeflv.net###XpndCn > div.CpCnC:last-child > a:nth-child(5) > img
