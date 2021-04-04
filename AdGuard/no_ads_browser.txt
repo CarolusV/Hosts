@@ -8,6 +8,7 @@ deals.sourceforge.net##div.cookie-prompt:nth-child(23)
 !google.es
 @@||cast.google.com^$important,document
 @@||accounts.google.com^$important,document
+@@||drive.google.com^$important,document
 !radio
 ||static.radio.es/images/v2/*$domain=radio.es
 ||static.radio.es/images/images/*$domain=radio.es
