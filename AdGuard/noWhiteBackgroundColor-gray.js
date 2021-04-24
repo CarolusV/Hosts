@@ -27,9 +27,9 @@
                 // Default gray provided:
                 // ============================================================================
                 
-                var red_needed   = 220;
-                var green_needed = 220;
-                var blue_needed  = 220;
+                var red_needed   = 47;
+                var green_needed = 53;
+                var blue_needed  = 58;
                 
                 
                 if (red>=220&&green>=220&&blue>=220) {   // white range detection
