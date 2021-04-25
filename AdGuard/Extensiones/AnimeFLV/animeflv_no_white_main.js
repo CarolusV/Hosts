@@ -1,13 +1,12 @@
 // ==UserScript==
 // @name          AnimeFLV MainPage NoWhite
-// @namespace     http://userstyles.org
 // @description	  AnimeFLV MainPage NoWhite
 // @author        CarolusV
-// @homepage      https://userstyles.org/styles/186139
+// @homepage	  https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/animeflv_no_white_main.js
 // @include       https://www3.animeflv.net
 // @include       http://www3.animeflv.net
-// @include       www3.animeflv.net/
-// @include       animeflv.net/
+// @include       www3.animeflv.net
+// @include       animeflv.net
 // @run-at        document-start
 // @version       0.2
 // ==/UserScript==
