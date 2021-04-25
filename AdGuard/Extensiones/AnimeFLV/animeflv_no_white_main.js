@@ -3,7 +3,7 @@
 // @namespace     http://userstyles.org
 // @description	  AnimeFLV MainPage NoWhite
 // @author        CarolusV
-// @homepage	  https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/animeflv_no_white_main.js
+// @homepage      https://userstyles.org/styles/186139
 // @include       https://www3.animeflv.net
 // @include       http://www3.animeflv.net
 // @include       www3.animeflv.net/
@@ -64,6 +64,7 @@
 	"}"
 	
 	
+
 "div.Image.fa-play-circle-o {",
   "    background-color: #2f353a !important;",
 	"}",
@@ -81,8 +82,8 @@
 	"",
 
 "ul li a {",
-  "    color: #F5FFFA;",
-  "    background-color: #2f353a;",
+  "    color: #F5FFFA !important;",
+  "    background-color: #2f353a !important;",
 	"}",
 	"",
 
@@ -94,7 +95,8 @@
 
 "span.Estreno {",
   "    background-color: #8A903E !important;",
-	"}"
+	"}",
+	""
 
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
