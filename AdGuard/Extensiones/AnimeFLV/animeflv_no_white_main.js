@@ -54,7 +54,6 @@
 
 "div.Bot.hidden-xs.hidden-sm {",
   "    background-color: #2f353a !important;",
-  
 	"}",
 	"",
 
@@ -93,7 +92,7 @@
 
 "span.Estreno {",
   "    background-color: #8A903E !important;",
-	"}",
+	"}"
 
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
