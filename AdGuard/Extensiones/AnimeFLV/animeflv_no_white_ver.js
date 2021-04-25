@@ -3,6 +3,7 @@
 // @namespace     http://userstyles.org
 // @description	  AnimeFLV VerPage NoWhite
 // @author        CarolusV
+// @homepage	  https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/animeflv_no_white_ver.js
 // @include       https://www3.animeflv.net/ver/
 // @include       http://www3.animeflv.net/ver/
 // @include       www3.animeflv.net/ver/
