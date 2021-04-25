@@ -3,7 +3,6 @@
 // @namespace     http://userstyles.org
 // @description	  AnimeFLV MainPage NoWhite
 // @author        CarolusV
-// @homepage      https://userstyles.org/styles/186139
 // @include       https://www3.animeflv.net
 // @include       http://www3.animeflv.net
 // @include       www3.animeflv.net/
@@ -94,7 +93,7 @@
 
 "span.Estreno {",
   "    background-color: #8A903E !important;",
-	"}",
+	"}"
 
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
