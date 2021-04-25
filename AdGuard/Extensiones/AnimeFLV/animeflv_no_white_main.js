@@ -61,9 +61,8 @@
 "div.tab-content.AnTbCnTp {",
   "    background-color: #2f353a !important;",
 	"}"
+	"",
 	
-	
-
 "div.Image.fa-play-circle-o {",
   "    background-color: #2f353a !important;",
 	"}",
@@ -95,7 +94,6 @@
 "span.Estreno {",
   "    background-color: #8A903E !important;",
 	"}",
-	""
 
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
