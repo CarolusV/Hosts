@@ -62,6 +62,40 @@
 "div.tab-content.AnTbCnTp {",
   "    background-color: #2f353a !important;",
 	"}"
+	
+	
+"div.Image.fa-play-circle-o {",
+  "    background-color: #2f353a !important;",
+	"}",
+	"",
+
+"button.multiselect.dropdown-toggle.btn.btn-sm.btn-default {",
+  "    background-color: #2f353a !important;",
+  "    color: #F5FFFA !important;",
+	"}",
+	"",
+
+"div div h1 {",
+  "    color: #F5FFFA !important;",
+	"}",
+	"",
+
+"ul li a {",
+  "    color: #F5FFFA;",
+  "    background-color: #2f353a;",
+	"}",
+	"",
+
+"ul li span {",
+  "    background-color: #2f353a !important;",
+  "    color: #F5FFFA !important;",
+	"}",
+	"",
+
+"span.Estreno {",
+  "    background-color: #8A903E !important;",
+	"}",
+
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
 	GM_addStyle(css);
@@ -82,3 +116,4 @@ if (typeof GM_addStyle != "undefined") {
 	}
 }
 })();
+
