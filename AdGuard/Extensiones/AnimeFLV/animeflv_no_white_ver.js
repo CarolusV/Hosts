@@ -3,7 +3,6 @@
 // @namespace     http://userstyles.org
 // @description	  AnimeFLV VerPage NoWhite
 // @author        CarolusV
-// @homepage      https://userstyles.org/styles/186139
 // @include       https://www3.animeflv.net/ver/
 // @include       http://www3.animeflv.net/ver/
 // @include       www3.animeflv.net/ver/
