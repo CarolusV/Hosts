@@ -187,6 +187,10 @@
 "    background-color: #2f353a !important;",
 	"}",
 	"",
+"span.Estreno {",
+"    display: none; !important;",
+	"}",
+	"",
 "#search-anime {",
   "    color: #F5FFFA !important;",
 	"}"
