@@ -78,6 +78,9 @@ modagamers.com###mCSB_2_container
 ||modagamers.com/wp-content/uploads/cache/fvm/1587827197/out/footer-42da4096340ba59773a7c06af3b5efaebbdb6e2e.min.js$domain=modagamers.com,important
 ||modagamers.com/wp-content/uploads/cache/fvm/1587827197/out/header-e22ab2cce3a72ff0f320ee75773f8b2e64f44f13.min.js$domain=modagamers.com,important
 !animeflv
+!||www3.animeflv.net/cdn-cgi/images/trace/jschal/js/transparent.gif?$domain=www3.animeflv.net
+!||www3.animeflv.net/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?$domain=www3.animeflv.net
+!||www3.animeflv.net/cdn-cgi/challenge-platform/h/g/flow/ov1/$domain=www3.animeflv.net
 @@content.jwplatform.com/libraries/0P4vdmeO.js
 @@||s1.animeflv.net/embed.php
 @@||animeflv.net/embed.php
@@ -85,6 +88,9 @@ modagamers.com###mCSB_2_container
 ||animeflv.net/assets/animeflv/img/tdiscord.png$domain=animeflv.net,important
 ||animeflv.net/assets/animeflv/img/tyoutube.png$domain=animeflv.net,important
 ||animeflv.net/assets/animeflv/img/ttwitch.png$domain=animeflv.net,important
+||animeflv.net/assets/animeflv/img/Banner-Ember.gif$domain=animeflv.net,important
+||animeflv.net/assets/animeflv/img/fb-flv.png$domain=animeflv.net,important
+||animeflv.net/assets/animeflv/img/twitter-kudasai-oficial.png$domain=animeflv.net,important
 ||animeflv.net/assets/animeflv/img/bg.jpg
 ||animeflv.net/img/bg.jpg
 ||animeflv.net/assets/animeflv/img/triviataku.jpg
@@ -96,6 +102,8 @@ modagamers.com###mCSB_2_container
 ||animeflv.net/arc-sw.js$important
 ||gateway.arc.io^$domain=www3.animeflv.net,third-party
 ||storage.arc.io^$domain=www3.animeflv.net,third-party
+||www3.animeflv.net/cdn-cgi/images/trace/jschal/js/transparent.gif?ray=^$domain=www3.animeflv.net
+||www3.animeflv.net/cdn-cgi/images/trace/jschal/nojs/transparent.gif?$domain=www3.animeflv.net
 animeflv.net###XpndCn > div.CpCnB:nth-child(2) > div.ShrCnB.fa-share-alt:nth-child(3)
 animeflv.net##div.Wrapper:nth-child(3) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > div.Login:nth-child(3) > div.DpdwCnt.TtCn:last-child > form.form-horizontal:last-child > a.Button.fb_login:nth-child(4)
 animeflv.net##div.Wrapper:nth-child(3) > div.Body:nth-child(2) > div > div.Container:last-child > div.BX.Row.BFluid.Sp20 > main.Main:last-child > section.WdgtCn:last-child
