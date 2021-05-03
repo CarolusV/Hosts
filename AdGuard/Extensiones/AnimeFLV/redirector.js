@@ -8,7 +8,7 @@
 // ==/UserScript==
 
 // This is a slightly brute force solution, but there is no other way to do it using only a userscript. A full-fledged addon may be created soon.
-window.location.href =window.location.href.replace('m.animeflv.net','www3.animeflv.net');
+// window.location.href =window.location.href.replace('m.animeflv.net','www3.animeflv.net');
 
 document.body.addEventListener('mousedown', function(e){
     var targ = e.target || e.srcElement;
