@@ -81,9 +81,11 @@ modagamers.com###mCSB_2_container
 !||www3.animeflv.net/cdn-cgi/images/trace/jschal/js/transparent.gif?$domain=www3.animeflv.net
 !||www3.animeflv.net/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?$domain=www3.animeflv.net
 !||www3.animeflv.net/cdn-cgi/challenge-platform/h/g/flow/ov1/$domain=www3.animeflv.net
+@@||streamium.xyz^
 @@content.jwplatform.com/libraries/0P4vdmeO.js
 @@||s1.animeflv.net/embed.php
 @@||animeflv.net/embed.php
+||animeflv.net/assets/animeflv/js/scrlbr.js
 ||animeflv.net/assets/animeflv/img/triviataku.jpg$domain=animeflv.net,important
 ||animeflv.net/assets/animeflv/img/tdiscord.png$domain=animeflv.net,important
 ||animeflv.net/assets/animeflv/img/tyoutube.png$domain=animeflv.net,important
@@ -104,6 +106,7 @@ modagamers.com###mCSB_2_container
 ||storage.arc.io^$domain=www3.animeflv.net,third-party
 ||www3.animeflv.net/cdn-cgi/images/trace/jschal/js/transparent.gif?ray=^$domain=www3.animeflv.net
 ||www3.animeflv.net/cdn-cgi/images/trace/jschal/nojs/transparent.gif?$domain=www3.animeflv.net
+animeflv.net###XpndCn > div.CpCnC:last-child
 animeflv.net###XpndCn > div.CpCnB:nth-child(2) > div.ShrCnB.fa-share-alt:nth-child(3)
 animeflv.net##div.Wrapper:nth-child(3) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > div.Login:nth-child(3) > div.DpdwCnt.TtCn:last-child > form.form-horizontal:last-child > a.Button.fb_login:nth-child(4)
 animeflv.net##div.Wrapper:nth-child(3) > div.Body:nth-child(2) > div > div.Container:last-child > div.BX.Row.BFluid.Sp20 > main.Main:last-child > section.WdgtCn:last-child
@@ -128,6 +131,7 @@ animeflv.net##div.Wrapper:nth-child(2) > footer.Footer:nth-child(3)
 animeflv.net##div.Wrapper:nth-child(2) > div.Body:nth-child(2) > div > div.Container:last-child > div.BX.Row.BFluid.Sp20 > main.Main:last-child > section.WdgtCn:last-child
 animeflv.net##div.Wrapper:nth-child(2) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > div.Login:nth-child(3) > div.DpdwCnt.TtCn:last-child > form.form-horizontal:last-child > a.Button.fb_login:nth-child(4)
 !animeidhentai
+||animeidhentai.com/wp-content/cache/wpfc-minified/ee2y5i3q/bn2k8.js$domain=animeflv.net,important
 animeidhentai.com###class_widget_category-8 > div.flex-center.mb-15.js-pop:first-child > iframe.js-pop.lazyloaded:first-child
 animeidhentai.com###class_widget_category-6 > div.flex-center.mb-15.js-pop:first-child > iframe.js-pop.lazyloaded:first-child
 animeidhentai.com###class_widget_category-7 > div.flex-center.mb-15.js-pop:first-child > iframe.js-pop.lazyloaded:first-child
