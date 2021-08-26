@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Redirect m.animeflv.net to https://www3.animeflv.net/
 // @description On any web page it will check if the clicked links goes to userscripts.org. If so, the link will be rewritten to point to userscripts-mirror.org
-// @include     m.animeflv.net
+// @include     animeflv.net
 // @version     1.2
 // @grant       none
 // ==/UserScript==
@@ -12,7 +12,7 @@
 if(content.document.location == "https://m.animeflv.net"){
             window.location.replace("https://www3.animeflv.net/");
 }
-document.body.addEventListener('mousedown', function(e){
+document.body.addEventListener('click', function(e){
     var targ = e.target || e.srcElement;
     if ( targ && targ.href && targ.href.match(/https?:\/\/m.animeflv.net/) ) {
         targ.href = targ.href.replace(/https?:\/\/m.animeflv.net/, 'https://www3.animeflv.net');
