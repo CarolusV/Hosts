@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Redirect m.animeflv.net to https://www3.animeflv.net/
 // @description No m.animeflv.net, only www3.animeflv.net
-// @match       https://*.animeflv.net/*
+// @match       https://m.animeflv.net/*
 // @version     1.3
 // @grant       none
 // ==/UserScript==
@@ -14,7 +14,7 @@ if (window.location.href.indexOf("https://m.animeflv.net") != -1){
 }    
 
 
-if(content.document.location == "https://m.animeflv.net"){
+if(content.document.location.indexOf("https://m.animeflv.net") != -1){
             window.location.replace('https://m.animeflv.net','https://www3.animeflv.net');
 }
 
