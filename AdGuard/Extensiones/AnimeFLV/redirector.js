@@ -10,7 +10,7 @@
 window.location.href =window.location.href.replace('https://m.animeflv.net','https://www3.animeflv.net');
 
 if (window.location.href.indexOf("https://m.animeflv.net") != -1){
-    window.location.href.replace('https://m.animeflv.net','https://www3.animeflv.net')
+    window.location.href.replace('https://m.animeflv.net','https://www3.animeflv.net');
 }    
 
 
