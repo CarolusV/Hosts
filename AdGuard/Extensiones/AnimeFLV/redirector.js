@@ -38,6 +38,6 @@ function whatever() {
 	
   }
 }
-whatever()
+whatever();
 
 );
