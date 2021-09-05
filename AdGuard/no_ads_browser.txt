@@ -106,6 +106,20 @@ modagamers.com###mCSB_2_container
 ||storage.arc.io^$domain=www3.animeflv.net,third-party
 ||www3.animeflv.net/cdn-cgi/images/trace/jschal/js/transparent.gif?ray=^$domain=www3.animeflv.net
 ||www3.animeflv.net/cdn-cgi/images/trace/jschal/nojs/transparent.gif?$domain=www3.animeflv.net
+www3.animeflv.net###XpndCn > div.askdvr-bx:first-child > div.askdvr
+www3.animeflv.net###XpndCn > div.CpCnB:nth-child(3) > div.WdgtCn:last-child
+www3.animeflv.net##div.FollowUs:nth-child(2) > div.Container
+www3.animeflv.net##div.Wrapper:nth-child(3) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > ul.ListSocial.BFixed:last-child > li > a.fa-facebook
+www3.animeflv.net##div.Wrapper:nth-child(3) > header.Header:first-child > div.Mid:first-child > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > ul.ListSocial.BFixed:last-child > li > a.fa-facebook
+www3.animeflv.net###XpndCn > div.CpCnB:nth-child(2) > div.WdgtCn:last-child
+www3.animeflv.net###XpndCn > div.CpCnB:nth-child(2) > div.ShrCnB.fa-share-alt:nth-child(3)
+www3.animeflv.net##div.Wrapper:nth-child(3) > footer.Footer:nth-child(3)
+www3.animeflv.net###XpndCn > div.CpCnC:last-child > section.WdgtCn:last-child
+www3.animeflv.net###XpndCn > div.CpCnC:last-child
+www3.animeflv.net##div.Wrapper:nth-child(3) > div.Body:nth-child(2) > div > div.Container:last-child > div.BX.Row.BFluid.Sp20 > main.Main:last-child > section.WdgtCn:last-child
+www3.animeflv.net##div.Wrapper:nth-child(3) > footer.Footer:last-child
+www3.animeflv.net##div.Wrapper:nth-child(3) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > ul.ListSocial.BFixed:last-child > li
+www3.animeflv.net##div.Wrapper:nth-child(3) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > div.Login:nth-child(3) > div.DpdwCnt.TtCn:last-child > form.form-horizontal:last-child > a.Button.fb_login:nth-child(4)
 animeflv.net###XpndCn > div.CpCnC:last-child
 animeflv.net###XpndCn > div.CpCnB:nth-child(2) > div.ShrCnB.fa-share-alt:nth-child(3)
 animeflv.net##div.Wrapper:nth-child(3) > header.Header:first-child > div.Mid > div.Container > div.AX.Row.AFluid > div.AFixed:last-child > nav.CX.Row:last-child > div.Login:nth-child(3) > div.DpdwCnt.TtCn:last-child > form.form-horizontal:last-child > a.Button.fb_login:nth-child(4)
@@ -141,3 +155,11 @@ animeidhentai.com###custom_html-3 > div.textwidget.custom-html-widget.js-pop > i
 !thingiverse
 !reclutamiento.defensa.gob.es
 ||reclutamiento.defensa.gob.es/assets/img/overimage_g.png$domain=reclutamiento.defensa.gob.es
+superprof.es###app > main:nth-child(2) > div.grid:nth-child(2) > div.post-content-wrapper:last-child > div.post-content > div.inner:nth-child(3) > section:last-child > div.cContContenido:nth-child(2) > a.teachers-cta-link:nth-child(3) > div.teachers-cta-wrapper
+superprof.es###cta-search-wrapper
+@@||es.fiverr.com^$important,document
+@@||csgolounge.com^$important,document
+@@||tradeit.gg^$important,document
+@@||deals.sourceforge.net^$important,document
+@@||onedrive.live.com^$important,document
+@@||outlook.live.com^$important,document
