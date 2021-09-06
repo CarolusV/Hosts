@@ -5,6 +5,7 @@
 // @version     1.3
 // @grant       none
 // @noframes
+// @run-at        document-start
 // ==/UserScript==
 
 var doneTheStuff;
