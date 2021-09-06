@@ -2,7 +2,7 @@
 // @name        Redirect m.animeflv.net to https://www3.animeflv.net/
 // @description No m.animeflv.net, only www3.animeflv.net
 // @match       https://m.animeflv.net/*
-// @version     1.3
+// @version     1.4.1
 // @grant       none
 // @noframes
 // @run-at        document-start
