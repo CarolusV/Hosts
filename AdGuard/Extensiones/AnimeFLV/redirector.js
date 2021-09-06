@@ -4,6 +4,7 @@
 // @match       https://m.animeflv.net/*
 // @version     1.3
 // @grant       none
+// @noframes
 // ==/UserScript==
 
 var doneTheStuff;
