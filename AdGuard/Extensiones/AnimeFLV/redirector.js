@@ -8,11 +8,17 @@
 // @run-at        document-start
 // ==/UserScript==
 
-var doneTheStuff;
-function whatever() {
-  if (!doneTheStuff) {
-    doneTheStuff = true;
-    
+document.addEventListener ("DOMContentLoaded", DOM_ContentReady);
+window.addEventListener ("load", pageFullyLoaded);
+
+function DOM_ContentReady () {
+    // 2ND PART OF SCRIPT RUN GOES HERE.
+    // This is the equivalent of @run-at document-end
+    //console.log ("==> 2nd part of script run.", new Date() );
+}
+
+function pageFullyLoaded () {
+    //console.log ("==> Page is fully loaded, including images.", new Date() );
 	// end do the stuff
 	
 			window.location.href =window.location.href.replace('https://m.animeflv.net','https://www3.animeflv.net');
@@ -37,9 +43,10 @@ function whatever() {
 			}
 	
 	// do the stuff
-	
-  }
 }
-whatever();
+    
+	
+	
+
 
 );
