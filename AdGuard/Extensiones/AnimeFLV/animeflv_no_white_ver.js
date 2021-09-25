@@ -4,17 +4,32 @@
 // @author        CarolusV
 // @homepage	  https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/animeflv_no_white_ver.js
 // @include       https://www3.animeflv.net
+// @include       http://www3.animeflv.net
 // @include       www3.animeflv.net
+// @resource      IMPORTED_CSS https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/custom_black.css
 // @include       animeflv.net
 // @run-at        document-start
-// @version       0.3
-// @resource      IMPORTED_CSS https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/custom_black.css
-// @grant         GM_getResourceText
-// @grant         GM_addStyle
-/// ==/UserScript==
+// @version       0.3.1
+// ==/UserScript==
 
-(function() {
-    'use strict';
-    const my_css = GM_getResourceText("IMPORTED_CSS");
-    GM_addStyle(my_css);
-});
+(function()
+if (typeof GM_addStyle != "undefined") {
+	GM_addStyle(IMPORTED_CSS);
+} else if (typeof PRO_addStyle != "undefined") {
+	PRO_addStyle(IMPORTED_CSS);
+} else if (typeof addStyle != "undefined") {
+	addStyle(IMPORTED_CSS);
+} else {
+	var node = document.createElement("style");
+	node.type = "text/css";
+	node.appendChild(document.createTextNode(IMPORTED_CSS));
+	var heads = document.getElementsByTagName("head");
+	if (heads.length > 0) {
+		heads[0].appendChild(node);
+	} else {
+		// no head yet, stick it whereever
+		document.documentElement.appendChild(node);
+	}
+}
+})();
+
