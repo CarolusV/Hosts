@@ -1,41 +1,25 @@
-/*
-PARTE SUPERIOR
-*/
 div.FollowUs {
     display: none;
 }
 
-/*
-GRACIAS APOYO
-*/
 div.askdvr {
   display: none;
 }
 
-/*
-LOGIN FACEBOOK
-*/
 a.Button.fb_login {
   display: none;
 }
 
-/*
-PARTE INFERIOR
-*/
 footer.Footer {
   display: none;  
 }
 
-/*
-SIGUENOS FACEBOOK
-*/
 aside a img {
   display: none; 
 }
 
 div.Body {
   background-color: #2f353a;
-  
 }
 
 aside.Sidebar.BFixed {
@@ -268,7 +252,6 @@ button.btn.btn-sm.btn-primary {
 
 div.AnimeCover {
   background-color: #2f353a;
-  
 }
 
 div.ShrCnB.fa-share-alt {
