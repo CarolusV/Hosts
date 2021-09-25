@@ -2,250 +2,283 @@
 PARTE SUPERIOR
 */
 div.FollowUs {
-    display: none !important;
+    display: none;
 }
 
 /*
 GRACIAS APOYO
 */
 div.askdvr {
-  display: none !important;
+  display: none;
 }
 
 /*
 LOGIN FACEBOOK
 */
 a.Button.fb_login {
-  display: none !important;
+  display: none;
 }
 
 /*
 PARTE INFERIOR
 */
 footer.Footer {
-  display: none !important;  
+  display: none;  
 }
 
 /*
 SIGUENOS FACEBOOK
 */
 aside a img {
-  display: none !important; 
+  display: none; 
 }
 
 div.Body {
-  background-color: #2f353a !important;
+  background-color: #2f353a;
   
 }
 
 aside.Sidebar.BFixed {
-  background-color: #2f353a !important;
-  color: #2f353a !important;
+  background-color: #2f353a;
+  color: #2f353a;
 }
 
 div.Top.fa-play {
-  background-color: #2f353a !important;
-  color: #2f353a !important;
+  background-color: #2f353a;
+  color: #2f353a;
 }
 
 div.Bod.ScrlV.Fl.mCustomScrollbar._mCS_1.mCS_no_scrollbar {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
+  background-color: #2f353a;
+  color: #F5FFFA;
 }
 
 div div strong {
-  color: #F5FFFA !important;
+  color: #F5FFFA;
 }
 
 a.fa-play-circle {
-  color: #F5FFFA !important;
+  color: #F5FFFA;
 }
 
 main div h2 {
-  color: #F5FFFA !important;
+  color: #F5FFFA;
 }
 
 h3.Title {
-  color: #F5FFFA !important;
-  background-color: #2f353a !important;
+  color: #F5FFFA;
+  background-color: #2f353a;
 }
 
 div.Image.fa-play-circle-o {
-  background-color: #2f353a !important;
+  background-color: #2f353a;
 }
 
 form.form-horizontal {
-  background-color: #2f353a !important;
+  background-color: #2f353a;
 }
 
 div.Title {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
+  background-color: #2f353a;
+  color: #F5FFFA;
 }
 
 form label input {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
+  background-color: #2f353a;
+  color: #F5FFFA;
 }
 
 label.Button {
-  background-color: #2f353a !important;
+  background-color: #2f353a;
 }
 
 form div a {
-  color: #F5FFFA !important;
+  color: #F5FFFA;
 }
 
 h1.Title {
-  color: #F5FFFA !important;
+  color: #F5FFFA;
 }
 
 ul li a {
-  color: #F5FFFA !important;
-  background-color: #2f353a !important;
+  color: #F5FFFA;
+  background-color: #2f353a;
 }
 
 div nav a {
-  color: #F5FFFA !important;
+  color: #F5FFFA;
 }
 
 h2.SubTitle {
-  color: #F5FFFA !important;
+  color: #F5FFFA;
 }
 
 a.CapNvLs.fa-th-list {
-  background-color: #2f353a !important;
+  background-color: #2f353a;
 }
 
 a.CapNvPv.fa-chevron-left {
-  background-color: #2f353a !important;
+  background-color: #2f353a;
 }
 
 a.BtnNw.Rprt.BxSdw.fa-flag-o {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
+  background-color: #2f353a;
+  color: #F5FFFA;
 }
 
 a.BtnNw.CVst.BxSdw.fa-eye {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
+  background-color: #2f353a;
+  color: #F5FFFA;
 }
 
 span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
+  background-color: #2f353a;
+  color: #F5FFFA;
 }
 
 i.fa-expand {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
+  background-color: #2f353a;
+  color: #F5FFFA;
 }
 
 button.multiselect.dropdown-toggle.btn.btn-sm.btn-default {
-  color: #F5FFFA !important;
-  background-color: #2f353a !important;
+  color: #F5FFFA;
+  background-color: #2f353a;
 }
 
 div div h1 {
-  color: #F5FFFA !important;
+  color: #F5FFFA;
 }
 
 div.filters {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
+  background-color: #2f353a;
+  color: #F5FFFA;
 }
 
 span.multiselect-selected-text {
-  color: #F5FFFA !important;
-  background-color: #2f353a !important;
+  color: #F5FFFA;
+  background-color: #2f353a;
 }
 
 #search-anime {
-  color: #F5FFFA !important;
+  color: #F5FFFA;
 }
 
 section.WdgtCn {
-  background-color: #2f353a !important;
+  background-color: #2f353a;
 }
 
 section div p {
-  color: #F5FFFA !important;
+  color: #F5FFFA;
 }
 
 span.TxtAlt {
-  color: #F5FFFA !important;
+  color: #F5FFFA;
 }
 
 aside.SidebarA.BFixed {
-  color: #F5FFFA !important;
-  background-color: #2f353a !important;
+  background-color: #2f353a;
 }
 
 div figure img {
-  background-color: #2f353a !important;
+  background-color: #2f353a;
 }
 
 a.BtnNw.Pndng.BxSdw.fa-bookmark {
-  background-color: #2f353a !important;
+  background-color: #2f353a;
 }
 
 #follow_anime {
-  background-color: #2f353a !important;
+  background-color: #2f353a;
 }
 
 #add_favorite {
-  background-color: #2f353a !important;
+  background-color: #2f353a;
 }
 
 div a span {
-  color: #F5FFFA !important;
+  color: #F5FFFA;
 }
 
 div div span {
-  color: #F5FFFA !important;
+  color: #F5FFFA;
 }
 
 ul.ListImgrnd {
-  color: #F5FFFA !important;
-  background-color: #2f353a !important;
+  color: #F5FFFA;
+  background-color: #2f353a;
 }
 
 input.form-control {
-  color: #F5FFFA !important;
-  background-color: #2f353a !important;
+  color: #F5FFFA;
+  background-color: #2f353a;
 }
 
 ul.multiselect-container.genres-select.dropdown-menu {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
+  background-color: #2f353a;
+  color: #F5FFFA;
 }
 
 ul.multiselect-container.year-select.dropdown-menu {
-  color: #F5FFFA !important;
-  background-color: #2f353a !important;
+  color: #F5FFFA;
+  background-color: #2f353a;
 }
 
 ul.multiselect-container.dropdown-menu {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
+  background-color: #2f353a;
+  color: #F5FFFA;
 }
 
 span.Capi {
-  background-color: #6aa84f !important;
+  background-color: #6aa84f;
 }
 
 span.Type.tv {
-  background-color: #1155cc !important;
+  background-color: #1155cc;
 }
 
 div.CpCnC {
-  display: none !important;
+  display: none;
 }
 
 section.WdgtCn.Sm {
-  display: none !important;
+  display: none;
 }
 
 span.vtprmd {
-  background-color: #2f353a !important;
+  background-color: #2f353a;
+}
+
+div.Bod.ScrlV.Fl {
+  background-color: #2f353a;
+  
+}
+
+div.Logo {
+  background-color: #2f353a;
+  color: #F5FFFA;
+}
+div.Image  {
+    background-color: #2f353a;
+	}
+button.btn.btn-sm.btn-primary {
+  background-color: #2f353a;
+  color: #F5FFFA;;
+}
+
+div.AnimeCover {
+  background-color: #2f353a;
+  
+}
+
+div.ShrCnB.fa-share-alt {
+  display: none;
+}
+
+div.WdgtCn {
+  display: none;
+}
+
+a.Active {
+  display: none;
 }
