@@ -8,14 +8,13 @@
 // @include       animeflv.net
 // @run-at        document-start
 // @version       0.3
-// ==UserScript==
-    ...
-// @resource   IMPORTED_CSS https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/custom_black.css
-// @grant      GM_getResourceText
-// @grant      GM_addStyle
+// @resource      IMPORTED_CSS https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/custom_black.css
+// @grant         GM_getResourceText
+// @grant         GM_addStyle
 /// ==/UserScript==
 
 (function() {
     'use strict';
     const my_css = GM_getResourceText("IMPORTED_CSS");
     GM_addStyle(my_css);
+})();
