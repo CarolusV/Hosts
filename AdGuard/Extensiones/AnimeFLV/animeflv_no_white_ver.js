@@ -4,7 +4,6 @@
 // @author        CarolusV
 // @homepage	  https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/animeflv_no_white_ver.js
 // @include       https://www3.animeflv.net
-// @include       http://www3.animeflv.net
 // @include       www3.animeflv.net
 // @resource      IMPORTED_CSS https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/custom_black.css
 // @include       animeflv.net
