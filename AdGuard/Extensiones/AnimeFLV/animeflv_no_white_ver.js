@@ -8,7 +8,7 @@
 // @resource      IMPORTED_CSS https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/custom_black.css
 // @include       animeflv.net
 // @run-at        document-start
-// @version       0.3.1
+// @version       0.3.2
 // ==/UserScript==
 
 (function()
