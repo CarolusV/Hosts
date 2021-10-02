@@ -7,7 +7,7 @@
 // @include       www3.animeflv.net
 // @include       animeflv.net
 // @run-at        document-start
-// @version       0.2
+// @version       0.32
 // ==/UserScript==
 
 (
