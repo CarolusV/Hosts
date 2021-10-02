@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name          AnimeFLV VerPage NoWhite
-// @description	  AnimeFLV VerPage NoWhite
+// @name          test
+// @description	  test
 // @author        CarolusV
 // @homepage	  https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/animeflv_no_white_ver.js
 // @include       https://www3.animeflv.net
