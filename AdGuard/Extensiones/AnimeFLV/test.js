@@ -11,9 +11,6 @@
 // ==/UserScript==
 
 (
-var css_code = getText();
-
-function getText(){
     // read text from URL location
     var request = new XMLHttpRequest();
     request.open('GET', 'https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/custom_black.css', true);
@@ -22,16 +19,14 @@ function getText(){
         if (request.readyState === 4 && request.status === 200) {
             var type = request.getResponseHeader('Content-Type');
             if (type.indexOf("text") !== 1) {
-                return request.responseText;
+                var css_code =request.responseText;
+				console.log(css_code);
 				//console.log( request.responseText);
             }
         }
     }
-}
 
 
-
-function() {
 if (typeof GM_addStyle != "undefined") {
 	GM_addStyle(css_code);
 } else if (typeof PRO_addStyle != "undefined") {
@@ -51,6 +46,4 @@ if (typeof GM_addStyle != "undefined") {
 	}
 	}
 }
-
-
-)();
+();
