@@ -8,7 +8,7 @@
 // @include       www3.animeflv.net
 // @include       animeflv.net
 // @run-at        document-start
-// @version       0.3
+// @version       0.31
 // ==/UserScript==
 
 (function() {var css = [
@@ -299,6 +299,25 @@
 	"",
 "ul.ListUser  {",
 	"background-color: #2f353a !important;",
+	"}",
+"div.Description  {",
+  	"background-color: #2f353a !important;",
+  	"color: #F5FFFA !important;",
+	"}",
+	"",
+"a.Button.StylC.ShwMr.Alt  {",
+   	"color: #2f353a !important;",
+   	"background-color: #F5FFFA !important;",
+	"}",
+	"",
+"a.Pndnt.fa-bookmark  {",
+   	"color: #2f353a !important;",
+   	"background-color: #F5FFFA !important;",
+	"}",
+	"",
+"a.AnmQv.fa-play  {",
+   	"color: #2f353a !important;",
+   	"background-color: #F5FFFA !important;", 
 	"}"
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
