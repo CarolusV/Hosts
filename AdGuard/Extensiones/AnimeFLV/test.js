@@ -7,7 +7,7 @@
 // @include       www3.animeflv.net
 // @include       animeflv.net
 // @run-at        document-start
-// @version       0.32
+// @version       0.33
 // ==/UserScript==
 
     // read text from URL location
