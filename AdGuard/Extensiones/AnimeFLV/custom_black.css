@@ -236,16 +236,17 @@ span.vtprmd {
 
 div.Bod.ScrlV.Fl {
   background-color: #2f353a !important;
-  
 }
 
 div.Logo {
   background-color: #2f353a !important;
   color: #F5FFFA !important;
 }
+
 div.Image  {
     background-color: #2f353a !important;
-	}
+}
+
 button.btn.btn-sm.btn-primary {
   background-color: #2f353a !important;
   color: #F5FFFA !important; !important;
@@ -270,7 +271,6 @@ a.Active {
 a.BtnNw.CVst.BxSdw.fa-eye-slash {
   background-color: #2f353a !important;
   color: #e06666 !important;
-  
 }
 
 a.BtnNw.Pndng.BxSdw.fa-times {
@@ -285,5 +285,4 @@ a.Button.Sm {
 
 ul.ListUser {
   background-color: #2f353a !important;
-  
 }
