@@ -8,7 +8,7 @@
 // @include       www3.animeflv.net
 // @include       animeflv.net
 // @run-at        document-start
-// @version       0.31
+// @version       0.32
 // ==/UserScript==
 
 (function() {var css = [
@@ -318,6 +318,11 @@
 "a.AnmQv.fa-play  {",
    	"color: #2f353a !important;",
    	"background-color: #F5FFFA !important;", 
+	"}",
+	"",
+"div.DpdwCnt.TtCn  {",
+    "background-color: #2f353a !important;", 
+    "color: #F5FFFA !important;", 
 	"}"
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
