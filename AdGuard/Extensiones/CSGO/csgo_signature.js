@@ -8,7 +8,10 @@
 // @grant        none
 // ==/UserScript==
  
-/* https://steamcommunity.com/market/search?appid=730
+/* 
+https://greasyfork.org/en/scripts/374585-check-csgo-souvenir-s-signature/code
+
+https://steamcommunity.com/market/search?appid=730
 tags = g_rgFilterData["730_ProPlayer"].tags;
 keys = Object.keys(tags);
 name2id = {};
