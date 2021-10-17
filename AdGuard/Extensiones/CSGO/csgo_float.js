@@ -8,6 +8,8 @@
 // @grant        GM_xmlhttpRequest
 // ==/UserScript==
  
+//https://greasyfork.org/en/scripts/375316-csgo-float-checker/code
+
 function c() {
     var items = document.getElementsByClassName("market_actionmenu_button");
     var ids = [];
