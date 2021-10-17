@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         CSGO Float Checker
 // @namespace    http://tampermonkey.net/
-// @version      0.1-SNAPSHOT
+// @version      0.2
 // @description  Check CSGO skins's Float in the market
 // @author       Masazumi
+// @connect      api.csgofloat.com
 // @include      http*://steamcommunity.com/market/listings/730/*
 // @grant        GM_xmlhttpRequest
 // ==/UserScript==
