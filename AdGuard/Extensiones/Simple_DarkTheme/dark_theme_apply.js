@@ -1,11 +1,26 @@
-// Crear un nuevo elemento <link> en la página
-var linkElement = document.createElement("link");
+// ==UserScript==
+// @name          Simple Dark Reader
+// @description	  Simple Dark Reader
+// @author        CarolusV
+// @homepage	    
+// @include       
+// @run-at        document-start
+// @version       0.32
+// ==/UserScript==
 
-// Establecer el atributo "rel" del elemento en "stylesheet"
-linkElement.rel = "stylesheet";
+function applyExternalCss(url) {
+  // Crear un elemento <link> para incluir el archivo CSS externo
+  var link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.type = "text/css";
+  link.href = url;
 
-// Establecer el atributo "href" del elemento en la URL del archivo CSS que se desea aplicar
-linkElement.href = "https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/Simple_DarkTheme/dark_theme.css";
+  // Agregar el elemento <link> al <head> de la página
+  document.getElementsByTagName("head")[0].appendChild(link);
+}
 
-// Agregar el elemento <link> al documento
-document.head.appendChild(linkElement);
+// Cuando se cargue el DOM, llamar a la función applyExternalCss()
+document.addEventListener("DOMContentLoaded", function() {
+  applyExternalCss("https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/Simple_DarkTheme/dark_theme.css");
+});
+
