@@ -15,7 +15,7 @@ async function checkFloats() {
   var buttons = document.getElementsByClassName("market_listing_item_name_block");
   var promises = [];
   for (let i = 0; i < buttons.length - 1; i++) {
-    let node = buttons[i].getElementsByClassName("btn_green_white_innerfade btn_medium market_noncommodity_buyorder_button")[0];
+    let node = buttons[i].getElementsByClassName("item_market_action_button btn_green_white_innerfade btn_small")[0];//btn_green_white_innerfade btn_medium market_noncommodity_buyorder_button
     if (!node) continue;
     promises.push(checkFloat(i, node));
   }
