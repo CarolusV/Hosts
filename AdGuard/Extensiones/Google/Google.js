@@ -6,28 +6,23 @@
 // @include       https://*.google.es/*
 // @include       google.es/*
 // @run-at        document-start
-// @version       0.30
+// @version       0.31
 // ==/UserScript==
+
 function applyStyles() {
   // Create a style element
   var style = document.createElement("style");
-  var estilos_css="";
-	
+
   fetch('https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/Google/css.css')
-	  .then(response => response.text())
-	  .then(estilos_css => {
-	    // aquí puedes usar la variable "css" para almacenar el contenido del archivo CSS
-	    // Set the text content of the style element
-  	    style.textContent = estilos_css;
-	    // Append the style element to the head of the page
- 	    document.getElementsByTagName("head")[0].appendChild(style);
-	  
-	  });
+    .then(response => response.text())
+    .then(css => {
+      // Set the text content of the style element
+      style.textContent = css;
+      // Append the style element to the head of the page
+      document.getElementsByTagName("head")[0].appendChild(style);
+    });
+}
 
-   }
+// When the DOM is loaded, call the applyStyles() function
+document.addEventListener("DOMContentLoaded", applyStyles);
 
-
-  // Cuando se cargue el DOM, llamar a la función applyExternalCss() y a OcultarComentarios()
-document.addEventListener("DOMContentLoaded", function() {
-  applyStyles();
-});
