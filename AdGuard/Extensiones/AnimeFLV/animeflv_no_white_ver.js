@@ -8,7 +8,7 @@
 // @include       www3.animeflv.net
 // @include       animeflv.net
 // @run-at        document-start
-// @version       0.4
+// @version       0.41
 // ==/UserScript==
 
 function OcultarComentarios() {
