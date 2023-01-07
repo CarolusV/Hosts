@@ -20,7 +20,7 @@ async function checkFloats() {
     promises.push(checkFloat(i, node));
   }
   await Promise.all(promises);
-  sortByFloat();
+  //sortByFloat();
 }
 
 async function checkFloat(i, node) {
