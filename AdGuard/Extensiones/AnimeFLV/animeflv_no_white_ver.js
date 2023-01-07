@@ -11,8 +11,6 @@
 // @version       0.33
 // ==/UserScript==
 
-var enlace_css="https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/custom_black.css"
-
 function applyExternalCss(url) {
   // Crear un elemento <link> para incluir el archivo CSS externo
   var link = document.createElement("link");
@@ -44,10 +42,6 @@ function OcultarComentarios() {
 
   // Cuando se cargue el DOM, llamar a la función applyExternalCss() y a OcultarComentarios()
 document.addEventListener("DOMContentLoaded", function() {
-  applyExternalCss(enlace_css);
+  applyExternalCss("https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/custom_black.css");
   OcultarComentarios();
 });
-
-
-
-
