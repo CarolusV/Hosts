@@ -26,9 +26,9 @@ function applyExternalCss(url) {
 
 function OcultarComentarios() {
   // Select the iframe using the CSS selector "iframe[id^='dsq-app']"
-  var iframe = document.querySelector("iframe[id^='dsq-app']");
+  //var iframe = document.querySelector("iframe[id^='dsq-app']");
   // Set the display property to "none" to hide the iframe
-  iframe.style.display = "none";
+  //iframe.style.display = "none";
   
   var sections = document.querySelectorAll("section.WdgtCn");
 
