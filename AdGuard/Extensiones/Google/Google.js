@@ -8,33 +8,29 @@
 // @run-at        document-start
 // @version       0.2
 // ==/UserScript==
-(function() {var css = [
-	".L3eUgb {",
-	"    background: url(https://images7.alphacoders.com/333/thumb-1920-333580.jpg) center center !important;",
-	"    background-size: cover !important;",
-	"}",
-	".o3j99 {",
-	"    background: transparent !important;",
-	"}",
-	"",
+//vieja https://images7.alphacoders.com/333/thumb-1920-333580.jpg
+function applyStyles() {
+  // Create a style element
+  var style = document.createElement("style");
 
-].join("\n");
-if (typeof GM_addStyle != "undefined") {
-	GM_addStyle(css);
-} else if (typeof PRO_addStyle != "undefined") {
-	PRO_addStyle(css);
-} else if (typeof addStyle != "undefined") {
-	addStyle(css);
-} else {
-	var node = document.createElement("style");
-	node.type = "text/css";
-	node.appendChild(document.createTextNode(css));
-	var heads = document.getElementsByTagName("head");
-	if (heads.length > 0) {
-		heads[0].appendChild(node);
-	} else {
-		// no head yet, stick it whereever
-		document.documentElement.appendChild(node);
+  // Set the text content of the style element
+  style.textContent = `
+	.L3eUgb {
+	    background: url(https://images5.alphacoders.com/121/1217672.jpg) center center !important;
+	    background-size: cover !important;
 	}
+	.o3j99 {
+	    background: transparent !important;
+	}
+
+  `;
+
+  // Append the style element to the head of the page
+  document.getElementsByTagName("head")[0].appendChild(style);
 }
-})();
+
+
+  // Cuando se cargue el DOM, llamar a la función applyExternalCss() y a OcultarComentarios()
+document.addEventListener("DOMContentLoaded", function() {
+  applyStyles();
+});
