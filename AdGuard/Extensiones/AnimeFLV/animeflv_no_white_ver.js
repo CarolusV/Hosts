@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name          AnimeFLV VerPage NoWhite NoComents
-// @description	  AnimeFLV VerPage NoWhite NoComents
+// @name          AnimeFLV VerPage NoWhite
+// @description	  AnimeFLV VerPage NoWhite
 // @author        CarolusV
 // @homepage	  https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/animeflv_no_white_ver.js
 // @include       https://www3.animeflv.net
@@ -8,7 +8,7 @@
 // @include       www3.animeflv.net
 // @include       animeflv.net
 // @run-at        document-start
-// @version       0.33
+// @version       0.34
 // ==/UserScript==
 
 function applyExternalCss(url) {
@@ -45,3 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
   applyExternalCss("https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/custom_black.css");
   OcultarComentarios();
 });
+
+
+
+
