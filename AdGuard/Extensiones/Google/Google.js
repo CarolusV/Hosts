@@ -6,7 +6,7 @@
 // @include       https://*.google.es/*
 // @include       google.es/*
 // @run-at        document-start
-// @version       0.28
+// @version       0.29
 // ==/UserScript==
 //vieja https://images7.alphacoders.com/333/thumb-1920-333580.jpg
 function applyStyles() {
@@ -19,7 +19,7 @@ function applyStyles() {
 	  .then(estilos_css => {
 	    // aquí puedes usar la variable "css" para almacenar el contenido del archivo CSS
 	    // Set the text content of the style element
-  	    style.textContent = "`"+ estilos_css + "`";
+  	    style.textContent = estilos_css;
 	  });
 
 
