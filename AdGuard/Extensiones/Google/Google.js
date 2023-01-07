@@ -6,7 +6,7 @@
 // @include       https://*.google.es/*
 // @include       google.es/*
 // @run-at        document-start
-// @version       0.27
+// @version       0.28
 // ==/UserScript==
 //vieja https://images7.alphacoders.com/333/thumb-1920-333580.jpg
 function applyStyles() {
@@ -18,9 +18,10 @@ function applyStyles() {
 	  .then(response => response.text())
 	  .then(estilos_css => {
 	    // aquí puedes usar la variable "css" para almacenar el contenido del archivo CSS
+	    // Set the text content of the style element
+  	    style.textContent = "`"+ estilos_css + "`";
 	  });
-  // Set the text content of the style element
-  style.textContent = "`"+ estilos_css + "`";
+
 
   // Append the style element to the head of the page
   document.getElementsByTagName("head")[0].appendChild(style);
