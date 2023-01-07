@@ -12,21 +12,15 @@
 function applyStyles() {
   // Create a style element
   var style = document.createElement("style");
-
-  // Set the text content of the style element
-  style.textContent = `
-	.L3eUgb {
-	    background: url(https://images5.alphacoders.com/121/1217672.jpg) center center !important;
-	    background-size: cover !important;
-	}
-	.o3j99 {
-	    background: transparent !important;
-	}
+  var estilos_css="";
 	
-	div.gb_ua.gb_3d.gb_6a.gb_aa.gb_Fc.gb_Rc {
-  	    opacity: 35%;
-	}
-  `;
+  fetch('https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/Google/css.css')
+	  .then(response => response.text())
+	  .then(estilos_css => {
+	    // aquí puedes usar la variable "css" para almacenar el contenido del archivo CSS
+	  });
+  // Set the text content of the style element
+  style.textContent = estilos_css;
 
   // Append the style element to the head of the page
   document.getElementsByTagName("head")[0].appendChild(style);
