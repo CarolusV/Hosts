@@ -6,7 +6,7 @@
 // @include       https://*.google.es/*
 // @include       google.es/*
 // @run-at        document-start
-// @version       0.21
+// @version       0.25
 // ==/UserScript==
 //vieja https://images7.alphacoders.com/333/thumb-1920-333580.jpg
 function applyStyles() {
@@ -22,7 +22,10 @@ function applyStyles() {
 	.o3j99 {
 	    background: transparent !important;
 	}
-
+	
+	div.gb_ua.gb_3d.gb_6a.gb_aa.gb_Fc.gb_Rc {
+  	    display: none;
+	}
   `;
 
   // Append the style element to the head of the page
