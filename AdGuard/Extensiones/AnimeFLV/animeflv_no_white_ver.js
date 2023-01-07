@@ -18,6 +18,9 @@ function applyStyles() {
   // Set the text content of the style element
   style.textContent = `
     
+a.lvbx {
+  display: none;
+}
 
 div.FollowUs {
     display: none !important;
