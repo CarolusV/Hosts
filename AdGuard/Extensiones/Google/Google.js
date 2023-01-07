@@ -20,7 +20,7 @@ function applyStyles() {
 	    // aquí puedes usar la variable "css" para almacenar el contenido del archivo CSS
 	  });
   // Set the text content of the style element
-  style.textContent = estilos_css;
+  style.textContent = "`"+ estilos_css + "`";
 
   // Append the style element to the head of the page
   document.getElementsByTagName("head")[0].appendChild(style);
