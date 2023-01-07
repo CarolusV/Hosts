@@ -6,7 +6,7 @@
 // @include       https://*.google.es/*
 // @include       google.es/*
 // @run-at        document-start
-// @version       0.26
+// @version       0.27
 // ==/UserScript==
 //vieja https://images7.alphacoders.com/333/thumb-1920-333580.jpg
 function applyStyles() {
