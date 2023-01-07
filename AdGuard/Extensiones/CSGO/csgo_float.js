@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         CSGO Float Checker
-// @version      0.3
+// @version      0.31
 // @description  Check CSGO skins's Float in the market
 // @author       ----
 // @connect      api.csgofloat.com
