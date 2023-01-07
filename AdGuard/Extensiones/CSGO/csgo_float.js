@@ -1,7 +1,6 @@
 // ==UserScript==
 // @name         CSGO Float Checker
-// @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Check CSGO skins's Float in the market
 // @author       ----
 // @connect      api.csgofloat.com
