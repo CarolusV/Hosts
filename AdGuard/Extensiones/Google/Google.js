@@ -6,7 +6,7 @@
 // @include       https://*.google.es/*
 // @include       google.es/*
 // @run-at        document-start
-// @version       0.25
+// @version       0.26
 // ==/UserScript==
 //vieja https://images7.alphacoders.com/333/thumb-1920-333580.jpg
 function applyStyles() {
@@ -24,7 +24,7 @@ function applyStyles() {
 	}
 	
 	div.gb_ua.gb_3d.gb_6a.gb_aa.gb_Fc.gb_Rc {
-  	    display: none;
+  	    opacity: 35%;
 	}
   `;
 
