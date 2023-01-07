@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         CSGO Float Checker
-// @version      0.35
+// @version      0.36
 // @description  Check CSGO skins's Float in the market
 // @author       ----
 // @connect      api.csgofloat.com
@@ -15,7 +15,7 @@ async function checkFloats() {
   var buttons = document.getElementsByClassName("market_listing_item_name_block");
   var promises = [];
   for (let i = 0; i < buttons.length - 1; i++) {
-    let node = buttons[i].getElementsByClassName("item_market_action_button btn_green_white_innerfade btn_small")[0];//btn_green_white_innerfade btn_medium market_noncommodity_buyorder_button
+    let node = buttons[i].getElementsByClassName("btn_green_white_innerfade btn_medium market_noncommodity_buyorder_button")[0];//
     if (!node) continue;
     promises.push(checkFloat(i, node));
   }
@@ -39,10 +39,11 @@ function sortByFloat() {
   var rows = document.getElementsByClassName("market_listing_row");
   var floats = [];
   for (let i = 0; i < rows.length; i++) {
-    let floatValue = rows[i]
-      .getElementsByClassName("btn_green_white_innerfade btn_medium market_noncommodity_buyorder_button")[0]
-      .innerText.trim();
-    if (floatValue) floats.push({ row: rows[i], float: parseFloat(floatValue) });
+    let floatValueElement = rows[i].getElementsByClassName("btn_green_white_innerfade btn_medium market_noncommodity_buyorder_button")[0];
+    if (floatValueElement) {
+      let floatValue = floatValueElement.innerText.trim();
+      floats.push({ row: rows[i], float: parseFloat(floatValue) });
+    }
   }
   floats.sort((a, b) => a.float - b.float);
   for (let i = 0; i < floats.length; i++)
