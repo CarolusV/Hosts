@@ -8,7 +8,7 @@
 // @include       www3.animeflv.net
 // @include       animeflv.net
 // @run-at        document-start
-// @version       0.36
+// @version       0.4
 // ==/UserScript==
 
 function applyStyles() {
