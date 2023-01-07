@@ -3,10 +3,11 @@
 // @description	  Google.es  Personalizado Propio
 // @author        CarolusV
 // @include       https://google.es/*
+// @include       https://wwww.google.es/*
 // @include       https://*.google.es/*
 // @include       google.es/*
 // @run-at        document-start
-// @version       0.31
+// @version       0.32
 // ==/UserScript==
 
 function applyStyles() {
