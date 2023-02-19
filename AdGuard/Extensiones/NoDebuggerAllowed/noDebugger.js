@@ -1,6 +1,5 @@
 // ==UserScript==
 // @name         Disable debugger pausing on page
-// @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Disables script from pausing debugger when debugging JavaScript code in the browser console
 // @match        *://*/*
