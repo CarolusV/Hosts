@@ -2,7 +2,8 @@
 // @name         Block DevtoolIsOpening
 // @version      1.1
 // @description  Block devtoolIsOpening() from running on the current page
-// @match        http*://*/*
+// @match        https://embedsito.com/*
+// @match        *embedsito.com/*
 // @grant        none
 // ==/UserScript==
 
