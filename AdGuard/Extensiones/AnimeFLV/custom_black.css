@@ -1,5 +1,9 @@
+div.Bg {
+  display: none !important;
+}
+
 a.lvbx {
-  display: none;
+  display: none !important;
 }
 
 div.FollowUs {
