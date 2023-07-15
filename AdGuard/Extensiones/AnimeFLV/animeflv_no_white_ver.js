@@ -7,9 +7,9 @@
 // @include       http://www3.animeflv.net
 // @include       www3.animeflv.net
 // @include       animeflv.net
-// @include       https://www3.animeflv.net/
-// @include       www3.animeflv.net/
-// @include       animeflv.net/
+// @include       https://www3.animeflv.net/*
+// @include       www3.animeflv.net/*
+// @include       animeflv.net/*
 // @run-at        document-start
 // @version       0.41
 // ==/UserScript==
