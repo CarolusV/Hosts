@@ -327,3 +327,143 @@ div.DpdwCnt.TtCn {
     background-color: #2f353a !important;
     color: #F5FFFA !important;
 }
+
+/* New mods fixing previus */
+
+
+div.Body {
+  background-color: #2f353a 
+  
+}
+
+h1.Title {
+  color: #ffffff !important;
+}
+
+h2.SubTitle {
+  color: #ffffff !important;
+}
+
+div nav a {
+  color: #ffffff !important;
+}
+
+ul li a {
+  color: #ffffff !important;
+  background-color: #2f353a !important;
+}
+
+div.Bg {
+  display: none !important;
+}
+
+div.AnimeCover {
+  background-color: #2f353a !important;
+}
+
+a.BtnNw.AdFv.BxSdw.fa-heart {
+  background-color: #e06666 !important;
+  color: #000000 !important;
+}
+
+a.BtnNw.Fllw.BxSdw.fa-check {
+  background-color: #9fc5e8 !important;
+  color: #000000 !important;
+}
+
+a.BtnNw.Pndng.BxSdw.fa-bookmark {
+  background-color: #f6b26b !important;
+}
+
+section.WdgtCn.Sm {
+  background-color: #2f353a !important;
+  display: none
+  
+}
+
+section.WdgtCn {
+  background-color: #2f353a !important;
+}
+
+div.Title {
+  color: #ffffff !important;
+}
+
+h3.Title {
+  color: #ffffff !important;
+}
+
+li a p {
+  color: #3d85c6 !important;
+}
+
+span.Stts {
+  color: #6aa84f !important;
+}
+
+span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o {
+  background-color: #2f353a !important;
+  color: #ffffff
+  
+}
+
+i.fa-expand {
+  background-color: #2f353a !important;
+  color: #ffffff !important;
+}
+
+a.BtnNw.CVst.BxSdw.fa-eye {
+  background-color: #2f353a !important;
+  color: #ffffff !important;
+}
+
+a.BtnNw.Rprt.BxSdw.fa-flag-o {
+  background-color: #2f353a !important;
+  display: none !important;
+}
+
+a.BtnNw.Fllw.B.BxSdw.fa-thumbs-o-down {
+  background-color: #9fc5e8 !important;
+}
+
+a.BtnNw.AdFv.B.BxSdw.fa-times {
+  background-color: #e06666 !important;
+  color: #000000 !important;
+}
+
+a.BtnNw.Pndng.BxSdw.fa-times {
+  background-color: #f6b26b !important;
+}
+
+button.multiselect.dropdown-toggle.btn.btn-sm.btn-default {
+  background-color: #2f353a !important;
+  color: #ffffff !important;
+}
+
+div div h1 {
+  color: #ffffff !important;
+}
+
+div.Title.Page.fa-star.B12 {
+  display: none !important;
+}
+
+div.Image.fa-play-circle-o {
+  background-color: #2f353a !important;
+}
+
+button.btn.btn-sm.btn-primary {
+  background-color: #0b5394 !important;
+}
+
+div.Bot.hidden-xs.hidden-sm {
+  background-color: #2f353a !important;
+}
+
+div.tab-content.AnTbCnTp {
+  background-color: #2f353a !important;
+}
+
+a span span {
+  color: #000000 !important;
+}
