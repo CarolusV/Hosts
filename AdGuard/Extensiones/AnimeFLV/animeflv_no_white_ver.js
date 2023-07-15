@@ -2,16 +2,15 @@
 // @name          AnimeFLV VerPage NoWhite
 // @description	  AnimeFLV VerPage NoWhite
 // @author        CarolusV
-// @homepage	  https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/animeflv_no_white_ver.js
+// @homepage	    https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/animeflv_no_white_ver.js
 // @include       https://www3.animeflv.net
-// @include       http://www3.animeflv.net
 // @include       www3.animeflv.net
 // @include       animeflv.net
 // @include       https://www3.animeflv.net/*
 // @include       www3.animeflv.net/*
 // @include       animeflv.net/*
 // @run-at        document-start
-// @version       0.41
+// @version       0.42
 // ==/UserScript==
 
 function OcultarComentarios() {
