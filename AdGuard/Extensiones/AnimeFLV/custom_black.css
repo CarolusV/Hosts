@@ -252,16 +252,17 @@ span.vtprmd {
 
 div.Bod.ScrlV.Fl {
   background-color: #2f353a !important;
-  
 }
 
 div.Logo {
   background-color: #2f353a !important;
   color: #F5FFFA !important;
 }
+
 div.Image  {
-    background-color: #2f353a !important;
-	}
+  background-color: #2f353a !important;
+}
+
 button.btn.btn-sm.btn-primary {
   background-color: #2f353a !important;
   color: #F5FFFA !important; !important;
@@ -286,7 +287,6 @@ a.Active {
 a.BtnNw.CVst.BxSdw.fa-eye-slash {
   background-color: #2f353a !important;
   color: #e06666 !important;
-  
 }
 
 a.BtnNw.Pndng.BxSdw.fa-times {
@@ -333,7 +333,6 @@ div.DpdwCnt.TtCn {
 
 div.Body {
   background-color: #2f353a !important;
-  
 }
 
 h1.Title {
@@ -377,8 +376,7 @@ a.BtnNw.Pndng.BxSdw.fa-bookmark {
 
 section.WdgtCn.Sm {
   background-color: #2f353a !important;
-  display: none
-  
+  display: none !important;
 }
 
 section.WdgtCn {
@@ -403,8 +401,7 @@ span.Stts {
 
 span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o {
   background-color: #2f353a !important;
-  color: #ffffff
-  
+  color: #ffffff !important;
 }
 
 i.fa-expand {
