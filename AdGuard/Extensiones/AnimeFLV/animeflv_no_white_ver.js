@@ -10,7 +10,7 @@
 // @include       www3.animeflv.net/*
 // @include       animeflv.net/*
 // @run-at        document-start
-// @version       0.42
+// @version       0.43
 // ==/UserScript==
 
 function OcultarComentarios() {
@@ -44,6 +44,10 @@ function applyStyles() {
       document.getElementsByTagName("head")[0].appendChild(style);
     });
 }
+
+// Llamar a la función applyStyles() y a OcultarComentarios() antes de que el DOM esté completamente cargado
+  applyStyles();
+  OcultarComentarios();
 
   // Cuando se cargue el DOM, llamar a la función applyExternalCss() y a OcultarComentarios()
 document.addEventListener("DOMContentLoaded", function() {
