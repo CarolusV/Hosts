@@ -26,7 +26,7 @@ spark.autodesk.com
 autodesk-exchange-apps-v-1-5-staging.s3.amazonaws.com
 apps.exchange.autodesk.com
 akn.analytics.autodesk.com
-accounts.autodesk.com
+#accounts.autodesk.com
 beehive.autodesk.com
 help.autodesk.com
 mpa.autodesk.com
