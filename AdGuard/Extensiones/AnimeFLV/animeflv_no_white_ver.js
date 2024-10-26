@@ -6,7 +6,7 @@
 // @match         *://*.animeflv.net/*
 // @match         *://animeflv.net/*
 // @run-at        document-start
-// @version       0.45
+// @version       0.46
 // @grant         GM.xmlHttpRequest
 // ==/UserScript==
 
@@ -73,7 +73,7 @@
         }
     }
 
-    // Function to hide comments section
+    // Function to hide comments section and share button
     function hideComments() {
         const hideElements = () => {
             // Hide Disqus iframe if present
@@ -82,10 +82,16 @@
                 disqusFrame.style.display = 'none';
             }
 
-            // Hide the comments section
-            const sections = document.querySelectorAll("section.WdgtCn");
-            if (sections.length >= 4) {
-                sections[3].style.display = 'none';
+            // Hide the comments section using the specific nth-of-type selector
+            const commentSection = document.querySelector("div.WdgtCn:nth-of-type(4)");
+            if (commentSection) {
+                commentSection.style.display = 'none';
+            }
+
+            // Hide the share button
+            const shareButton = document.querySelector(".ShrCnB.fa-share-alt");
+            if (shareButton) {
+                shareButton.style.display = 'none';
             }
         };
 
