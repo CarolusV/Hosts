@@ -1,40 +1,26 @@
 // ==UserScript==
-// @name        Redirect m.animeflv.net to https://www3.animeflv.net/
-// @description No m.animeflv.net, only www3.animeflv.net
+// @name        Redirect m.animeflv.net to www3.animeflv.net
+// @description Automatically redirects mobile AnimeFlv to desktop version
 // @match       https://m.animeflv.net/*
-// @version     1.4.2
+// @version     1.5.0
 // @grant       none
 // @noframes
-// @run-at        document-start
+// @run-at      document-start
 // ==/UserScript==
 
-document.addEventListener ("DOMContentLoaded", DOM_ContentReady);
-window.addEventListener ("load", pageFullyLoaded);
-
-function DOM_ContentReady () {
-    // 2ND PART OF SCRIPT RUN GOES HERE.
-    // This is the equivalent of @run-at document-end
-    //console.log ("==> 2nd part of script run.", new Date() );
+// Execute redirect as early as possible
+if (window.location.hostname === 'm.animeflv.net') {
+    window.location.replace(window.location.href.replace('m.animeflv.net', 'www3.animeflv.net'));
 }
 
-function pageFullyLoaded () {
-    //console.log ("==> Page is fully loaded, including images.", new Date() );
-	// end do the stuff
-			window.location.href =window.location.href.replace('https://m.animeflv.net','https://www3.animeflv.net');
-
-			if (window.location.href.indexOf("https://m.animeflv.net") != -1){
-				window.location.href.replace('https://m.animeflv.net','https://www3.animeflv.net');
-			}
-
-			if(content.document.location.indexOf("https://m.animeflv.net") != -1){
-						window.location.replace('https://m.animeflv.net','https://www3.animeflv.net');
-			}
-
-			document.body.addEventListener('wheel', function(e){
-			    var targ = e.target || e.srcElement;
-			    if ( targ && targ.href && targ.href.match(/https?:\/\/m.animeflv.net/) ) {
-			        targ.href = targ.href.replace(/https?:\/\/m.animeflv.net/, 'https://www3.animeflv.net');
-			    }
-			})
-	// do the stuff
-;}
+// Handle dynamically added links
+document.addEventListener('DOMContentLoaded', () => {
+    // Create a single listener for all link clicks using event delegation
+    document.body.addEventListener('click', (e) => {
+        const link = e.target.closest('a');
+        if (link && link.href.includes('m.animeflv.net')) {
+            e.preventDefault();
+            window.location.href = link.href.replace('m.animeflv.net', 'www3.animeflv.net');
+        }
+    });
+});
