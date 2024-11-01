@@ -1,466 +1,223 @@
-div.div-84413 {
-  display: none !important;
-}
-
-div.AnflvTl {
-  display: none !important;
-}
-
-div.Bg {
-  display: none !important;
-}
-
-a.lvbx {
-  display: none !important;
-}
-
-div.FollowUs {
+/* Ocultar elementos no deseados */
+div.div-84413,
+div.AnflvTl,
+div.Bg,
+a.lvbx,
+div.FollowUs,
+div.askdvr,
+a.Button.fb_login,
+footer.Footer,
+aside a img,
+div.CpCnC,
+section.WdgtCn.Sm,
+div.ShrCnB.fa-share-alt,
+div.WdgtCn:not(.DwsldCn),
+a.Active,
+a.BtnNw.Rprt.BxSdw.fa-flag-o {
     display: none !important;
 }
 
-div.askdvr {
-  display: none !important;
-}
-
-a.Button.fb_login {
-  display: none !important;
-}
-
-footer.Footer {
-  display: none !important;  
-}
-
-aside a img {
-  display: none !important; 
-}
-
+/* Estilos para el cuerpo y contenedores principales */
 div.Body {
-  background-color: #2f353a !important;
+    background-color: #2f353a !important;
 }
 
 aside.Sidebar.BFixed {
-  background-color: #2f353a !important;
-  color: #2f353a !important;
+    background-color: #2f353a !important;
+    color: #2f353a !important;
 }
 
 div.Top.fa-play {
-  background-color: #2f353a !important;
-  color: #2f353a !important;
+    background-color: #2f353a !important;
+    color: #2f353a !important;
 }
 
-div.Bod.ScrlV.Fl.mCustomScrollbar._mCS_1.mCS_no_scrollbar {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
-}
-
-div div strong {
-  color: #F5FFFA !important;
-}
-
-a.fa-play-circle {
-  color: #F5FFFA !important;
-}
-
-main div h2 {
-  color: #F5FFFA !important;
-}
-
-h3.Title {
-  color: #F5FFFA !important;
-  background-color: #2f353a !important;
-}
-
-div.Image.fa-play-circle-o {
-  background-color: #2f353a !important;
-}
-
-form.form-horizontal {
-  background-color: #2f353a !important;
-}
-
-div.Title {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
-}
-
-form label input {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
-}
-
-label.Button {
-  background-color: #2f353a !important;
-}
-
-form div a {
-  color: #F5FFFA !important;
-}
-
-h1.Title {
-  color: #F5FFFA !important;
-}
-
-ul li a {
-  color: #F5FFFA !important;
-  background-color: #2f353a !important;
-}
-
-div nav a {
-  color: #F5FFFA !important;
-}
-
-h2.SubTitle {
-  color: #F5FFFA !important;
-}
-
-a.CapNvLs.fa-th-list {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
-}
-
-a.CapNvPv.fa-chevron-left {
-  background-color: #2f353a !important;
-}
-
-a.BtnNw.Rprt.BxSdw.fa-flag-o {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
-}
-
-a.BtnNw.CVst.BxSdw.fa-eye {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
-}
-
-span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
-}
-
-i.fa-expand {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
-}
-
-button.multiselect.dropdown-toggle.btn.btn-sm.btn-default {
-  color: #F5FFFA !important;
-  background-color: #2f353a !important;
-}
-
-div div h1 {
-  color: #F5FFFA !important;
-}
-
-div.filters {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
-}
-
-span.multiselect-selected-text {
-  color: #F5FFFA !important;
-  background-color: #2f353a !important;
-}
-
-#search-anime {
-  color: #F5FFFA !important;
-}
-
-section.WdgtCn {
-  background-color: #2f353a !important;
-}
-
-section div p {
-  color: #F5FFFA !important;
-}
-
-span.TxtAlt {
-  color: #F5FFFA !important;
-}
-
-aside.SidebarA.BFixed {
-  background-color: #2f353a !important;
-}
-
-div figure img {
-  background-color: #2f353a !important;
-}
-
-a.BtnNw.Pndng.BxSdw.fa-bookmark {
-  background-color: #2f353a !important;
-}
-
-#follow_anime {
-  background-color: #2f353a !important;
-}
-
-#add_favorite {
-  background-color: #2f353a !important;
-}
-
-div a span {
-  color: #F5FFFA !important;
-}
-
-div div span {
-  color: #F5FFFA !important;
-}
-
-ul.ListImgrnd {
-  color: #F5FFFA !important;
-  background-color: #2f353a !important;
-}
-
-input.form-control {
-  color: #F5FFFA !important;
-  background-color: #2f353a !important;
-}
-
-ul.multiselect-container.genres-select.dropdown-menu {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
-}
-
-ul.multiselect-container.year-select.dropdown-menu {
-  color: #F5FFFA !important;
-  background-color: #2f353a !important;
-}
-
-ul.multiselect-container.dropdown-menu {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
-}
-
-span.Capi {
-  background-color: #6aa84f !important;
-}
-
-span.Type.tv {
-  background-color: #1155cc !important;
-}
-
-div.CpCnC {
-  display: none !important;
-}
-
-section.WdgtCn.Sm {
-  display: none !important;
-}
-
-span.vtprmd {
-  background-color: #2f353a !important;
-}
-
-div.Bod.ScrlV.Fl {
-  background-color: #2f353a !important;
-}
-
-div.Logo {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
-}
-
-div.Image  {
-  background-color: #2f353a !important;
-}
-
-button.btn.btn-sm.btn-primary {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;
-}
-
-div.AnimeCover {
-  background-color: #2f353a !important;
-}
-
-div.ShrCnB.fa-share-alt {
-  display: none !important;
-}
-
-div.WdgtCn {
-  display: none !important;
-}
-
-a.Active {
-  display: none !important;
-}
-
-a.BtnNw.CVst.BxSdw.fa-eye-slash {
-  background-color: #2f353a !important;
-  color: #e06666 !important;
-}
-
-a.BtnNw.Pndng.BxSdw.fa-times {
-  color: #F5FFFA !important;
-  background-color: #2f353a !important;
-}
-
-a.Button.Sm {
-  background-color: #1155cc !important;
-  color: #F5FFFA !important;
-}
-
-ul.ListUser {
-  background-color: #2f353a !important;
-}
-
-div.Description {
-  background-color: #2f353a !important;
-  color: #F5FFFA !important;  
-}
-
-a.Button.StylC.ShwMr.Alt {
- color: #2f353a !important;
-   background-color: #F5FFFA !important; 
-}
-
-a.Pndnt.fa-bookmark {
-   color: #2f353a !important;
-   background-color: #F5FFFA !important; 
-}
-
-a.AnmQv.fa-play {
-     color: #2f353a !important;
-   background-color: #F5FFFA !important; 
-}
-
+/* Estilos de texto y elementos de contenido */
+div.Bod.ScrlV.Fl.mCustomScrollbar._mCS_1.mCS_no_scrollbar,
+div.Title,
+div.Description,
+div div strong,
+a.fa-play-circle,
+main div h2,
+h3.Title,
+div.Image.fa-play-circle-o,
+form.form-horizontal,
+ul.ListUser,
 div.DpdwCnt.TtCn {
     background-color: #2f353a !important;
     color: #F5FFFA !important;
 }
 
-/* New mods fixing previus */
-
-
-div.Body {
-  background-color: #2f353a !important;
-}
-
-h1.Title {
-  color: #ffffff !important;
-}
-
-h2.SubTitle {
-  color: #ffffff !important;
-}
-
+/* Estilos para formularios y entradas */
+form label input,
+label.Button,
+form div a,
+h1.Title,
+h2.SubTitle,
 div nav a {
-  color: #ffffff !important;
+    background-color: #2f353a !important;
+    color: #F5FFFA !important;
 }
 
+/* Estilos para listas y enlaces */
 ul li a {
-  color: #ffffff !important;
-  background-color: #2f353a !important;
+    color: #F5FFFA !important;
+    background-color: #2f353a !important;
 }
 
-div.Bg {
-  display: none !important;
-}
-
-div.AnimeCover {
-  background-color: #2f353a !important;
-}
-
-a.BtnNw.AdFv.BxSdw.fa-heart {
-  background-color: #e06666 !important;
-  color: #000000 !important;
-}
-
-a.BtnNw.Fllw.BxSdw.fa-check {
-  background-color: #9fc5e8 !important;
-  color: #000000 !important;
-}
-
-a.BtnNw.Pndng.BxSdw.fa-bookmark {
-  background-color: #f6b26b !important;
-}
-
-section.WdgtCn.Sm {
-  background-color: #2f353a !important;
-  display: none !important;
-}
-
-section.WdgtCn {
-  background-color: #2f353a !important;
-}
-
-div.Title {
-  color: #ffffff !important;
-}
-
-h3.Title {
-  color: #ffffff !important;
-}
-
-li a p {
-  color: #3d85c6 !important;
-}
-
-span.Stts {
-  color: #6aa84f !important;
-}
-
+/* Estilos para botones y controles */
+a.CapNvLs.fa-th-list,
+a.CapNvPv.fa-chevron-left,
+a.BtnNw.CVst.BxSdw.fa-eye,
+button.multiselect.dropdown-toggle.btn.btn-sm.btn-default,
+i.fa-expand,
 span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o {
-  background-color: #2f353a !important;
-  color: #ffffff !important;
+    background-color: #2f353a !important;
+    color: #F5FFFA !important;
 }
 
-i.fa-expand {
-  background-color: #2f353a !important;
-  color: #ffffff !important;
-}
-
-a.BtnNw.CVst.BxSdw.fa-eye {
-  background-color: #2f353a !important;
-  color: #ffffff !important;
-}
-
-a.BtnNw.Rprt.BxSdw.fa-flag-o {
-  background-color: #2f353a !important;
-  display: none !important;
-}
-
-a.BtnNw.Fllw.B.BxSdw.fa-thumbs-o-down {
-  background-color: #9fc5e8 !important;
-}
-
-a.BtnNw.AdFv.B.BxSdw.fa-times {
-  background-color: #e06666 !important;
-  color: #000000 !important;
+/* Estilos para estados especiales */
+a.BtnNw.CVst.BxSdw.fa-eye-slash {
+    background-color: #2f353a !important;
+    color: #e06666 !important;
 }
 
 a.BtnNw.Pndng.BxSdw.fa-times {
-  background-color: #f6b26b !important;
+    color: #F5FFFA !important;
+    background-color: #2f353a !important;
 }
 
-button.multiselect.dropdown-toggle.btn.btn-sm.btn-default {
-  background-color: #2f353a !important;
-  color: #ffffff !important;
+/* Estilos para botones especiales */
+a.Button.Sm {
+    background-color: #1155cc !important;
+    color: #F5FFFA !important;
 }
 
-div div h1 {
-  color: #ffffff !important;
+/* Estilos para elementos con fondo inverso */
+a.Button.StylC.ShwMr.Alt,
+a.Pndnt.fa-bookmark,
+a.AnmQv.fa-play {
+    color: #2f353a !important;
+    background-color: #F5FFFA !important;
 }
 
-div.Title.Page.fa-star.B12 {
-  display: none !important;
-}
-
-div.Image.fa-play-circle-o {
-  background-color: #2f353a !important;
-}
-
-button.btn.btn-sm.btn-primary {
-  background-color: #0b5394 !important;
-}
-
-div.Bot.hidden-xs.hidden-sm {
-  background-color: #2f353a !important;
-}
-
+/* Estilos para elementos de navegación */
+div.Logo,
+div.Image,
+div.AnimeCover,
+button.btn.btn-sm.btn-primary,
+div.Bot.hidden-xs.hidden-sm,
 div.tab-content.AnTbCnTp {
-  background-color: #2f353a !important;
+    background-color: #2f353a !important;
 }
 
+/* Estilos para tipos especiales */
+span.Capi {
+    background-color: #6aa84f !important;
+}
+
+span.Type.tv {
+    background-color: #1155cc !important;
+}
+
+/* Estilos para botones de estado */
+a.BtnNw.AdFv.BxSdw.fa-heart {
+    background-color: #e06666 !important;
+    color: #000000 !important;
+}
+
+a.BtnNw.Fllw.BxSdw.fa-check {
+    background-color: #9fc5e8 !important;
+    color: #000000 !important;
+}
+
+a.BtnNw.Pndng.BxSdw.fa-bookmark {
+    background-color: #f6b26b !important;
+}
+
+/* Estilos para enlaces */
+li a p {
+    color: #3d85c6 !important;
+}
+
+span.Stts {
+    color: #6aa84f !important;
+}
+
+/* Corrección para el modal de reporte */
+#ReportModal {
+    display: none;
+    position: fixed;
+    z-index: 1050;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#ReportModal.show {
+    display: block;
+}
+
+#ReportModal .modal-dialog {
+    position: relative;
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+#report_body {
+    background-color: #2f353a !important;
+    color: #F5FFFA !important;
+    padding: 20px;
+}
+
+#report_body .form-control {
+    background-color: #2f353a !important;
+    color: #F5FFFA !important;
+    border: 1px solid #4a4a4a;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Correcciones para el widget de descargas */
+.DwsldCn {
+    display: none;
+}
+
+.DwsldCn.show {
+    display: block !important;
+}
+
+/* Prevenir propagación de eventos */
+.BtnNw {
+    pointer-events: auto;
+}
+
+.CapOptns .BtnNw {
+    position: relative;
+    z-index: 1;
+}
+
+/* Estilos para elementos de texto */
 a span span {
-  color: #000000 !important;
+    color: #000000 !important;
+}
+
+/* Correcciones específicas para la búsqueda y filtros */
+input.form-control,
+ul.multiselect-container.genres-select.dropdown-menu,
+ul.multiselect-container.year-select.dropdown-menu,
+ul.multiselect-container.dropdown-menu {
+    background-color: #2f353a !important;
+    color: #F5FFFA !important;
+}
+
+/* Mantener visible los comentarios */
+.WdgtCn > .Top {
+    display: block !important;
+}
+
+#disqus_thread {
+    display: block !important;
 }
