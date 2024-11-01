@@ -1,119 +1,179 @@
-/* Corrección para manejo de eventos y widgets */
-.WdgtCn {
-    display: none !important;
+/* Elementos con display: none */
+div.div-84413,
+div.AnflvTl,
+div.Bg,
+a.lvbx,
+div.FollowUs,
+div.askdvr,
+a.Button.fb_login,
+footer.Footer,
+aside a img,
+div.CpCnC,
+section.WdgtCn.Sm,
+div.ShrCnB.fa-share-alt,
+div.WdgtCn,
+a.Active,
+div.Title.Page.fa-star.B12 {
+  display: none !important;
 }
 
-/* Excepción específica para el widget de descargas */
-.WdgtCn.DwsldCn {
-    display: none !important;
+/* Elementos con background-color: #2f353a */
+div.Body,
+aside.Sidebar.BFixed,
+div.Top.fa-play,
+div.Image.fa-play-circle-o,
+form.form-horizontal,
+label.Button,
+ul li a,
+a.CapNvLs.fa-th-list,
+a.CapNvPv.fa-chevron-left,
+a.BtnNw.Rprt.BxSdw.fa-flag-o,
+a.BtnNw.CVst.BxSdw.fa-eye,
+span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o,
+i.fa-expand,
+button.multiselect.dropdown-toggle.btn.btn-sm.btn-default,
+div.filters,
+section.WdgtCn,
+aside.SidebarA.BFixed,
+div figure img,
+a.BtnNw.Pndng.BxSdw.fa-bookmark,
+#follow_anime,
+#add_favorite,
+ul.ListImgrnd,
+input.form-control,
+ul.multiselect-container.genres-select.dropdown-menu,
+ul.multiselect-container.year-select.dropdown-menu,
+ul.multiselect-container.dropdown-menu,
+span.vtprmd,
+div.Bod.ScrlV.Fl,
+div.Logo,
+div.Image,
+button.btn.btn-sm.btn-primary,
+div.AnimeCover,
+a.BtnNw.CVst.BxSdw.fa-eye-slash,
+a.BtnNw.Pndng.BxSdw.fa-times,
+ul.ListUser,
+div.Description,
+div.DpdwCnt.TtCn,
+div.Bot.hidden-xs.hidden-sm,
+div.tab-content.AnTbCnTp {
+  background-color: #2f353a !important;
 }
 
-.WdgtCn.DwsldCn.show {
-    display: block !important;
+/* Elementos con color: #F5FFFA */
+div.Bod.ScrlV.Fl.mCustomScrollbar._mCS_1.mCS_no_scrollbar,
+div div strong,
+a.fa-play-circle,
+main div h2,
+h3.Title,
+div.Title,
+form div a,
+h1.Title,
+div nav a,
+h2.SubTitle,
+a.CapNvLs.fa-th-list,
+a.BtnNw.Rprt.BxSdw.fa-flag-o,
+a.BtnNw.CVst.BxSdw.fa-eye,
+span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o,
+i.fa-expand,
+button.multiselect.dropdown-toggle.btn.btn-sm.btn-default,
+div div h1,
+div.filters,
+span.multiselect-selected-text,
+#search-anime,
+section div p,
+span.TxtAlt,
+div a span,
+div div span,
+ul.ListImgrnd,
+input.form-control,
+div.Logo,
+button.btn.btn-sm.btn-primary,
+a.BtnNw.Pndng.BxSdw.fa-times,
+div.Description,
+div.DpdwCnt.TtCn {
+  color: #F5FFFA !important;
 }
 
-/* Permitir que los comentarios sean visibles */
-.WdgtCn:has(#disqus_thread) {
-    display: block !important;
+/* Elementos con color: #ffffff */
+h1.Title,
+h2.SubTitle,
+div nav a,
+ul li a,
+div.Title,
+h3.Title,
+span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o,
+i.fa-expand,
+a.BtnNw.CVst.BxSdw.fa-eye,
+button.multiselect.dropdown-toggle.btn.btn-sm.btn-default,
+div div h1 {
+  color: #ffffff !important;
 }
 
-/* Corregir la propagación de eventos en botones */
-.BtnNw {
-    pointer-events: all !important;
-    position: relative;
-    z-index: 2;
+/* Elementos con colores específicos */
+span.Capi {
+  background-color: #6aa84f !important;
 }
 
-/* Prevenir clicks fantasma */
-.CapOptns {
-    pointer-events: none;
+span.Type.tv {
+  background-color: #1155cc !important;
 }
 
-.CapOptns > * {
-    pointer-events: auto;
+a.BtnNw.CVst.BxSdw.fa-eye-slash {
+  color: #e06666 !important;
 }
 
-/* Modal de reporte */
-#ReportModal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1050;
-    background: rgba(0,0,0,0.5);
+a.Button.Sm {
+  background-color: #1155cc !important;
+  color: #F5FFFA !important;
 }
 
-#ReportModal.fade.in {
-    display: block;
+/* Elementos con fondo claro y texto oscuro */
+a.Button.StylC.ShwMr.Alt,
+a.Pndnt.fa-bookmark,
+a.AnmQv.fa-play {
+  color: #2f353a !important;
+  background-color: #F5FFFA !important;
 }
 
-/* Estilos del formulario de reporte */
-#report_body {
-    background-color: #2f353a !important;
-    color: #F5FFFA !important;
+/* Botones especiales */
+a.BtnNw.AdFv.BxSdw.fa-heart {
+  background-color: #e06666 !important;
+  color: #000000 !important;
 }
 
-#report_body .form-control {
-    background-color: #2f353a !important;
-    color: #F5FFFA !important;
-    border: 1px solid #4a4a4a;
-    width: 100%;
-    min-height: 80px;
-    margin-bottom: 10px;
+a.BtnNw.Fllw.BxSdw.fa-check {
+  background-color: #9fc5e8 !important;
+  color: #000000 !important;
 }
 
-#report_body select.form-control {
-    min-height: 34px;
+a.BtnNw.Fllw.B.BxSdw.fa-thumbs-o-down {
+  background-color: #9fc5e8 !important;
 }
 
-/* Estilos de botones y controles */
-.btn-default {
-    background-color: #2f353a !important;
-    color: #F5FFFA !important;
-    border: 1px solid #4a4a4a;
+a.BtnNw.AdFv.B.BxSdw.fa-times {
+  background-color: #e06666 !important;
+  color: #000000 !important;
 }
 
-.btn-default:hover {
-    background-color: #3f454a !important;
+/* Elementos misceláneos */
+a.BtnNw.Pndng.BxSdw.fa-bookmark,
+a.BtnNw.Pndng.BxSdw.fa-times {
+  background-color: #f6b26b !important;
 }
 
-/* Corrección para el comportamiento del modal */
-.modal-dialog {
-    position: relative;
-    width: auto;
-    margin: 30px auto;
-    max-width: 600px;
+button.btn.btn-sm.btn-primary {
+  background-color: #0b5394 !important;
 }
 
-/* Prevenir que los clicks se propaguen a través de elementos superpuestos */
-.ClFx {
-    position: relative;
+li a p {
+  color: #3d85c6 !important;
 }
 
-.AAShwHdd-lnk {
-    position: relative;
-    z-index: 1;
+span.Stts {
+  color: #6aa84f !important;
 }
 
-/* Asegurar que los controles del formulario sean visibles y funcionales */
-.form-group {
-    margin-bottom: 15px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #F5FFFA !important;
-}
-
-/* Estilos específicos para el botón de cerrar del modal */
-.close {
-    color: #F5FFFA !important;
-    opacity: 0.8;
-}
-
-.close:hover {
-    opacity: 1;
+a span span {
+  color: #000000 !important;
 }
