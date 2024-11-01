@@ -1,175 +1,58 @@
-/* Ocultar elementos no deseados */
-div.div-84413,
-div.AnflvTl,
-div.Bg,
-a.lvbx,
-div.FollowUs,
-div.askdvr,
-a.Button.fb_login,
-footer.Footer,
-aside a img,
-div.CpCnC,
-section.WdgtCn.Sm,
-div.ShrCnB.fa-share-alt,
-div.WdgtCn:not(.DwsldCn),
-a.Active,
-a.BtnNw.Rprt.BxSdw.fa-flag-o {
+/* Corrección para manejo de eventos y widgets */
+.WdgtCn {
     display: none !important;
 }
 
-/* Estilos para el cuerpo y contenedores principales */
-div.Body {
-    background-color: #2f353a !important;
+/* Excepción específica para el widget de descargas */
+.WdgtCn.DwsldCn {
+    display: none !important;
 }
 
-aside.Sidebar.BFixed {
-    background-color: #2f353a !important;
-    color: #2f353a !important;
+.WdgtCn.DwsldCn.show {
+    display: block !important;
 }
 
-div.Top.fa-play {
-    background-color: #2f353a !important;
-    color: #2f353a !important;
+/* Permitir que los comentarios sean visibles */
+.WdgtCn:has(#disqus_thread) {
+    display: block !important;
 }
 
-/* Estilos de texto y elementos de contenido */
-div.Bod.ScrlV.Fl.mCustomScrollbar._mCS_1.mCS_no_scrollbar,
-div.Title,
-div.Description,
-div div strong,
-a.fa-play-circle,
-main div h2,
-h3.Title,
-div.Image.fa-play-circle-o,
-form.form-horizontal,
-ul.ListUser,
-div.DpdwCnt.TtCn {
-    background-color: #2f353a !important;
-    color: #F5FFFA !important;
+/* Corregir la propagación de eventos en botones */
+.BtnNw {
+    pointer-events: all !important;
+    position: relative;
+    z-index: 2;
 }
 
-/* Estilos para formularios y entradas */
-form label input,
-label.Button,
-form div a,
-h1.Title,
-h2.SubTitle,
-div nav a {
-    background-color: #2f353a !important;
-    color: #F5FFFA !important;
+/* Prevenir clicks fantasma */
+.CapOptns {
+    pointer-events: none;
 }
 
-/* Estilos para listas y enlaces */
-ul li a {
-    color: #F5FFFA !important;
-    background-color: #2f353a !important;
+.CapOptns > * {
+    pointer-events: auto;
 }
 
-/* Estilos para botones y controles */
-a.CapNvLs.fa-th-list,
-a.CapNvPv.fa-chevron-left,
-a.BtnNw.CVst.BxSdw.fa-eye,
-button.multiselect.dropdown-toggle.btn.btn-sm.btn-default,
-i.fa-expand,
-span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o {
-    background-color: #2f353a !important;
-    color: #F5FFFA !important;
-}
-
-/* Estilos para estados especiales */
-a.BtnNw.CVst.BxSdw.fa-eye-slash {
-    background-color: #2f353a !important;
-    color: #e06666 !important;
-}
-
-a.BtnNw.Pndng.BxSdw.fa-times {
-    color: #F5FFFA !important;
-    background-color: #2f353a !important;
-}
-
-/* Estilos para botones especiales */
-a.Button.Sm {
-    background-color: #1155cc !important;
-    color: #F5FFFA !important;
-}
-
-/* Estilos para elementos con fondo inverso */
-a.Button.StylC.ShwMr.Alt,
-a.Pndnt.fa-bookmark,
-a.AnmQv.fa-play {
-    color: #2f353a !important;
-    background-color: #F5FFFA !important;
-}
-
-/* Estilos para elementos de navegación */
-div.Logo,
-div.Image,
-div.AnimeCover,
-button.btn.btn-sm.btn-primary,
-div.Bot.hidden-xs.hidden-sm,
-div.tab-content.AnTbCnTp {
-    background-color: #2f353a !important;
-}
-
-/* Estilos para tipos especiales */
-span.Capi {
-    background-color: #6aa84f !important;
-}
-
-span.Type.tv {
-    background-color: #1155cc !important;
-}
-
-/* Estilos para botones de estado */
-a.BtnNw.AdFv.BxSdw.fa-heart {
-    background-color: #e06666 !important;
-    color: #000000 !important;
-}
-
-a.BtnNw.Fllw.BxSdw.fa-check {
-    background-color: #9fc5e8 !important;
-    color: #000000 !important;
-}
-
-a.BtnNw.Pndng.BxSdw.fa-bookmark {
-    background-color: #f6b26b !important;
-}
-
-/* Estilos para enlaces */
-li a p {
-    color: #3d85c6 !important;
-}
-
-span.Stts {
-    color: #6aa84f !important;
-}
-
-/* Corrección para el modal de reporte */
+/* Modal de reporte */
 #ReportModal {
     display: none;
     position: fixed;
-    z-index: 1050;
-    background: rgba(0,0,0,0.5);
-    width: 100%;
-    height: 100%;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1050;
+    background: rgba(0,0,0,0.5);
 }
 
-#ReportModal.show {
+#ReportModal.fade.in {
     display: block;
 }
 
-#ReportModal .modal-dialog {
-    position: relative;
-    margin: 30px auto;
-    max-width: 600px;
-}
-
+/* Estilos del formulario de reporte */
 #report_body {
     background-color: #2f353a !important;
     color: #F5FFFA !important;
-    padding: 20px;
 }
 
 #report_body .form-control {
@@ -177,47 +60,60 @@ span.Stts {
     color: #F5FFFA !important;
     border: 1px solid #4a4a4a;
     width: 100%;
+    min-height: 80px;
     margin-bottom: 10px;
 }
 
-/* Correcciones para el widget de descargas */
-.DwsldCn {
-    display: none;
+#report_body select.form-control {
+    min-height: 34px;
 }
 
-.DwsldCn.show {
-    display: block !important;
+/* Estilos de botones y controles */
+.btn-default {
+    background-color: #2f353a !important;
+    color: #F5FFFA !important;
+    border: 1px solid #4a4a4a;
 }
 
-/* Prevenir propagación de eventos */
-.BtnNw {
-    pointer-events: auto;
+.btn-default:hover {
+    background-color: #3f454a !important;
 }
 
-.CapOptns .BtnNw {
+/* Corrección para el comportamiento del modal */
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+/* Prevenir que los clicks se propaguen a través de elementos superpuestos */
+.ClFx {
+    position: relative;
+}
+
+.AAShwHdd-lnk {
     position: relative;
     z-index: 1;
 }
 
-/* Estilos para elementos de texto */
-a span span {
-    color: #000000 !important;
+/* Asegurar que los controles del formulario sean visibles y funcionales */
+.form-group {
+    margin-bottom: 15px;
 }
 
-/* Correcciones específicas para la búsqueda y filtros */
-input.form-control,
-ul.multiselect-container.genres-select.dropdown-menu,
-ul.multiselect-container.year-select.dropdown-menu,
-ul.multiselect-container.dropdown-menu {
-    background-color: #2f353a !important;
+label {
+    display: block;
+    margin-bottom: 5px;
     color: #F5FFFA !important;
 }
 
-/* Mantener visible los comentarios */
-.WdgtCn > .Top {
-    display: block !important;
+/* Estilos específicos para el botón de cerrar del modal */
+.close {
+    color: #F5FFFA !important;
+    opacity: 0.8;
 }
 
-#disqus_thread {
-    display: block !important;
+.close:hover {
+    opacity: 1;
 }
