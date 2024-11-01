@@ -1,37 +1,87 @@
 // ==UserScript==
-// @name          AnimeFLV VerPage NoWhite
-// @description	  AnimeFLV VerPage NoWhite
-// @author        CarolusV
-// @homepage	    https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/animeflv_no_white_ver.js
-// @include       https://www3.animeflv.net
-// @include       www3.animeflv.net
-// @include       animeflv.net
-// @include       https://www3.animeflv.net/*
-// @include       www3.animeflv.net/*
-// @include       animeflv.net/*
+// @name          AnimeFLV Dark Mode Plus
+// @description   Enhanced dark mode and UI improvements for AnimeFLV
+// @author        CarolusV (Enhanced version)
+// @homepage      https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/animeflv_no_white_ver.js
+// @match         *://*.animeflv.net/*
+// @match         *://animeflv.net/*
 // @run-at        document-start
-// @version       0.42
-// @version       0.43
+// @version       0.45
+// @grant         GM.xmlHttpRequest
 // ==/UserScript==
 
-function applyStyles() {
-  // Create a style element
-  var style = document.createElement("style");
+(function() {
+    'use strict';
 
-  fetch('https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/custom_black.css')
-    .then(response => response.text())
-    .then(css => {
-      // Set the text content of the style element
-      style.textContent = css;
-      // Append the style element to the head of the page
-      document.getElementsByTagName("head")[0].appendChild(style);
-    });
-}
+    const CONFIG = {
+        cssUrl: 'https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/custom_black.css',
+        retryAttempts: 3,
+        retryDelay: 1000, // milliseconds
+    };
 
-// Llamar a la función applyStyles() antes de que el DOM esté completamente cargado
-  applyStyles();
+    // Function to handle errors with retry logic
+    async function fetchWithRetry(url, attempts = CONFIG.retryAttempts) {
+        for (let i = 0; i < attempts; i++) {
+            try {
+                return await new Promise((resolve, reject) => {
+                    GM.xmlHttpRequest({
+                        method: 'GET',
+                        url: url,
+                        onload: (response) => {
+                            if (response.status === 200) {
+                                resolve(response.responseText);
+                            } else {
+                                reject(new Error(`HTTP ${response.status}`));
+                            }
+                        },
+                        onerror: (error) => reject(error)
+                    });
+                });
+            } catch (error) {
+                if (i === attempts - 1) throw error;
+                await new Promise(resolve => setTimeout(resolve, CONFIG.retryDelay));
+            }
+        }
+    }
 
-  // Cuando se cargue el DOM, llamar a la función applyExternalCss()
-document.addEventListener("DOMContentLoaded", function() {
-  applyStyles();
-});
+    // Function to apply custom styles
+    async function applyStyles() {
+        try {
+            const css = await fetchWithRetry(CONFIG.cssUrl);
+            const style = document.createElement('style');
+            style.textContent = css;
+            style.id = 'animeflv-dark-mode';
+            
+            if (document.head) {
+                document.head.appendChild(style);
+            } else {
+                // If head is not available yet, wait for it
+                const observer = new MutationObserver((mutations, obs) => {
+                    if (document.head) {
+                        document.head.appendChild(style);
+                        obs.disconnect();
+                    }
+                });
+                
+                observer.observe(document.documentElement, {
+                    childList: true,
+                    subtree: true
+                });
+            }
+        } catch (error) {
+            console.error('Failed to apply custom styles:', error);
+        }
+    }
+
+    // Initialize the script
+    function init() {
+        applyStyles().catch(console.error);
+    }
+
+    // Execute script
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+})();
