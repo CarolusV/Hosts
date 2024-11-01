@@ -1,3 +1,12 @@
+/* Bloquear funcionalidad de reporte */
+.BtnNw.Rprt.BxSdw,
+#ReportModal,
+[data-target="#ReportModal"],
+#report_body,
+.modal-backdrop {
+  display: none !important;
+}
+
 /* Elementos con display: none */
 div.div-84413,
 div.AnflvTl,
@@ -27,7 +36,6 @@ label.Button,
 ul li a,
 a.CapNvLs.fa-th-list,
 a.CapNvPv.fa-chevron-left,
-a.BtnNw.Rprt.BxSdw.fa-flag-o,
 a.BtnNw.CVst.BxSdw.fa-eye,
 span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o,
 i.fa-expand,
@@ -72,7 +80,6 @@ h1.Title,
 div nav a,
 h2.SubTitle,
 a.CapNvLs.fa-th-list,
-a.BtnNw.Rprt.BxSdw.fa-flag-o,
 a.BtnNw.CVst.BxSdw.fa-eye,
 span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o,
 i.fa-expand,
@@ -176,4 +183,51 @@ span.Stts {
 
 a span span {
   color: #000000 !important;
+}
+
+/* Correcciones para los eventos de botones */
+.CapOptns.ClFx {
+  pointer-events: none;
+}
+
+.BtnNw.CVst.BxSdw,
+.BtnNw.Clgt.BxSdw,
+.BtnNw.Xpnd.BxSdw,
+.BtnNw.Dwnd.BxSdw {
+  pointer-events: auto;
+}
+
+/* Estilos para hover en botones */
+.BtnNw:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+/* Ajustes adicionales para mejor contraste */
+input::placeholder {
+  color: #888 !important;
+}
+
+select option {
+  background-color: #2f353a;
+  color: #F5FFFA;
+}
+
+/* Fix para el scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1e21;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3d4246;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4a4f54;
 }
