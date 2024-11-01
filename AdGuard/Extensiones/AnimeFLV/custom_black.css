@@ -1,174 +1,466 @@
-/* Hide non-essential elements */
-div.div-84413,
-div.AnflvTl,
-div.Bg,
-a.lvbx,
-div.FollowUs,
-div.askdvr,
-a.Button.fb_login,
-footer.Footer,
-aside a img {
+div.div-84413 {
+  display: none !important;
+}
+
+div.AnflvTl {
+  display: none !important;
+}
+
+div.Bg {
+  display: none !important;
+}
+
+a.lvbx {
+  display: none !important;
+}
+
+div.FollowUs {
     display: none !important;
 }
 
-/* Dark theme colors */
+div.askdvr {
+  display: none !important;
+}
+
+a.Button.fb_login {
+  display: none !important;
+}
+
+footer.Footer {
+  display: none !important;  
+}
+
+aside a img {
+  display: none !important; 
+}
+
 div.Body {
-    background-color: #2f353a !important;
+  background-color: #2f353a !important;
 }
 
 aside.Sidebar.BFixed {
-    background-color: #2f353a !important;
-    color: #2f353a !important;
+  background-color: #2f353a !important;
+  color: #2f353a !important;
 }
 
 div.Top.fa-play {
-    background-color: #2f353a !important;
-    color: #2f353a !important;
+  background-color: #2f353a !important;
+  color: #2f353a !important;
 }
 
-/* Text colors */
-div div strong,
-a.fa-play-circle,
-main div h2,
-h3.Title,
-div.Title,
-form div a,
-h1.Title,
-ul li a,
-div nav a,
-h2.SubTitle {
-    color: #F5FFFA !important;
+div.Bod.ScrlV.Fl.mCustomScrollbar._mCS_1.mCS_no_scrollbar {
+  background-color: #2f353a !important;
+  color: #F5FFFA !important;
 }
 
-/* Ensure functional elements remain visible and interactive */
-.CapOptns,
-.CapNv,
-.BtnNw,
-.Button {
-    display: block !important;
-    pointer-events: auto !important;
+div div strong {
+  color: #F5FFFA !important;
 }
 
-/* Button styling */
-.BtnNw {
-    background-color: #2f353a !important;
-    color: #F5FFFA !important;
+a.fa-play-circle {
+  color: #F5FFFA !important;
 }
 
-.Button.Sm {
-    background-color: #1155cc !important;
-    color: #F5FFFA !important;
+main div h2 {
+  color: #F5FFFA !important;
 }
 
-/* Form elements */
-form.form-horizontal,
+h3.Title {
+  color: #F5FFFA !important;
+  background-color: #2f353a !important;
+}
+
+div.Image.fa-play-circle-o {
+  background-color: #2f353a !important;
+}
+
+form.form-horizontal {
+  background-color: #2f353a !important;
+}
+
+div.Title {
+  background-color: #2f353a !important;
+  color: #F5FFFA !important;
+}
+
 form label input {
-    background-color: #2f353a !important;
-    color: #F5FFFA !important;
+  background-color: #2f353a !important;
+  color: #F5FFFA !important;
 }
 
-/* Navigation elements */
+label.Button {
+  background-color: #2f353a !important;
+}
+
+form div a {
+  color: #F5FFFA !important;
+}
+
+h1.Title {
+  color: #F5FFFA !important;
+}
+
 ul li a {
-    color: #F5FFFA !important;
-    background-color: #2f353a !important;
+  color: #F5FFFA !important;
+  background-color: #2f353a !important;
 }
 
-/* Interactive elements */
-.CapiTcn {
-    background-color: #2f353a !important;
+div nav a {
+  color: #F5FFFA !important;
 }
 
-/* Video container */
-div.AnimeCover {
-    background-color: #2f353a !important;
+h2.SubTitle {
+  color: #F5FFFA !important;
 }
 
-/* Status indicators */
+a.CapNvLs.fa-th-list {
+  background-color: #2f353a !important;
+  color: #F5FFFA !important;
+}
+
+a.CapNvPv.fa-chevron-left {
+  background-color: #2f353a !important;
+}
+
+a.BtnNw.Rprt.BxSdw.fa-flag-o {
+  background-color: #2f353a !important;
+  color: #F5FFFA !important;
+}
+
+a.BtnNw.CVst.BxSdw.fa-eye {
+  background-color: #2f353a !important;
+  color: #F5FFFA !important;
+}
+
+span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o {
+  background-color: #2f353a !important;
+  color: #F5FFFA !important;
+}
+
+i.fa-expand {
+  background-color: #2f353a !important;
+  color: #F5FFFA !important;
+}
+
+button.multiselect.dropdown-toggle.btn.btn-sm.btn-default {
+  color: #F5FFFA !important;
+  background-color: #2f353a !important;
+}
+
+div div h1 {
+  color: #F5FFFA !important;
+}
+
+div.filters {
+  background-color: #2f353a !important;
+  color: #F5FFFA !important;
+}
+
+span.multiselect-selected-text {
+  color: #F5FFFA !important;
+  background-color: #2f353a !important;
+}
+
+#search-anime {
+  color: #F5FFFA !important;
+}
+
+section.WdgtCn {
+  background-color: #2f353a !important;
+}
+
+section div p {
+  color: #F5FFFA !important;
+}
+
+span.TxtAlt {
+  color: #F5FFFA !important;
+}
+
+aside.SidebarA.BFixed {
+  background-color: #2f353a !important;
+}
+
+div figure img {
+  background-color: #2f353a !important;
+}
+
+a.BtnNw.Pndng.BxSdw.fa-bookmark {
+  background-color: #2f353a !important;
+}
+
+#follow_anime {
+  background-color: #2f353a !important;
+}
+
+#add_favorite {
+  background-color: #2f353a !important;
+}
+
+div a span {
+  color: #F5FFFA !important;
+}
+
+div div span {
+  color: #F5FFFA !important;
+}
+
+ul.ListImgrnd {
+  color: #F5FFFA !important;
+  background-color: #2f353a !important;
+}
+
+input.form-control {
+  color: #F5FFFA !important;
+  background-color: #2f353a !important;
+}
+
+ul.multiselect-container.genres-select.dropdown-menu {
+  background-color: #2f353a !important;
+  color: #F5FFFA !important;
+}
+
+ul.multiselect-container.year-select.dropdown-menu {
+  color: #F5FFFA !important;
+  background-color: #2f353a !important;
+}
+
+ul.multiselect-container.dropdown-menu {
+  background-color: #2f353a !important;
+  color: #F5FFFA !important;
+}
+
 span.Capi {
-    background-color: #6aa84f !important;
+  background-color: #6aa84f !important;
 }
 
 span.Type.tv {
-    background-color: #1155cc !important;
+  background-color: #1155cc !important;
 }
 
-/* Dropdown and modal elements */
+div.CpCnC {
+  display: none !important;
+}
+
+section.WdgtCn.Sm {
+  display: none !important;
+}
+
+span.vtprmd {
+  background-color: #2f353a !important;
+}
+
+div.Bod.ScrlV.Fl {
+  background-color: #2f353a !important;
+}
+
+div.Logo {
+  background-color: #2f353a !important;
+  color: #F5FFFA !important;
+}
+
+div.Image  {
+  background-color: #2f353a !important;
+}
+
+button.btn.btn-sm.btn-primary {
+  background-color: #2f353a !important;
+  color: #F5FFFA !important;
+}
+
+div.AnimeCover {
+  background-color: #2f353a !important;
+}
+
+div.ShrCnB.fa-share-alt {
+  display: none !important;
+}
+
+div.WdgtCn {
+  display: none !important;
+}
+
+a.Active {
+  display: none !important;
+}
+
+a.BtnNw.CVst.BxSdw.fa-eye-slash {
+  background-color: #2f353a !important;
+  color: #e06666 !important;
+}
+
+a.BtnNw.Pndng.BxSdw.fa-times {
+  color: #F5FFFA !important;
+  background-color: #2f353a !important;
+}
+
+a.Button.Sm {
+  background-color: #1155cc !important;
+  color: #F5FFFA !important;
+}
+
+ul.ListUser {
+  background-color: #2f353a !important;
+}
+
+div.Description {
+  background-color: #2f353a !important;
+  color: #F5FFFA !important;  
+}
+
+a.Button.StylC.ShwMr.Alt {
+ color: #2f353a !important;
+   background-color: #F5FFFA !important; 
+}
+
+a.Pndnt.fa-bookmark {
+   color: #2f353a !important;
+   background-color: #F5FFFA !important; 
+}
+
+a.AnmQv.fa-play {
+     color: #2f353a !important;
+   background-color: #F5FFFA !important; 
+}
+
 div.DpdwCnt.TtCn {
     background-color: #2f353a !important;
     color: #F5FFFA !important;
 }
 
-/* Description boxes */
-div.Description {
-    background-color: #2f353a !important;
-    color: #F5FFFA !important;
+/* New mods fixing previus */
+
+
+div.Body {
+  background-color: #2f353a !important;
 }
 
-/* List elements */
-ul.ListUser {
-    background-color: #2f353a !important;
+h1.Title {
+  color: #ffffff !important;
 }
 
-/* Search elements */
-button.multiselect.dropdown-toggle.btn.btn-sm.btn-default,
-div.filters,
-input.form-control,
-ul.multiselect-container.dropdown-menu {
-    background-color: #2f353a !important;
-    color: #F5FFFA !important;
+h2.SubTitle {
+  color: #ffffff !important;
 }
 
-/* Report modal */
-#ReportModal .Sect {
-    background-color: #2f353a !important;
-    color: #F5FFFA !important;
+div nav a {
+  color: #ffffff !important;
 }
 
-#ReportModal .form-control {
-    background-color: #2f353a !important;
-    color: #F5FFFA !important;
-    border: 1px solid #4a4a4a !important;
+ul li a {
+  color: #ffffff !important;
+  background-color: #2f353a !important;
 }
 
-/* Fix for buttons in expanded view */
-#XpndCn .CapOptns {
-    display: flex !important;
-    align-items: center;
-    gap: 10px;
+div.Bg {
+  display: none !important;
 }
 
-/* Ensure proper button spacing */
-.BtnNw {
-    margin: 0 5px;
-    padding: 8px 12px;
+div.AnimeCover {
+  background-color: #2f353a !important;
 }
 
-/* Fix for download section */
-#DwsldCn {
-    display: none;
+a.BtnNw.AdFv.BxSdw.fa-heart {
+  background-color: #e06666 !important;
+  color: #000000 !important;
 }
 
-#DwsldCn.visible {
-    display: block !important;
-    background-color: #2f353a !important;
+a.BtnNw.Fllw.BxSdw.fa-check {
+  background-color: #9fc5e8 !important;
+  color: #000000 !important;
 }
 
-/* Fix for button hover states */
-.BtnNw:hover,
-.Button:hover {
-    opacity: 0.8;
-    transition: opacity 0.2s ease;
+a.BtnNw.Pndng.BxSdw.fa-bookmark {
+  background-color: #f6b26b !important;
 }
 
-/* Fix for modal dialogs */
-.modal-content {
-    background-color: #2f353a !important;
-    color: #F5FFFA !important;
+section.WdgtCn.Sm {
+  background-color: #2f353a !important;
+  display: none !important;
 }
 
-/* Specific fixes for video container */
-#video_box {
-    background: #000 !important;
-    color: #fff !important;
-    min-height: 480px;
+section.WdgtCn {
+  background-color: #2f353a !important;
+}
+
+div.Title {
+  color: #ffffff !important;
+}
+
+h3.Title {
+  color: #ffffff !important;
+}
+
+li a p {
+  color: #3d85c6 !important;
+}
+
+span.Stts {
+  color: #6aa84f !important;
+}
+
+span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o {
+  background-color: #2f353a !important;
+  color: #ffffff !important;
+}
+
+i.fa-expand {
+  background-color: #2f353a !important;
+  color: #ffffff !important;
+}
+
+a.BtnNw.CVst.BxSdw.fa-eye {
+  background-color: #2f353a !important;
+  color: #ffffff !important;
+}
+
+a.BtnNw.Rprt.BxSdw.fa-flag-o {
+  background-color: #2f353a !important;
+  display: none !important;
+}
+
+a.BtnNw.Fllw.B.BxSdw.fa-thumbs-o-down {
+  background-color: #9fc5e8 !important;
+}
+
+a.BtnNw.AdFv.B.BxSdw.fa-times {
+  background-color: #e06666 !important;
+  color: #000000 !important;
+}
+
+a.BtnNw.Pndng.BxSdw.fa-times {
+  background-color: #f6b26b !important;
+}
+
+button.multiselect.dropdown-toggle.btn.btn-sm.btn-default {
+  background-color: #2f353a !important;
+  color: #ffffff !important;
+}
+
+div div h1 {
+  color: #ffffff !important;
+}
+
+div.Title.Page.fa-star.B12 {
+  display: none !important;
+}
+
+div.Image.fa-play-circle-o {
+  background-color: #2f353a !important;
+}
+
+button.btn.btn-sm.btn-primary {
+  background-color: #0b5394 !important;
+}
+
+div.Bot.hidden-xs.hidden-sm {
+  background-color: #2f353a !important;
+}
+
+div.tab-content.AnTbCnTp {
+  background-color: #2f353a !important;
+}
+
+a span span {
+  color: #000000 !important;
 }
