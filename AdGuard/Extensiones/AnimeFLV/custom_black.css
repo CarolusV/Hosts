@@ -1,12 +1,3 @@
-/* Bloquear funcionalidad de reporte */
-.BtnNw.Rprt.BxSdw,
-#ReportModal,
-[data-target="#ReportModal"],
-#report_body,
-.modal-backdrop {
-  display: none !important;
-}
-
 /* Elementos con display: none */
 div.div-84413,
 div.AnflvTl,
@@ -36,6 +27,7 @@ label.Button,
 ul li a,
 a.CapNvLs.fa-th-list,
 a.CapNvPv.fa-chevron-left,
+a.BtnNw.Rprt.BxSdw.fa-flag-o,
 a.BtnNw.CVst.BxSdw.fa-eye,
 span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o,
 i.fa-expand,
@@ -80,6 +72,7 @@ h1.Title,
 div nav a,
 h2.SubTitle,
 a.CapNvLs.fa-th-list,
+a.BtnNw.Rprt.BxSdw.fa-flag-o,
 a.BtnNw.CVst.BxSdw.fa-eye,
 span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o,
 i.fa-expand,
@@ -185,11 +178,70 @@ a span span {
   color: #000000 !important;
 }
 
-/* Correcciones para los eventos de botones */
+/* Correcciones para el modal y formulario de reporte */
+#ReportModal {
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#ReportModal .modal-dialog {
+  pointer-events: auto;
+}
+
+#ReportModal .modal-content {
+  background-color: #2f353a;
+  color: #F5FFFA;
+}
+
+#ReportModal .modal-header {
+  border-bottom-color: #1a1e21;
+}
+
+#ReportModal .modal-footer {
+  border-top-color: #1a1e21;
+}
+
+#report_body {
+  pointer-events: auto;
+  background-color: #2f353a;
+}
+
+.form-control#report_comment {
+  min-height: 100px;
+  resize: vertical;
+  background-color: #1a1e21;
+  color: #F5FFFA;
+  border: 1px solid #3d4246;
+}
+
+.form-control#report_reason {
+  background-color: #1a1e21;
+  color: #F5FFFA;
+  border: 1px solid #3d4246;
+}
+
+/* Estilos para la validación del formulario */
+.form-control#report_comment:invalid {
+  border-color: #e06666;
+}
+
+.report-error {
+  color: #e06666;
+  font-size: 12px;
+  margin-top: 5px;
+  display: none;
+}
+
+.form-group.has-error .report-error {
+  display: block;
+}
+
+/* Corrección de eventos de botones */
 .CapOptns.ClFx {
   pointer-events: none;
 }
 
+.BtnNw.Rprt.BxSdw,
 .BtnNw.CVst.BxSdw,
 .BtnNw.Clgt.BxSdw,
 .BtnNw.Xpnd.BxSdw,
@@ -197,37 +249,38 @@ a span span {
   pointer-events: auto;
 }
 
-/* Estilos para hover en botones */
+/* Z-index para elementos superpuestos */
+.modal-backdrop {
+  z-index: 9998;
+}
+
+/* Estilo para botones en hover */
 .BtnNw:hover {
   opacity: 0.8;
   transition: opacity 0.2s ease;
 }
 
-/* Ajustes adicionales para mejor contraste */
-input::placeholder {
-  color: #888 !important;
-}
-
-select option {
-  background-color: #2f353a;
+/* Ajustes para el modo oscuro del formulario */
+#report_body label {
   color: #F5FFFA;
 }
 
-/* Fix para el scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+.btn.btn-default#report_submit {
+  background-color: #1155cc;
+  color: #F5FFFA;
+  border: none;
 }
 
-::-webkit-scrollbar-track {
-  background: #1a1e21;
+.btn.btn-default#report_submit:hover {
+  background-color: #0b5394;
 }
 
-::-webkit-scrollbar-thumb {
-  background: #3d4246;
-  border-radius: 4px;
+/* Correcciones adicionales para el modal */
+.modal-header .close {
+  color: #F5FFFA;
+  opacity: 0.8;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #4a4f54;
+.modal-header .close:hover {
+  opacity: 1;
 }
