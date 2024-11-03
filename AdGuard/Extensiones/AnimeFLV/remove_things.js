@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Block Disqus and Comments
-// @version      1.0
-// @description  Elimina y bloquea Disqus, comentarios y elementos de reporte en un sitio web
+// @version      1.01
+// @description  Elimina y bloquea Disqus, comentarios y elementos de reporte
 // @author       CarolusV
-// @match        *://*/*
+// @match         *://*.animeflv.net/*
 // @grant        none
 // ==/UserScript==
 
