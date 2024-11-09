@@ -1,12 +1,15 @@
 // ==UserScript==
-// @name         Bloqueador de Pestañas Específicas
-// @version      1.2
-// @description  Bloquea nuevas pestañas de dominios específicos
-// @author       CarolusV
+// @name         Bloqueador de Pestañas No Deseadas
+// @version      0.3
+// @description  Evita que se abran pestañas de dominios específicos
+// @author       carolusV
 // @match        https://fhd.seriesturcastv.to/*
+// @match        https://*.fembuki.xyz/*
+// @match        https://*.argtesa.top/*
+// @match        https://*.netusia.xyz/*
+// @match        https://*.aporodiko.com/*
 // @run-at       document-start
 // ==/UserScript==
-
 
 (function() {
     'use strict';
