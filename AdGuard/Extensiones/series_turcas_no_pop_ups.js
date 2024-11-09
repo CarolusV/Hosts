@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Bloqueador de Pestañas Específicas
-// @version      1.0
+// @version      1.1
 // @description  Bloquea nuevas pestañas de dominios específicos
 // @author       CarolusV
 // @match        https://fhd.seriesturcastv.to/*
@@ -9,37 +9,89 @@
 
 (function() {
     'use strict';
-    
-    // Lista de dominios a bloquear
-    const blockedDomains = [
+
+    const domainsToRemove = [
         'ak.ptailadsol.net',
         'clunkyentirelinked.com'
     ];
 
-    // Reemplazar window.open
-    const originalWindowOpen = window.open;
-    window.open = function(url, ...args) {
-        if (url && blockedDomains.some(domain => url.includes(domain))) {
-            console.log('Bloqueada nueva pestaña:', url);
-            return null;
+    // Función para eliminar elementos
+    function removeElements() {
+        // Eliminar scripts
+        document.querySelectorAll('script').forEach(script => {
+            if (script.src && domainsToRemove.some(domain => script.src.includes(domain))) {
+                script.remove();
+            }
+        });
+
+        // Eliminar iframes
+        document.querySelectorAll('iframe').forEach(iframe => {
+            if (iframe.src && domainsToRemove.some(domain => iframe.src.includes(domain))) {
+                iframe.remove();
+            }
+        });
+
+        // Eliminar links
+        document.querySelectorAll('link').forEach(link => {
+            if (link.href && domainsToRemove.some(domain => link.href.includes(domain))) {
+                link.remove();
+            }
+        });
+    }
+
+    // Observador para elementos nuevos
+    const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+            mutation.addedNodes.forEach((node) => {
+                if (node.tagName) {
+                    if (node.src && domainsToRemove.some(domain => node.src.includes(domain))) {
+                        node.remove();
+                    } else if (node.href && domainsToRemove.some(domain => node.href.includes(domain))) {
+                        node.remove();
+                    }
+                }
+            });
+        });
+        removeElements();
+    });
+
+    // Iniciar observador
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => {
+            observer.observe(document.documentElement, {
+                childList: true,
+                subtree: true
+            });
+            removeElements();
+        });
+    } else {
+        observer.observe(document.documentElement, {
+            childList: true,
+            subtree: true
+        });
+        removeElements();
+    }
+
+    // Limpiar peticiones de red
+    const originalFetch = window.fetch;
+    window.fetch = function(url, options) {
+        if (url && domainsToRemove.some(domain => url.toString().includes(domain))) {
+            return new Promise(() => {});
         }
-        return originalWindowOpen.apply(this, [url, ...args]);
+        return originalFetch.apply(this, arguments);
     };
 
-    // Bloquear clicks que intenten abrir estos dominios
-    document.addEventListener('click', function(e) {
-        let target = e.target;
-        while (target) {
-            if (target.tagName === 'A' && target.href) {
-                if (blockedDomains.some(domain => target.href.includes(domain))) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    console.log('Click bloqueado:', target.href);
-                    return false;
-                }
+    // Limpiar XHR
+    const originalXHR = window.XMLHttpRequest;
+    window.XMLHttpRequest = function() {
+        const xhr = new originalXHR();
+        const originalOpen = xhr.open;
+        xhr.open = function(method, url) {
+            if (url && domainsToRemove.some(domain => url.includes(domain))) {
+                return;
             }
-            target = target.parentElement;
-        }
-    }, true);
-
+            return originalOpen.apply(xhr, arguments);
+        };
+        return xhr;
+    };
 })();
