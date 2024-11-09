@@ -1,31 +1,45 @@
 // ==UserScript==
-// @name         Series Turcas TV - Bloqueador Simple de Pop-ups
+// @name         Bloqueador de Pestañas Específicas
 // @version      1.0
-// @description  Bloquea todos los pop-ups en Series Turcas TV
+// @description  Bloquea nuevas pestañas de dominios específicos
 // @author       CarolusV
 // @match        https://fhd.seriesturcastv.to/*
-
 // @run-at       document-start
 // ==/UserScript==
 
 (function() {
     'use strict';
     
-    // Sobrescribir window.open
-    window.open = function() { return null; };
-    
-    // Sobrescribir window.opener
-    Object.defineProperty(window, 'opener', {
-        value: null,
-        writable: false
-    });
-    
-    // Bloquear eventos de click que intenten abrir ventanas
+    // Lista de dominios a bloquear
+    const blockedDomains = [
+        'ak.ptailadsol.net',
+        'clunkyentirelinked.com'
+    ];
+
+    // Reemplazar window.open
+    const originalWindowOpen = window.open;
+    window.open = function(url, ...args) {
+        if (url && blockedDomains.some(domain => url.includes(domain))) {
+            console.log('Bloqueada nueva pestaña:', url);
+            return null;
+        }
+        return originalWindowOpen.apply(this, [url, ...args]);
+    };
+
+    // Bloquear clicks que intenten abrir estos dominios
     document.addEventListener('click', function(e) {
-        e.stopPropagation();
-        const target = e.target;
-        if (target.tagName === 'A' && target.target === '_blank') {
-            e.preventDefault();
+        let target = e.target;
+        while (target) {
+            if (target.tagName === 'A' && target.href) {
+                if (blockedDomains.some(domain => target.href.includes(domain))) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    console.log('Click bloqueado:', target.href);
+                    return false;
+                }
+            }
+            target = target.parentElement;
         }
     }, true);
+
 })();
