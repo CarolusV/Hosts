@@ -1,97 +1,100 @@
 // ==UserScript==
 // @name         Bloqueador de Pestañas Específicas
-// @version      1.1
+// @version      1.2
 // @description  Bloquea nuevas pestañas de dominios específicos
 // @author       CarolusV
 // @match        https://fhd.seriesturcastv.to/*
 // @run-at       document-start
 // ==/UserScript==
 
+
 (function() {
     'use strict';
 
-    const domainsToRemove = [
+    const blockedDomains = [
         'ak.ptailadsol.net',
         'clunkyentirelinked.com'
     ];
 
-    // Función para eliminar elementos
-    function removeElements() {
-        // Eliminar scripts
-        document.querySelectorAll('script').forEach(script => {
-            if (script.src && domainsToRemove.some(domain => script.src.includes(domain))) {
-                script.remove();
-            }
-        });
+    // Prevenir window.open
+    const originalWindowOpen = window.open;
+    window.open = function(url, target, features) {
+        if (!url) return null;
+        if (blockedDomains.some(domain => url.includes(domain))) {
+            console.log('Bloqueado intento de abrir:', url);
+            return null;
+        }
+        return originalWindowOpen.call(this, url, target, features);
+    };
 
-        // Eliminar iframes
-        document.querySelectorAll('iframe').forEach(iframe => {
-            if (iframe.src && domainsToRemove.some(domain => iframe.src.includes(domain))) {
-                iframe.remove();
-            }
-        });
+    // Prevenir location.href y location.assign
+    const originalAssign = window.location.assign;
+    window.location.assign = function(url) {
+        if (blockedDomains.some(domain => url.includes(domain))) {
+            console.log('Bloqueado intento de redirección:', url);
+            return;
+        }
+        return originalAssign.call(this, url);
+    };
 
-        // Eliminar links
-        document.querySelectorAll('link').forEach(link => {
-            if (link.href && domainsToRemove.some(domain => link.href.includes(domain))) {
-                link.remove();
-            }
-        });
-    }
+    const originalReplace = window.location.replace;
+    window.location.replace = function(url) {
+        if (blockedDomains.some(domain => url.includes(domain))) {
+            console.log('Bloqueado intento de reemplazo:', url);
+            return;
+        }
+        return originalReplace.call(this, url);
+    };
 
-    // Observador para elementos nuevos
-    const observer = new MutationObserver((mutations) => {
-        mutations.forEach((mutation) => {
-            mutation.addedNodes.forEach((node) => {
-                if (node.tagName) {
-                    if (node.src && domainsToRemove.some(domain => node.src.includes(domain))) {
-                        node.remove();
-                    } else if (node.href && domainsToRemove.some(domain => node.href.includes(domain))) {
-                        node.remove();
-                    }
-                }
-            });
-        });
-        removeElements();
+    // Bloquear clicks que abran nuevas pestañas
+    document.addEventListener('click', function(e) {
+        let element = e.target;
+        
+        // Buscar el enlace más cercano (en caso de que se haga clic en un elemento dentro de un enlace)
+        while (element && element.tagName !== 'A') {
+            element = element.parentElement;
+        }
+        
+        if (element && element.tagName === 'A') {
+            const href = element.href || '';
+            if (blockedDomains.some(domain => href.includes(domain))) {
+                e.preventDefault();
+                e.stopPropagation();
+                e.stopImmediatePropagation();
+                console.log('Bloqueado clic en:', href);
+                return false;
+            }
+        }
+    }, true);
+
+    // Remover event listeners que puedan abrir nuevas pestañas
+    window.addEventListener('load', function() {
+        const elements = document.getElementsByTagName('*');
+        for (let element of elements) {
+            const clone = element.cloneNode(true);
+            element.parentNode.replaceChild(clone, element);
+        }
     });
 
-    // Iniciar observador
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', () => {
-            observer.observe(document.documentElement, {
-                childList: true,
-                subtree: true
-            });
-            removeElements();
-        });
-    } else {
-        observer.observe(document.documentElement, {
-            childList: true,
-            subtree: true
-        });
-        removeElements();
-    }
-
-    // Limpiar peticiones de red
-    const originalFetch = window.fetch;
-    window.fetch = function(url, options) {
-        if (url && domainsToRemove.some(domain => url.toString().includes(domain))) {
-            return new Promise(() => {});
+    // Bloquear postMessage
+    window.addEventListener('message', function(e) {
+        if (blockedDomains.some(domain => e.origin.includes(domain))) {
+            e.stopPropagation();
+            return;
         }
-        return originalFetch.apply(this, arguments);
-    };
+    }, true);
 
-    // Limpiar XHR
-    const originalXHR = window.XMLHttpRequest;
-    window.XMLHttpRequest = function() {
-        const xhr = new originalXHR();
-        const originalOpen = xhr.open;
-        xhr.open = function(method, url) {
-            if (url && domainsToRemove.some(domain => url.includes(domain))) {
+    // Prevenir redirecciones por JavaScript
+    Object.defineProperty(window, 'location', {
+        get: function() {
+            return window.location;
+        },
+        set: function(href) {
+            if (blockedDomains.some(domain => href.includes(domain))) {
+                console.log('Bloqueado intento de redirección por location:', href);
                 return;
             }
-            return originalOpen.apply(xhr, arguments);
-        };
-        return xhr;
-    };
+            window.location.href = href;
+        }
+    });
 })();
