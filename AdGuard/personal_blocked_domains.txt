@@ -110,7 +110,7 @@ checkappexec.microsoft.com
 settings-win.data.microsoft.com
 client.wns.windows.com
 #download.windowsupdate.com
-go.microsoft.com
+#go.microsoft.com
 secureclock2.playready.microsoft.com
 tile-service.weather.microsoft.com
 optanon.blob.core.windows.net
