@@ -1,0 +1,9 @@
+!PERMITIDOS (excepciones)
+@@||passport.twitch.tv^$important
+@@||k.twitchcdn.net^$important
+@@||assets.twitch.tv^$important
+@@||api.whatsapp.com^$important
+@@||login.repsol.com^$important
+@@||connectivitycheck.gstatic.com^$important
+@@||ctldl.windowsupdate.com^$important
+@@||time.windows.com^$important
