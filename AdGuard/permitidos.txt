@@ -7,3 +7,4 @@
 @@||connectivitycheck.gstatic.com^$important
 @@||ctldl.windowsupdate.com^$important
 @@||time.windows.com^$important
+@@||go.microsoft.com^$important
