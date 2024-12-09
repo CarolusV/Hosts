@@ -1,9 +1,8 @@
 // ==UserScript==
 // @name         Auto Japanese Translator
-// @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Traduce automáticamente contenido en japonés
-// @author       You
+// @author       CarolusV
 // @match        *://*/*
 // @grant        GM_xmlhttpRequest
 // @connect      translate.googleapis.com
