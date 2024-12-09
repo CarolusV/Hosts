@@ -1,2 +1,0 @@
-@@||local.adguard.com
-@@||local.adguard.org
