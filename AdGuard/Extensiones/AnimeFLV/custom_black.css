@@ -240,11 +240,12 @@ a span span {
   display: block;
 }
 
-/* Corrección de eventos de botones */
+/* Corrección de eventos de botones 
 .CapOptns.ClFx {
   pointer-events: none;
 }
-
+*/
+.CapOptns.ClFx,
 .BtnNw.Rprt.BxSdw,
 .BtnNw.CVst.BxSdw,
 .BtnNw.Clgt.BxSdw,
