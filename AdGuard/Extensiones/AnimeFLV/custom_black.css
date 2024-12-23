@@ -288,3 +288,11 @@ a span span {
 .modal-header .close:hover {
   opacity: 1;
 }
+/* Botones de navegación clickables */
+.CapNv a {
+  pointer-events: auto !important;
+}
+
+.CapNvPv, .CapNvLs {
+  pointer-events: auto !important;
+}
