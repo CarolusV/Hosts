@@ -6,7 +6,7 @@
 // @match         *://*.animeflv.net/*
 // @match         *://animeflv.net/*
 // @run-at        document-end
-// @version       0.48
+// @version       0.5
 // @grant         none
 // ==/UserScript==
 
