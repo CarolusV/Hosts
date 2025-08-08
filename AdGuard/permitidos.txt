@@ -8,3 +8,4 @@
 @@||ctldl.windowsupdate.com^$important
 @@||time.windows.com^$important
 @@||go.microsoft.com^$important
+@@||raw.githubusercontent.com/CarolusV/Hosts/*
