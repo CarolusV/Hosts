@@ -1,3 +1,6 @@
 @@||raw.githubusercontent.com/CarolusV/Hosts/*
 @@|https://raw.githubusercontent.com/CarolusV/Hosts/*
 @@||raw.githubusercontent.com/CarolusV/Hosts/
+@@||raw.githubusercontent.com/CarolusV/Hosts/*$important
+@@||raw.githubusercontent.com/CarolusV/Hosts/*$important,document
+@@|https://raw.githubusercontent.com/CarolusV/Hosts/*$important
