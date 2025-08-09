@@ -1,2 +1,1 @@
 @@||raw.githubusercontent.com/CarolusV/Hosts/*
-||m.animeflv.net^$redirect-rule=animeflv.net
