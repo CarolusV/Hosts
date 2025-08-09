@@ -1,14 +1,37 @@
 // ==UserScript==
 // @name          AnimeFLV Dark Mode Plus
 // @description   Enhanced dark mode and UI improvements for AnimeFLV
-// @author        CarolusV (Enhanced version - Fixed)
+// @author        CarolusV
 // @homepage      https://raw.githubusercontent.com/CarolusV/Hosts/master/AdGuard/Extensiones/AnimeFLV/animeflv_no_white_ver.js
 // @match         *://*.animeflv.net/*
 // @match         *://animeflv.net/*
-// @run-at        document-end
-// @version       0.5
+// @run-at        document-start
+// @version       0.58
 // @grant         none
 // ==/UserScript==
+
+// APLICAR FONDO OSCURO INMEDIATAMENTE
+(function() {
+    const style = document.createElement('style');
+    style.textContent = `
+        html {
+            background-color: #0d1117 !important;
+            color: #0d1117 !important;
+        }
+        body {
+            background-color: #0d1117 !important;
+            color: #0d1117 !important;
+            visibility: hidden !important;
+        }
+        body.styles-ready {
+            visibility: visible !important;
+        }
+    `;
+    style.id = 'instant-dark-emergency';
+    
+    // Insertar inmediatamente sin esperar nada
+    (document.head || document.documentElement || document).appendChild(style);
+})();
 
 (function() {
     'use strict';
@@ -56,6 +79,7 @@
             if (document.head) {
                 document.head.appendChild(style);
                 console.log('AnimeFLV Dark Mode CSS loaded successfully from external source');
+                showContent();
             } else {
                 // If head is not available yet, wait for it
                 const observer = new MutationObserver((mutations, obs) => {
@@ -63,6 +87,7 @@
                         document.head.appendChild(style);
                         obs.disconnect();
                         console.log('AnimeFLV Dark Mode CSS loaded successfully (delayed)');
+                        showContent();
                     }
                 });
                 
@@ -73,10 +98,25 @@
             }
         } catch (error) {
             console.error('Failed to apply custom styles:', error);
+            // Mostrar contenido aunque falle
+            showContent();
         }
     }
 
-
+    // Mostrar el contenido cuando esté listo
+    function showContent() {
+        if (document.body) {
+            document.body.classList.add('styles-ready');
+        }
+        
+        // Remover el estilo de emergencia después de un momento
+        setTimeout(() => {
+            const emergencyStyle = document.getElementById('instant-dark-emergency');
+            if (emergencyStyle) {
+                emergencyStyle.remove();
+            }
+        }, 500);
+    }
 
     // Initialize the script
     function init() {
@@ -84,6 +124,7 @@
         if (window.location.hostname.includes('animeflv.net')) {
             applyStyles().catch(error => {
                 console.error('Error in applyStyles:', error);
+                showContent(); // Mostrar contenido aunque falle
             });
         }
     }
