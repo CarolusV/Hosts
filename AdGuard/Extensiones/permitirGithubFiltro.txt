@@ -1,1 +1,3 @@
 @@||raw.githubusercontent.com/CarolusV/Hosts/*
+@@|https://raw.githubusercontent.com/CarolusV/Hosts/*
+@@||raw.githubusercontent.com/CarolusV/Hosts/
