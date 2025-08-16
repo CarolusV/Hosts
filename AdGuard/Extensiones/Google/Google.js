@@ -2,12 +2,12 @@
 // @name          Google Personalizado Propio
 // @description   Google.es Personalizado Propio
 // @author        CarolusV
-// @include       https://google.es/*
-// @include       https://www.google.es/*
-// @include       https://*.google.es/*
-// @include       google.es/*
+// @include       https://google.com/*
+// @include       https://www.google.com/*
+// @include       https://*.google.com/*
+// @include       google.com/*
 // @run-at        document-end
-// @version       0.5
+// @version       0.6
 // @grant         none
 // ==/UserScript==
 
