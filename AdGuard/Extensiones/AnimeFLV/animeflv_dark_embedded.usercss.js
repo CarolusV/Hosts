@@ -1,0 +1,417 @@
+// ==UserScript==
+// @name          AnimeFLV Dark Mode Plus (Android Optimized)
+// @description   Enhanced dark mode for AnimeFLV - Optimized for Android with embedded CSS
+// @author        CarolusV (Modified for Android compatibility)
+// @namespace     https://github.com/CarolusV/Hosts
+// @match         *://*.animeflv.net/*
+// @match         *://animeflv.net/*
+// @match         *://www3.animeflv.net/*
+// @run-at        document-start
+// @version       0.59-android
+// @grant         none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // APLICAR FONDO OSCURO INMEDIATAMENTE
+    const emergencyStyle = document.createElement('style');
+    emergencyStyle.textContent = `
+        html {
+            background-color: #0d1117 !important;
+        }
+        body {
+            background-color: #0d1117 !important;
+            visibility: hidden !important;
+        }
+        body.styles-ready {
+            visibility: visible !important;
+        }
+    `;
+    emergencyStyle.id = 'instant-dark-emergency';
+    (document.head || document.documentElement || document).appendChild(emergencyStyle);
+
+    // CSS COMPLETO EMBEBIDO
+    const fullCSS = `
+/* Elementos con display: none */
+div.div-84413,
+div.AnflvTl,
+div.Bg,
+a.lvbx,
+div.FollowUs,
+div.askdvr,
+a.Button.fb_login,
+footer.Footer,
+aside a img,
+div.CpCnC,
+div.ShrCnB.fa-share-alt,
+a.Active,
+section:nth-of-type(3),
+.fa-expand,
+.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o,
+.BtnNw.Xpnd.BxSdw.AAShwHdd-lnk,
+div.Title.Page.fa-star.B12 {
+  display: none !important;
+}
+
+/* Elementos con background-color: #2f353a */
+div.Body,
+aside.Sidebar.BFixed,
+.BtnNw Xpnd BxSdw AAShwHdd-lnk,
+div.Top.fa-play,
+div.Image.fa-play-circle-o,
+form.form-horizontal,
+label.Button,
+ul li a,
+a.CapNvLs.fa-th-list,
+a.CapNvPv.fa-chevron-left,
+a.BtnNw.Rprt.BxSdw.fa-flag-o,
+a.BtnNw.CVst.BxSdw.fa-eye,
+span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o,
+i.fa-expand,
+button.multiselect.dropdown-toggle.btn.btn-sm.btn-default,
+div.filters,
+section.WdgtCn,
+aside.SidebarA.BFixed,
+div figure img,
+a.BtnNw.Pndng.BxSdw.fa-bookmark,
+#follow_anime,
+#add_favorite,
+ul.ListImgrnd,
+input.form-control,
+ul.multiselect-container.genres-select.dropdown-menu,
+ul.multiselect-container.year-select.dropdown-menu,
+ul.multiselect-container.dropdown-menu,
+span.vtprmd,
+div.Bod.ScrlV.Fl,
+div.Logo,
+div.Image,
+button.btn.btn-sm.btn-primary,
+div.AnimeCover,
+a.BtnNw.CVst.BxSdw.fa-eye-slash,
+a.BtnNw.Pndng.BxSdw.fa-times,
+ul.ListUser,
+div.Description,
+div.DpdwCnt.TtCn,
+div.Bot.hidden-xs.hidden-sm,
+div.tab-content.AnTbCnTp {
+  background-color: #2f353a !important;
+}
+
+/* Elementos con color: #F5FFFA */
+div.Bod.ScrlV.Fl.mCustomScrollbar._mCS_1.mCS_no_scrollbar,
+div div strong,
+a.fa-play-circle,
+main div h2,
+h3.Title,
+div.Title,
+form div a,
+h1.Title,
+div nav a,
+h2.SubTitle,
+a.CapNvLs.fa-th-list,
+a.BtnNw.Rprt.BxSdw.fa-flag-o,
+a.BtnNw.CVst.BxSdw.fa-eye,
+span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o,
+i.fa-expand,
+button.multiselect.dropdown-toggle.btn.btn-sm.btn-default,
+div div h1,
+div.filters,
+span.multiselect-selected-text,
+#search-anime,
+section div p,
+span.TxtAlt,
+div a span,
+div div span,
+ul.ListImgrnd,
+input.form-control,
+div.Logo,
+button.btn.btn-sm.btn-primary,
+a.BtnNw.Pndng.BxSdw.fa-times,
+div.Description,
+div.DpdwCnt.TtCn {
+  color: #F5FFFA !important;
+}
+
+/* Elementos con color: #ffffff */
+h1.Title,
+h2.SubTitle,
+div nav a,
+ul li a,
+div.Title,
+h3.Title,
+span.BtnNw.Clgt.BxSdw.lgtbx-lnk.fa-lightbulb-o,
+i.fa-expand,
+a.BtnNw.CVst.BxSdw.fa-eye,
+button.multiselect.dropdown-toggle.btn.btn-sm.btn-default,
+div div h1 {
+  color: #ffffff !important;
+}
+
+/* Elementos con colores específicos */
+span.Capi {
+  background-color: #6aa84f !important;
+}
+
+span.Type.tv {
+  background-color: #1155cc !important;
+}
+
+a.BtnNw.CVst.BxSdw.fa-eye-slash {
+  color: #e06666 !important;
+}
+
+a.Button.Sm {
+  background-color: #1155cc !important;
+  color: #F5FFFA !important;
+}
+
+/* Elementos con fondo claro y texto oscuro */
+a.Button.StylC.ShwMr.Alt,
+a.Pndnt.fa-bookmark,
+a.AnmQv.fa-play {
+  color: #2f353a !important;
+  background-color: #F5FFFA !important;
+}
+
+/* Botones especiales */
+a.BtnNw.AdFv.BxSdw.fa-heart {
+  background-color: #e06666 !important;
+  color: #000000 !important;
+}
+
+a.BtnNw.Fllw.BxSdw.fa-check {
+  background-color: #9fc5e8 !important;
+  color: #000000 !important;
+}
+
+a.BtnNw.Fllw.B.BxSdw.fa-thumbs-o-down {
+  background-color: #9fc5e8 !important;
+}
+
+a.BtnNw.AdFv.B.BxSdw.fa-times {
+  background-color: #e06666 !important;
+  color: #000000 !important;
+}
+
+/* Elementos misceláneos */
+a.BtnNw.Pndng.BxSdw.fa-bookmark,
+a.BtnNw.Pndng.BxSdw.fa-times {
+  background-color: #f6b26b !important;
+}
+
+button.btn.btn-sm.btn-primary {
+  background-color: #0b5394 !important;
+}
+
+li a p {
+  color: #3d85c6 !important;
+}
+
+span.Stts {
+  color: #6aa84f !important;
+}
+
+a span span {
+  color: #000000 !important;
+}
+
+/* Correcciones para el modal y formulario de reporte */
+#ReportModal {
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#ReportModal .modal-dialog {
+  pointer-events: auto;
+}
+
+#ReportModal .modal-content {
+  background-color: #2f353a;
+  color: #F5FFFA;
+}
+
+#ReportModal .modal-header {
+  border-bottom-color: #1a1e21;
+}
+
+#ReportModal .modal-footer {
+  border-top-color: #1a1e21;
+}
+
+#report_body {
+  pointer-events: auto;
+  background-color: #2f353a;
+}
+
+.form-control#report_comment {
+  min-height: 100px;
+  resize: vertical;
+  background-color: #1a1e21;
+  color: #F5FFFA;
+  border: 1px solid #3d4246;
+}
+
+.form-control#report_reason {
+  background-color: #1a1e21;
+  color: #F5FFFA;
+  border: 1px solid #3d4246;
+}
+
+/* Estilos para la validación del formulario */
+.form-control#report_comment:invalid {
+  border-color: #e06666;
+}
+
+.report-error {
+  color: #e06666;
+  font-size: 12px;
+  margin-top: 5px;
+  display: none;
+}
+
+.form-group.has-error .report-error {
+  display: block;
+}
+
+/* Corrección de eventos de botones 
+.CapOptns.ClFx {
+  pointer-events: none;
+}
+*/
+.CapOptns.ClFx,
+.BtnNw.Rprt.BxSdw,
+.BtnNw.CVst.BxSdw,
+.BtnNw.Clgt.BxSdw,
+.BtnNw.Xpnd.BxSdw,
+.BtnNw.Dwnd.BxSdw {
+  pointer-events: auto;
+}
+
+/* Z-index para elementos superpuestos */
+.modal-backdrop {
+  z-index: 9998;
+}
+
+/* Estilo para botones en hover */
+.BtnNw:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+/* Ajustes para el modo oscuro del formulario */
+#report_body label {
+  color: #F5FFFA;
+}
+
+.btn.btn-default#report_submit {
+  background-color: #1155cc;
+  color: #F5FFFA;
+  border: none;
+}
+
+.btn.btn-default#report_submit:hover {
+  background-color: #0b5394;
+}
+
+/* Correcciones adicionales para el modal */
+.modal-header .close {
+  color: #F5FFFA;
+  opacity: 0.8;
+}
+
+.modal-header .close:hover {
+  opacity: 1;
+}
+/* Botones de navegación clickables */
+.CapNv a {
+  pointer-events: auto !important;
+}
+
+.CapNvPv, .CapNvLs {
+  pointer-events: auto !important;
+}
+    `;
+
+    // Función para aplicar estilos
+    function applyStyles() {
+        const style = document.createElement('style');
+        style.textContent = fullCSS;
+        style.id = 'animeflv-dark-mode';
+        style.type = 'text/css';
+        
+        if (document.head) {
+            document.head.appendChild(style);
+            console.log('✓ AnimeFLV Dark Mode aplicado (versión Android optimizada)');
+            showContent();
+        } else {
+            // Esperar a que el head esté disponible
+            const observer = new MutationObserver((mutations, obs) => {
+                if (document.head) {
+                    document.head.appendChild(style);
+                    obs.disconnect();
+                    console.log('✓ AnimeFLV Dark Mode aplicado (delayed)');
+                    showContent();
+                }
+            });
+            
+            observer.observe(document.documentElement, {
+                childList: true,
+                subtree: true
+            });
+        }
+    }
+
+    // Mostrar el contenido
+    function showContent() {
+        if (document.body) {
+            document.body.classList.add('styles-ready');
+        }
+        
+        setTimeout(() => {
+            const emergencyEl = document.getElementById('instant-dark-emergency');
+            if (emergencyEl) {
+                emergencyEl.remove();
+            }
+        }, 500);
+    }
+
+    // Inicializar
+    function init() {
+        if (window.location.hostname.includes('animeflv.net')) {
+            applyStyles();
+        }
+    }
+
+    // Ejecutar
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+
+    // Para navegación SPA
+    window.addEventListener('popstate', init);
+    
+    // Observer para contenido dinámico
+    const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
+                const whiteElements = document.querySelectorAll(
+                    '[style*="background-color: white"], [style*="background-color: #fff"], [style*="background: white"]'
+                );
+                whiteElements.forEach(el => {
+                    el.style.setProperty('background-color', '#2d2d2d', 'important');
+                });
+            }
+        });
+    });
+
+    if (document.body) {
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    }
+
+})();
